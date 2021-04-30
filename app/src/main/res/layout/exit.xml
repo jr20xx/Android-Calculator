@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="#202020">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:text="¿Está seguro(a) de que desea salir?"
+			android:layout_weight="1.0"
+			android:paddingTop="28dp"
+			android:paddingBottom="15dp"
+			android:paddingRight="10dp"
+			android:paddingLeft="10dp"
+			android:textColor="#EEEEEE"
+			android:textStyle="bold"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="right|center_vertical"
+		android:paddingBottom="12dp"
+		android:paddingRight="10dp">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="CANCELAR"
+			android:paddingLeft="18dp"
+			android:paddingRight="18dp"
+			android:id="@+id/I_dont_want"
+			android:textColor="#DDDDDD"
+			android:layout_marginRight="10dp"
+			android:background="#202020"/>
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="ACEPTAR"
+			android:textColor="#FFFFFF"
+			android:paddingLeft="30dp"
+			android:paddingRight="30dp"
+			android:id="@+id/I_do_want"
+			android:background="#813200"
+			android:layout_marginRight="10dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
