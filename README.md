@@ -1,0 +1,4 @@
+This project is intended to create a calculator without using Java common classes and using two basic and very useful algorithms: shunting yard algorithm and reversed polish notation. The files were built using AIDE, but most of the files and stuff are completely compatible with android studio 2.2. This is basically a school project right now, but in the future the idea is to develop a calculator completely functional to use it in a day by day basis as a reliable alternative and having its source code completely free for people to see.
+Unfortunately there is not enough information about what we're trying to do (at least that's what we have seen) and this project right now is still buggy... but we're working on it...
+If you have any comments about what we can do to improve the project and make it better, please, let us know. Every tip is important for us in order to meke it a full solution that you can rely on.
+Spread the link, and thanks for your visit!
