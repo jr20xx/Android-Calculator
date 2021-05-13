@@ -19,7 +19,7 @@ public class Pila<T>
 
 	public boolean isEmpty()
 	{
-		return this.cima == null;
+		return (this == null || this.cima == null);
 	}
 
 	@Deprecated
@@ -35,10 +35,10 @@ public class Pila<T>
 		{
 			Nodo tmp = this.cima;
 			cantidad = 1;
-			while(tmp.getPróximo()!=null)
+			while (tmp.getPróximo() != null)
 			{
 				tmp = tmp.getPróximo();
-				cantidad+=1;
+				cantidad += 1;
 			}
 		}
 		return cantidad;
@@ -73,7 +73,9 @@ public class Pila<T>
 
 	public T peak()
 	{
-		return (T)this.cima.getDato();
+		if (!isEmpty())
+			return (T)this.cima.getDato();
+		return null;
 	}
 
 	public void parsePila(Cola<T> queue)
@@ -84,11 +86,43 @@ public class Pila<T>
 			this.push(queue.extract());
 		}
 		Pila<T> tmp = new Pila<T>();
-		while(!this.isEmpty())
+		while (!this.isEmpty())
 		{
 			tmp.push(this.pop());
 		}
 		this.cima = tmp.cima;
+	}
+
+	public void print()
+	{
+		if (!this.isEmpty())
+		{
+			Nodo tmp = this.cima;
+			do
+			{
+				System.out.println(tmp.getDato());
+				tmp = tmp.getPróximo();
+			}while(tmp != null);
+		}
+	}
+
+	@Override
+	public String toString()
+	{
+		if (!this.isEmpty())
+		{
+			String result = "";
+			Nodo tmp = this.cima;
+			while (tmp != null)
+			{
+				result += (tmp.getDato() + "; ");
+				tmp = tmp.getPróximo();
+			}
+			result = result.trim();
+			result = "{" + result.substring(0, result.length() - 1) + "}";
+			return result;
+		}
+		return null;
 	}
 
 }

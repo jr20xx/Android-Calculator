@@ -18,7 +18,7 @@
 			android:layout_weight="1.0"
 			android:paddingTop="28dp"
 			android:paddingBottom="15dp"
-			android:text="@string/exit_message"
+			android:text="@string/badOp"
 			android:paddingRight="10dp"
 			android:paddingLeft="10dp"
 			android:textColor="#EEEEEE"
@@ -40,7 +40,7 @@
 			android:text="@string/cancel_text"
 			android:paddingLeft="18dp"
 			android:paddingRight="18dp"
-			android:id="@+id/I_dont_want"
+			android:id="@+id/I_dont"
 			android:textColor="#DDDDDD"
 			android:layout_marginRight="10dp"
 			android:background="#202020"/>
@@ -53,9 +53,9 @@
 			android:textColor="#FFFFFF"
 			android:paddingLeft="30dp"
 			android:paddingRight="30dp"
-			android:id="@+id/I_do_want"
+			android:id="@+id/I_do"
 			android:layout_marginRight="10dp"
-			android:background="@color/ok_exit"/>
+			android:background="@color/report_ok"/>
 
 	</LinearLayout>
 

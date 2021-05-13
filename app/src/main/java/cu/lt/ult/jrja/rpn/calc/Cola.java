@@ -22,8 +22,7 @@ public class Cola<T>
 		if (this.isEmpty())
 		{
 			this.last = this.first = nuevo;
-			this.first.setPróximo(null);
-			this.last.setPróximo(this.first);
+			this.first.setPróximo(this.last);
 		}
 		else
 		{
@@ -65,29 +64,61 @@ public class Cola<T>
 		}
 		return null;
 	}
-	
+
 	@Deprecated
 	public int length()
 	{
 		return this.cant;
 	}
-	
+
 	public int size()
 	{
 		int cantidad = 0;
-		
-		if(!this.isEmpty())
+
+		if (!this.isEmpty())
 		{
 			Nodo tmp = this.first;
 			cantidad = 1;
-			while(tmp.getPróximo()!=null)
+			while (tmp.getPróximo() != null)
 			{
 				tmp = tmp.getPróximo();
 				cantidad += 1;
 			}
 		}
-		
+
 		return cantidad;
+	}
+
+	public void print()
+	{
+		if (!this.isEmpty())
+		{
+			Nodo tmp = this.first;
+			do
+			{
+				System.out.println(tmp.getDato());
+				tmp = tmp.getPróximo();
+			}while(tmp != null);
+		}
+	}
+
+	@Override
+	public String toString()
+	{
+		if (this.first != null)
+		{
+			String result = "";
+			Nodo tmp = this.first;
+			while (tmp != null)
+			{
+				result += (tmp.getDato() + "; ");
+				tmp = tmp.getPróximo();
+			}
+			result = result.trim();
+			result = "{" + result.substring(0, result.length() - 1) + "}";
+			return result;
+		}
+		return null;
 	}
 
 }

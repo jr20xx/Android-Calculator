@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Calculadora NPI</string>
+	<string name="mistcalc">Ha ocurrido un error...</string>
+	<string name="exit_message">¿Está seguro(a) de que desea salir?</string>
+	<string name="ok_text">ACEPTAR</string>
+	<string name="cancel_text">CANCELAR</string>
+	<string name="copied">Texto copiado al portapapeles</string>
+	<string name="more_details">MÁS</string>
+	<string name="head_of_report">Tipo de error:</string>
+	<string name="infinite_error">El error ha sido generado porque el algoritmo arroja un resultado inifinito</string>
+	<string name="missbalanced">El error ha sido generado porque los paréntesis no están emparejados</string>
+	<string name="genericE">El error ha sido generado porque ha ocurrido la siguiente excepción</string>
+	<string name="nan_error">El error ha sido generado porque el algoritmo arroja un resultado que no es un número</string>
+	<string name="send">ENVIAR</string>
+	<string name="sendTit">Compartir la información del error</string>
+	<string name="badOp">¿Enviar la última operación realizada como muestra de un mal resultado?</string>
+	<string name="shareOp">Compartir última operación</string>
 </resources>

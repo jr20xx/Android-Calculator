@@ -5,7 +5,8 @@
 	android:layout_width="match_parent"
 	android:orientation="vertical"
 	android:background="#1F1F1F"
-	android:gravity="center">
+	android:gravity="center"
+	android:id="@+id/skeleton">
 
 	<LinearLayout
 		android:layout_height="wrap_content"
@@ -13,31 +14,25 @@
 		android:orientation="horizontal"
 		android:layout_weight="1.0">
 
-		<HorizontalScrollView
+		<EditText
 			android:layout_height="match_parent"
+			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:layout_width="match_parent"
-			android:fillViewport="true"
-			android:padding="12dp"
-			android:id="@+id/scroll"
-			android:layout_weight="1.0">
-
-			<TextView
-				android:layout_height="match_parent"
-				android:textAppearance="?android:attr/textAppearanceLarge"
-				android:layout_width="wrap_content"
-				android:gravity="bottom|right"
-				android:id="@+id/screen"
-				android:textSize="32sp"
-				android:textColor="#FFFFFF"
-				android:background="#434343"
-				android:textStyle="bold"
-				android:singleLine="true"
-				android:paddingRight="10dp"
-				android:paddingLeft="10dp"
-				android:maxLines="1"
-				android:typeface="serif"/>
-
-		</HorizontalScrollView>
+			android:gravity="bottom|right"
+			android:id="@+id/screen"
+			android:textSize="32sp"
+			android:textColor="#FFFFFF"
+			android:textStyle="bold"
+			android:singleLine="true"
+			android:paddingRight="10dp"
+			android:paddingLeft="10dp"
+			android:maxLines="1"
+			android:textDirection="anyRtl"
+			android:typeface="serif"
+			android:cursorVisible="false"
+			android:layout_margin="10dp"
+			android:background="@color/screen"
+			android:lines="1"/>
 
 	</LinearLayout>
 

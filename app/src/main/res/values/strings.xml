@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">RPN Calculator</string>
+	<string name="mistcalc">Something went wrong...</string>
+	<string name="exit_message">Are you sure that you wanna leave?</string>
+	<string name="ok_text">YES</string>
+	<string name="cancel_text">NO</string>
+	<string name="copied">Text copied to clipboard</string>
+	<string name="more_details">MORE</string>
+	<string name="head_of_report">Type of error:</string>
+	<string name="infinite_error">The error was produced because the algorithm returned an infinite result</string>
+	<string name="missbalanced">The error was produced because parenthesis aren\'t correctly balanced</string>
+	<string name="genericE">The error was produced because of the next exception</string>
+	<string name="nan_error">The error was produced because the algorithm returned a value that isn\'t a number</string>
+	<string name="send">SEND</string>
+	<string name="sendTit">Share the information about the error</string>
+	<string name="badOp">Send last operation as an example of a bad result?</string>
+	<string name="shareOp">Share last operation</string>
 </resources>
