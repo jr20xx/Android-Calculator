@@ -18,6 +18,7 @@ import android.animation.*;
 public class MainActivity extends AppCompatActivity
 {
 
+	private boolean solved;
 	private String lastOp="";
 	private EditText screen;
 	private Button potencia, residuo, pareA, pareC, num0, num1, num2, num3, num4, num5, num6, num7, num8, num9, borrar, dividir, multiplicar, restar, sumar, igual, coma;
@@ -81,6 +82,7 @@ public class MainActivity extends AppCompatActivity
 								@Override
 								public void onClick(View p1)
 								{
+									solved = false;
 									android.content.ClipboardManager clipbrd = (android.content.ClipboardManager)getSystemService(CLIPBOARD_SERVICE);
 									clipbrd.setText(screen.getText().toString());
 									Snackbar snack = Snackbar.make(screen, R.string.cutText, Snackbar.LENGTH_SHORT);				
@@ -94,6 +96,7 @@ public class MainActivity extends AppCompatActivity
 								@Override
 								public void onClick(View p1)
 								{
+									solved = false;
 									report();
 									dialog.dismiss();
 								}
@@ -433,7 +436,12 @@ public class MainActivity extends AppCompatActivity
 				public void onClick(View v)
 				{
 					String texto = screen.getText().toString();
-					if (!texto.isEmpty())
+					if(solved)
+					{
+						solved = false;
+						screen.setText("");
+					}
+					else if (!texto.isEmpty())
 					{
 						texto = texto.substring(0, texto.length() - 1);
 						screen.setText(texto);
@@ -475,10 +483,12 @@ public class MainActivity extends AppCompatActivity
 								screen.setText(stack.peak() + "");
 								screen.setSelection(0);
 								lastOp = Text + "=" + stack.pop();
+								solved = true;
 							}
 						}
 						catch (ParéntesisSinEmparejar x)
 						{
+							screen.setText("");
 							Snackbar snack = Snackbar.make(screen, R.string.mistcalc , Snackbar.LENGTH_LONG);
 							snack.setAction(R.string.more_details, new View.OnClickListener()
 								{
@@ -540,7 +550,16 @@ public class MainActivity extends AppCompatActivity
 				public void onTextChanged(CharSequence p1, int p2, int p3, int p4)
 				{
 					String texto = screen.getText().toString();
-					if (texto.contains(")("))
+					if(solved && !texto.isEmpty())
+					{
+						solved = false;
+						if(!isOperator(texto.charAt(texto.length()-1)+""))
+						{
+							texto = texto.substring(texto.length()-1);
+							screen.setText(texto);
+						}
+					}
+					else if (texto.contains(")("))
 					{
 						screen.setText(texto.replace(")(", ")×("));
 					}
@@ -599,7 +618,7 @@ public class MainActivity extends AppCompatActivity
 
 	private Boolean isOperator(String x)
 	{
-		return (x.equals("+")) || (x.equals("-")) || (x.equals("*")) || (x.equals("/")) || (x.equals("%")) || (x.equals("^"));
+		return (x.equals("+")) || (x.equals("-")) || (x.equals("×")) || (x.equals("÷")) || (x.equals("%")) || (x.equals("^"));
 	}
 
 	@Override
