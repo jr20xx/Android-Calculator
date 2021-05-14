@@ -15,67 +15,12 @@ import android.view.animation.*;
 import android.app.*;
 import android.animation.*;
 
-public class MainActivity extends AppCompatActivity implements GestureDetector.OnGestureListener
+public class MainActivity extends AppCompatActivity
 {
-	private GestureDetector gestureDetector = new GestureDetector(this);
+
 	private String lastOp="";
 	private EditText screen;
 	private Button potencia, residuo, pareA, pareC, num0, num1, num2, num3, num4, num5, num6, num7, num8, num9, borrar, dividir, multiplicar, restar, sumar, igual, coma;
-	
-	@Override
-	public boolean onDown(MotionEvent p1)
-	{
-		return false;
-	}
-
-	@Override
-	public void onShowPress(MotionEvent p1)
-	{}
-
-	@Override
-	public boolean onSingleTapUp(MotionEvent p1)
-	{
-		return false;
-	}
-
-	@Override
-	public boolean onScroll(MotionEvent p1, MotionEvent p2, float p3, float p4)
-	{
-		return false;
-	}
-
-	@Override
-	public void onLongPress(MotionEvent p1)
-	{}
-
-	@Override
-	public boolean onFling(MotionEvent downEvent, MotionEvent moveEvent, float speedX, float speedY)
-	{
-		float diffY = moveEvent.getY() - downEvent.getY();
-		float diffX = moveEvent.getX() - downEvent.getX();
-
-		if (Math.abs(diffY) > Math.abs(diffX))
-		{
-			if ((Math.abs(diffY) > 100) && (Math.abs(speedY) > 100))
-			{
-				if (diffY < 0)
-				{
-					//swiped up
-					if (!this.lastOp.equals(""))
-						this.report();
-					return true;
-				}
-			}
-		}
-		return false;
-	}
-
-	@Override
-	public boolean onTouchEvent(MotionEvent event)
-	{
-		gestureDetector.onTouchEvent(event);
-		return super.onTouchEvent(event);
-	}
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -92,14 +37,92 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
 		screen.setOnLongClickListener(new OnLongClickListener(){
 				public boolean onLongClick(View v)
 				{
-					if (!screen.getText().toString().isEmpty())
+					if (!lastOp.isEmpty() || !screen.getText().toString().isEmpty())
 					{
 						Animation zoomout = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.szoom_out);
-						android.content.ClipboardManager clipbrd = (android.content.ClipboardManager)getSystemService(CLIPBOARD_SERVICE);
 						screen.startAnimation(zoomout);
-						clipbrd.setText(screen.getText().toString());
-						Snackbar snack = Snackbar.make(screen, R.string.copied, Snackbar.LENGTH_SHORT);				
-						snack.show();
+						final BottomSheetDialog dialog = new BottomSheetDialog(MainActivity.this);
+						View edits = getLayoutInflater().inflate(R.layout.screen_menu, null);
+						dialog.setContentView(edits);
+						final TextView copy = edits.findViewById(R.id.copy);
+						final TextView cut = edits.findViewById(R.id.cut);
+						final TextView Report = edits.findViewById(R.id.report);
+						final ImageView Icopy = edits.findViewById(R.id.img_copy);
+						final ImageView Icut = edits.findViewById(R.id.img_cut);
+						final ImageView Ireport = edits.findViewById(R.id.img_report);
+						final LinearLayout copylay = edits.findViewById(R.id.copy_lay);
+						final LinearLayout cutlay = edits.findViewById(R.id.cut_lay);
+						final LinearLayout reportlay = edits.findViewById(R.id.report_lay);
+
+						if (screen.getText().toString().isEmpty())
+						{
+							copylay.setVisibility(View.GONE);
+							cutlay.setVisibility(View.GONE);
+						}
+						if (lastOp.isEmpty())
+						{
+							reportlay.setVisibility(View.GONE);
+						}
+
+						copy.setOnClickListener(new OnClickListener()
+							{
+								@Override
+								public void onClick(View p1)
+								{
+									android.content.ClipboardManager clipbrd = (android.content.ClipboardManager)getSystemService(CLIPBOARD_SERVICE);
+									clipbrd.setText(screen.getText().toString());
+									Snackbar snack = Snackbar.make(screen, R.string.copied, Snackbar.LENGTH_SHORT);				
+									dialog.dismiss();
+									snack.show();
+								}
+							});
+						cut.setOnClickListener(new OnClickListener()
+							{
+								@Override
+								public void onClick(View p1)
+								{
+									android.content.ClipboardManager clipbrd = (android.content.ClipboardManager)getSystemService(CLIPBOARD_SERVICE);
+									clipbrd.setText(screen.getText().toString());
+									Snackbar snack = Snackbar.make(screen, R.string.cutText, Snackbar.LENGTH_SHORT);				
+									dialog.dismiss();
+									screen.setText("");
+									snack.show();
+								}
+							});
+						Report.setOnClickListener(new OnClickListener()
+							{
+								@Override
+								public void onClick(View p1)
+								{
+									report();
+									dialog.dismiss();
+								}
+							});
+						Icopy.setOnClickListener(new OnClickListener()
+							{
+								@Override
+								public void onClick(View v)
+								{
+									copy.performClick();
+								}
+							});
+						Icut.setOnClickListener(new OnClickListener()
+							{
+								@Override
+								public void onClick(View v)
+								{
+									cut.performClick();
+								}
+							});
+						Ireport.setOnClickListener(new OnClickListener()
+							{
+								@Override
+								public void onClick(View v)
+								{
+									Report.performClick();
+								}
+							});
+						dialog.show();
 					}
 					return true;
 				}
@@ -442,19 +465,17 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
 						try
 						{
 							String Text = screen.getText().toString();
-							if (Text.contains("×"))
-								Text = Text.replace("×", "*");
-							if (Text.contains("÷"))
-								Text = Text.replace("÷", "/");
-							SY sy = new SY(Text);
-							Cola<String> x = sy.translate();
-							Pila<String> stack = new Pila<String>();
-							stack.parsePila(x);
-							RPN rpn = new RPN(stack);
-							rpn.solve();
-							screen.setText(stack.peak() + "");
-							screen.setSelection(0);
-							lastOp = Text + "=" + stack.pop();
+							if (Text.contains("+") || Text.contains("-") || Text.contains("×") || Text.contains("÷") || Text.contains("%") || Text.contains("^"))
+							{
+								Text = Text.replace("×", "*").replace("÷", "/");
+								Cola<String> sy = SY.translate(Text);
+								Pila<String> stack = new Pila<String>();
+								stack.parsePila(sy);
+								RPN.solve(stack);
+								screen.setText(stack.peak() + "");
+								screen.setSelection(0);
+								lastOp = Text + "=" + stack.pop();
+							}
 						}
 						catch (ParéntesisSinEmparejar x)
 						{
@@ -662,6 +683,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
 		final BottomSheetDialog dialog = new BottomSheetDialog(MainActivity.this);
 		View report = getLayoutInflater().inflate(R.layout.report_bad_result, null);
 		dialog.setContentView(report);
+		dialog.setCancelable(false);
 		final Button ok = report.findViewById(R.id.I_do);
 		final Button notOk = report.findViewById(R.id.I_dont);
 		ok.setOnClickListener(new OnClickListener()
@@ -688,10 +710,10 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
 	}
 
 	/*WIP
-	@Override
-	public boolean onKeyDown(int keyCode, KeyEvent event)
-	{
-		return super.onKeyDown(keyCode, event);
-	}*/
-	
+	 @Override
+	 public boolean onKeyDown(int keyCode, KeyEvent event)
+	 {
+	 return super.onKeyDown(keyCode, event);
+	 }*/
+
 }

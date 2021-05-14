@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">RPN Calculator</string>
-	<string name="mistcalc">Something went wrong...</string>
+	<string name="mistcalc">Something went wrong</string>
 	<string name="exit_message">Are you sure that you wanna leave?</string>
 	<string name="ok_text">YES</string>
 	<string name="cancel_text">NO</string>
@@ -16,4 +16,8 @@
 	<string name="sendTit">Share the information about the error</string>
 	<string name="badOp">Send last operation as an example of a bad result?</string>
 	<string name="shareOp">Share last operation</string>
+	<string name="copy">Copy</string>
+	<string name="cutText">Text transfered to clipboard</string>
+	<string name="cut">Cut</string>
+	<string name="report">Report last operation</string>
 </resources>

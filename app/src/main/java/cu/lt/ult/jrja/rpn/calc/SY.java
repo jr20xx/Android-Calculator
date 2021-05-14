@@ -4,35 +4,20 @@ import java.util.regex.*;
 
 public class SY
 {
-	private String expression;
-	private Cola<String> out;
-	private Cola<String> elements;
-	private Pila<String> operators;
-
-	public SY(String expression)
-	{
-		this.expression = expression;
-		this.out = new Cola<>();
-		this.operators = new Pila<String>();
-		this.elements = new Cola<String>();
-		this.splitter();
-	}
-
-	private boolean isNumber(String x)
+	private static boolean isNumber(String x)
 	{
 		return x.matches("^[+-]?\\d+(?:\\.\\d*(?:[eE][+-]?\\d+)?)?$");
-		//return x.matches("-?\\d+(\\.\\d+)?");
 	}
-	private boolean isOperator(String x)
+	private static boolean isOperator(String x)
 	{
 		return x.equals("+") || x.equals("-") || x.equals("/") || x.equals("*") || x.equals("%") || x.equals("^");
 	}
-	private boolean parOnPair()
+	private static boolean parOnPair(String expression)
 	{
-		if (this.expression.contains("(") || this.expression.contains(")"))
+		if (expression.contains("(") || expression.contains(")"))
 		{
 			int counter = 0;
-			for (char c : this.expression.toCharArray())
+			for (char c : expression.toCharArray())
 			{
 				if (c == '(')
 					counter += 1;
@@ -44,9 +29,11 @@ public class SY
 		return true;
 	}
 
-	private void splitter()
+	private static Cola<String> splitter(String expression)
 	{
-		if (this.parOnPair())
+		Cola<String> elements = new Cola<String>();
+
+		if (parOnPair(expression))
 		{
 			String tmp = "";
 			int start = 0;
@@ -71,15 +58,16 @@ public class SY
 			String things[] = tmp.replace("(", "( ").replace("+", " + ").replace("-", " - ").replace("*", " * ").replace("/", " / ").replace("%", " % ").replace("^", " ^ ").replace(")", " )").replace("n", "-").trim().split(" ");
 			for (String s : things)
 			{
-				this.elements.add(s);
+				elements.add(s);
 			}			
 		}//if parenthesis are correctly balanced
 		else
 		{
 			throw new ParéntesisSinEmparejar("Los paréntesis no están bien colocados");
 		}
+		return elements;
 	}//end of splitter
-	private int precedence(String oper)
+	private static int precedence(String oper)
 	{
 		switch (oper)
 		{
@@ -90,73 +78,75 @@ public class SY
 		}
 	}
 
-	public Cola<String> translate()
+	public static Cola<String> translate(String expression)
 	{
+		Cola<String> elements=splitter(expression);
+		Cola<String> out = new Cola<String>();
+		Pila<String> operators=new Pila<String>();
 
-		while (!this.elements.isEmpty())
+		while (!elements.isEmpty())
 		{
-			String tmp = this.elements.extract();
+			String tmp = elements.extract();
 
 			if (isNumber(tmp))
 			{
-				this.out.add(tmp);
+				out.add(tmp);
 			}
 			else if (isOperator(tmp))
 			{
-				if (this.operators.isEmpty())
+				if (operators.isEmpty())
 				{
-					this.operators.push(tmp);
+					operators.push(tmp);
 				}
 				else
 				{
 					if(leftA(tmp))
 					{
-						while((!this.operators.isEmpty())&&(precedence(this.operators.peak()) >= precedence(tmp)))
+						while((!operators.isEmpty())&&(precedence(operators.peak()) >= precedence(tmp)))
 						{
-							this.out.add(this.operators.pop());
+							out.add(operators.pop());
 						}
-						this.operators.push(tmp);
+						operators.push(tmp);
 					}
 					else
 					{
-						while((!this.operators.isEmpty())&&(precedence(this.operators.peak()) > precedence(tmp)))
+						while((!operators.isEmpty())&&(precedence(operators.peak()) > precedence(tmp)))
 						{
-							this.out.add(this.operators.pop());
+							out.add(operators.pop());
 						}
-						this.operators.push(tmp);
+						operators.push(tmp);
 					}
 				}				
 			}
 			else if (tmp.equals("("))
 			{
-				this.operators.push(tmp);
+				operators.push(tmp);
 			}
 			else if (tmp.equals(")"))
 			{
-				while (!this.operators.isEmpty())
+				while (!operators.isEmpty())
 				{
-					if (this.operators.peak().equals("("))
+					if (operators.peak().equals("("))
 					{
-						this.operators.pop();
+						operators.pop();
 					}
 					else
 					{
-						this.out.add(this.operators.pop());
+						out.add(operators.pop());
 					}
 				}
 			}
 		}//while there are elements to take
 
-		while (!this.operators.isEmpty())
+		while (!operators.isEmpty())
 		{
-			this.out.add(this.operators.pop());
+			out.add(operators.pop());
 		}
-		return this.out;
+		return out;
 	}
 
-	private boolean leftA(String tmp)
+	private static boolean leftA(String tmp)
 	{
 		return !(tmp.equals("^"));
 	} 
-
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Calculadora NPI</string>
-	<string name="mistcalc">Ha ocurrido un error...</string>
+	<string name="mistcalc">Ha ocurrido un error</string>
 	<string name="exit_message">¿Está seguro(a) de que desea salir?</string>
 	<string name="ok_text">ACEPTAR</string>
 	<string name="cancel_text">CANCELAR</string>
@@ -16,4 +16,8 @@
 	<string name="sendTit">Compartir la información del error</string>
 	<string name="badOp">¿Enviar la última operación realizada como muestra de un mal resultado?</string>
 	<string name="shareOp">Compartir última operación</string>
+	<string name="copy">Copiar</string>
+	<string name="cutText">Texto transferido al portapapeles</string>
+	<string name="cut">Cortar</string>
+	<string name="report">Reportar última operación</string>
 </resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="#202020"
+	android:paddingTop="10dp"
+	android:paddingBottom="10dp">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:id="@+id/copy_lay"
+		android:paddingTop="5dp"
+		android:paddingBottom="5dp">
+
+		<ImageView
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:src="@drawable/ic_copy"
+			android:id="@+id/img_copy"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:scaleType="fitCenter"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+			android:paddingLeft="10dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/copy"
+			android:id="@+id/copy"
+			android:textColor="#E6E6E6"
+			android:gravity="left|center_vertical"
+			android:textAlignment="gravity"
+			android:layout_weight="1.0"
+			android:background="#202020"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textStyle="bold"
+			android:paddingBottom="10dp"
+			android:paddingTop="10dp"
+			android:paddingLeft="7dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:id="@+id/cut_lay"
+		android:paddingBottom="5dp"
+		android:paddingTop="5dp">
+
+		<ImageView
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:src="@drawable/ic_cut"
+			android:id="@+id/img_cut"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:scaleType="fitCenter"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+			android:paddingLeft="10dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="@string/cut"
+			android:id="@+id/cut"
+			android:textColor="#E6E6E6"
+			android:gravity="left|center_vertical"
+			android:textAlignment="gravity"
+			android:layout_weight="1.0"
+			android:background="#202020"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textStyle="bold"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+			android:layout_marginLeft="7dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:id="@+id/report_lay"
+		android:paddingBottom="5dp"
+		android:paddingTop="5dp">
+
+		<ImageView
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:src="@drawable/ic_report"
+			android:id="@+id/img_report"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:scaleType="fitCenter"
+			android:paddingBottom="10dp"
+			android:paddingTop="10dp"
+			android:textAlignment="gravity"
+			android:paddingLeft="10dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/report"
+			android:id="@+id/report"
+			android:textColor="#E6E6E6"
+			android:gravity="left|center_vertical"
+			android:textAlignment="gravity"
+			android:layout_weight="1.0"
+			android:background="#202020"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textStyle="bold"
+			android:paddingBottom="10dp"
+			android:paddingTop="10dp"
+			android:paddingLeft="7dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

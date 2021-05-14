@@ -2,22 +2,15 @@ package cu.lt.ult.jrja.rpn.calc;
 
 import java.util.*;
 
-public class RPN<T>
+public class RPN
 {
-	private Pila<T> pila;
-
-	public RPN(Pila<T> stack)
-	{
-		this.pila = stack;
-	}
-
-	public void solve()
+	public static void solve(Pila<String> pila)
 	{
 		String number1, number2;
 		Pila<String> solución = new Pila<String>();
-		while (!(this.pila.isEmpty()))
+		while (!(pila.isEmpty()))
 		{
-			String poped = this.pila.pop() + "";
+			String poped = pila.pop();
 			if (isOperator(poped))
 			{
 				number1 = solución.pop();
@@ -33,15 +26,15 @@ public class RPN<T>
 				solución.push(poped);
 			}
 		}
-		this.pila.push((T)solución.pop());
+		pila.push(solución.pop());
 	}
 
-	private boolean isOperator(String x)
+	private static boolean isOperator(String x)
 	{
 		return (x.equals("+")) || (x.equals("-")) || (x.equals("*")) || (x.equals("/")) || (x.equals("%")) || (x.equals("^"));
 	}
 
-	private String makeOperation(String x, String oper, String y)
+	private static String makeOperation(String x, String oper, String y)
 	{
 		double a = Double.parseDouble(x);
 		double b = Double.parseDouble(y);
@@ -53,8 +46,7 @@ public class RPN<T>
 			case("/"): return (a / b) + "";
 			case("%"): return (a % b) + "";
 			case("^"): return (Math.pow(a, b)) + "";
-			default: return "Error!";
+			default: throw new OperaciónNoRegistrada("Operación no declarada");
 		}
 	}
-
 }
