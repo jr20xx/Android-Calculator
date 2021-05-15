@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity
 				{
 					String texto = screen.getText().toString();					
 					if (!texto.isEmpty() && texto.charAt(texto.length() - 1) == ')')
-						screen.setText(texto + "*9");
+						screen.setText(texto + "×9");
 					else
 						screen.setText(texto + "9");
 					screen.setSelection(screen.getText().length());
@@ -191,7 +191,7 @@ public class MainActivity extends AppCompatActivity
 				{
 					String texto = screen.getText().toString();					
 					if (!texto.isEmpty() && texto.charAt(texto.length() - 1) == ')')
-						screen.setText(texto + "*8");
+						screen.setText(texto + "×8");
 					else
 						screen.setText(texto + "8");
 					screen.setSelection(screen.getText().length());
@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity
 				{
 					String texto = screen.getText().toString();					
 					if (!texto.isEmpty() && texto.charAt(texto.length() - 1) == ')')
-						screen.setText(texto + "*7");
+						screen.setText(texto + "×7");
 					else
 						screen.setText(texto + "7");
 					screen.setSelection(screen.getText().length());
@@ -213,7 +213,7 @@ public class MainActivity extends AppCompatActivity
 				{
 					String texto = screen.getText().toString();					
 					if (!texto.isEmpty() && texto.charAt(texto.length() - 1) == ')')
-						screen.setText(texto + "*6");
+						screen.setText(texto + "×6");
 					else
 						screen.setText(texto + "6");
 					screen.setSelection(screen.getText().length());
@@ -224,7 +224,7 @@ public class MainActivity extends AppCompatActivity
 				{
 					String texto = screen.getText().toString();					
 					if (!texto.isEmpty() && texto.charAt(texto.length() - 1) == ')')
-						screen.setText(texto + "*5");
+						screen.setText(texto + "×5");
 					else
 						screen.setText(texto + "5");
 					screen.setSelection(screen.getText().length());
@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity
 				{
 					String texto = screen.getText().toString();					
 					if (!texto.isEmpty() && texto.charAt(texto.length() - 1) == ')')
-						screen.setText(texto + "*4");
+						screen.setText(texto + "×4");
 					else
 						screen.setText(texto + "4");
 					screen.setSelection(screen.getText().length());
@@ -246,7 +246,7 @@ public class MainActivity extends AppCompatActivity
 				{
 					String texto = screen.getText().toString();					
 					if (!texto.isEmpty() && texto.charAt(texto.length() - 1) == ')')
-						screen.setText(texto + "*3");
+						screen.setText(texto + "×3");
 					else
 						screen.setText(texto + "3");
 					screen.setSelection(screen.getText().length());
@@ -257,7 +257,7 @@ public class MainActivity extends AppCompatActivity
 				{
 					String texto = screen.getText().toString();					
 					if (!texto.isEmpty() && texto.charAt(texto.length() - 1) == ')')
-						screen.setText(texto + "*2");
+						screen.setText(texto + "×2");
 					else
 						screen.setText(texto + "2");
 					screen.setSelection(screen.getText().length());
@@ -268,7 +268,7 @@ public class MainActivity extends AppCompatActivity
 				{
 					String texto = screen.getText().toString();					
 					if (!texto.isEmpty() && texto.charAt(texto.length() - 1) == ')')
-						screen.setText(texto + "*1");
+						screen.setText(texto + "×1");
 					else
 						screen.setText(texto + "1");
 					screen.setSelection(screen.getText().length());
@@ -279,7 +279,7 @@ public class MainActivity extends AppCompatActivity
 				{
 					String texto = screen.getText().toString();					
 					if (!texto.isEmpty() && texto.charAt(texto.length() - 1) == ')')
-						screen.setText(texto + "*0");
+						screen.setText(texto + "×0");
 					else
 						screen.setText(texto + "0");
 					screen.setSelection(screen.getText().length());
