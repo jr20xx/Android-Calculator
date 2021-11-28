@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
 	android:layout_height="match_parent"
 	android:layout_width="match_parent"
 	android:orientation="vertical"
 	android:background="#1F1F1F"
-	android:gravity="center"
-	android:id="@+id/skeleton">
+    android:fitsSystemWindows="true"
+	android:gravity="center">
 
 	<LinearLayout
 		android:layout_height="wrap_content"
@@ -32,7 +33,9 @@
 			android:cursorVisible="false"
 			android:layout_margin="10dp"
 			android:background="@color/screen"
-			android:lines="1"/>
+			android:lines="1"
+			android:textIsSelectable="false"
+			android:inputType="number"/>
 
 	</LinearLayout>
 
@@ -41,26 +44,6 @@
 		android:layout_width="match_parent"
 		android:orientation="vertical"
 		android:layout_weight="1.0">
-
-		<LinearLayout
-			android:layout_height="match_parent"
-			android:layout_width="match_parent"
-			android:orientation="horizontal"
-			android:layout_weight="1.0"
-			android:gravity="right|center_vertical">
-
-			<Button
-				android:layout_height="match_parent"
-				android:layout_width="wrap_content"
-				android:text="B"
-				android:textColor="#FFFFFF"
-				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:textStyle="bold"
-				android:id="@+id/borrar"
-				android:background="@color/back"
-				android:layout_gravity="center_vertical|center_horizontal"/>
-
-		</LinearLayout>
 
 		<LinearLayout
 			android:layout_height="match_parent"
@@ -95,6 +78,7 @@
 				android:layout_width="wrap_content"
 				android:text="^"
 				android:textColor="#FFFFFF"
+				android:visibility="gone"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:textStyle="bold"
 				android:id="@+id/potencia"
@@ -104,13 +88,23 @@
 			<Button
 				android:layout_height="match_parent"
 				android:layout_width="wrap_content"
-				android:text="÷"
+				android:text="%"
 				android:layout_weight="1.0"
 				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:textStyle="bold"
-				android:id="@+id/entre"
+				android:id="@+id/divModular"
 				android:background="@color/basic"/>
+
+			<ImageButton
+				android:id="@+id/borrar"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:layout_weight="1"
+				android:background="@color/back"
+				android:textStyle="bold"
+				app:srcCompat="@drawable/ic_backspace"/>
 
 		</LinearLayout>
 
@@ -302,12 +296,12 @@
 			<Button
 				android:layout_height="match_parent"
 				android:layout_width="wrap_content"
-				android:text="%"
+				android:text="÷"
 				android:layout_weight="1.0"
 				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:textStyle="bold"
-				android:id="@+id/divModular"
+				android:id="@+id/entre"
 				android:background="@color/basic"/>
 
 		</LinearLayout>

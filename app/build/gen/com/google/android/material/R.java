@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package cu.lt.ult.jrja.rpn.calc;
+package com.google.android.material;
 
 public final class R {
     public static final class anim {

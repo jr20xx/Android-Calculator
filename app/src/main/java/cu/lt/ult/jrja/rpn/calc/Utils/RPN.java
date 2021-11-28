@@ -1,6 +1,9 @@
-package cu.lt.ult.jrja.rpn.calc;
+package cu.lt.ult.jrja.rpn.calc.Utils;
 
-import java.util.*;
+import java.math.*;
+
+import cu.lt.ult.jrja.rpn.calc.DataStructures.*;
+import cu.lt.ult.jrja.rpn.calc.Exceptions.*;
 
 public class RPN
 {
@@ -36,16 +39,16 @@ public class RPN
 
 	private static String makeOperation(String x, String oper, String y)
 	{
-		double a = Double.parseDouble(x);
-		double b = Double.parseDouble(y);
+		BigDecimal a = new BigDecimal(x);
+		BigDecimal b = new BigDecimal(y);
 		switch (oper)
 		{
-			case("+"): return (a + b) + "";
-			case("-"): return (a - b) + "";
-			case("*"): return (a * b) + "";
-			case("/"): return (a / b) + "";
-			case("%"): return (a % b) + "";
-			case("^"): return (Math.pow(a, b)) + "";
+			case("+"): return (a.add(b)) + "";
+			case("-"): return (a.subtract(b)) + "";
+			case("*"): return (a.multiply(b)) + "";
+			case("/"): return (a.divide(b)) + "";
+			case("%"): return (a.remainder(b)) + "";
+			case("^"): return (Math.pow(Double.parseDouble(a.toPlainString()), Double.parseDouble(b.toPlainString()))) + "";
 			default: throw new OperaciónNoRegistrada("Operación no declarada");
 		}
 	}

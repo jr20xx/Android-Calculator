@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package cu.lt.ult.jrja.rpn.calc;
+package androidx.legacy.coreutils;
 
 public final class R {
     public static final class anim {

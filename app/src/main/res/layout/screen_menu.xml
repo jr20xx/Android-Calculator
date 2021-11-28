@@ -3,6 +3,7 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_height="match_parent"
 	android:layout_width="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
 	android:orientation="vertical"
 	android:background="#202020"
 	android:paddingTop="10dp"
@@ -19,7 +20,7 @@
 		<ImageView
 			android:layout_height="match_parent"
 			android:layout_width="wrap_content"
-			android:src="@drawable/ic_copy"
+			app:srcCompat="@drawable/ic_copy"
 			android:id="@+id/img_copy"
 			android:layout_gravity="center_vertical|center_horizontal"
 			android:scaleType="fitCenter"
@@ -56,7 +57,7 @@
 		<ImageView
 			android:layout_height="match_parent"
 			android:layout_width="wrap_content"
-			android:src="@drawable/ic_cut"
+			app:srcCompat="@drawable/ic_cut"
 			android:id="@+id/img_cut"
 			android:layout_gravity="center_vertical|center_horizontal"
 			android:scaleType="fitCenter"
@@ -65,20 +66,20 @@
 			android:paddingLeft="10dp"/>
 
 		<TextView
-			android:layout_height="wrap_content"
-			android:layout_width="match_parent"
-			android:text="@string/cut"
 			android:id="@+id/cut"
-			android:textColor="#E6E6E6"
-			android:gravity="left|center_vertical"
-			android:textAlignment="gravity"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
 			android:layout_weight="1.0"
 			android:background="#202020"
-			android:textAppearance="?android:attr/textAppearanceMedium"
-			android:textStyle="bold"
+			android:gravity="left|center_vertical"
+			android:paddingLeft="7dp"
 			android:paddingTop="10dp"
 			android:paddingBottom="10dp"
-			android:layout_marginLeft="7dp"/>
+			android:text="@string/cut"
+			android:textAlignment="gravity"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textColor="#E6E6E6"
+			android:textStyle="bold" />
 
 	</LinearLayout>
 
@@ -93,7 +94,7 @@
 		<ImageView
 			android:layout_height="match_parent"
 			android:layout_width="wrap_content"
-			android:src="@drawable/ic_report"
+			app:srcCompat="@drawable/ic_report"
 			android:id="@+id/img_report"
 			android:layout_gravity="center_vertical|center_horizontal"
 			android:scaleType="fitCenter"

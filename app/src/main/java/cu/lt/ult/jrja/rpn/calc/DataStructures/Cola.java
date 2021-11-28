@@ -1,4 +1,4 @@
-package cu.lt.ult.jrja.rpn.calc;
+package cu.lt.ult.jrja.rpn.calc.DataStructures;
 
 public class Cola<T>
 {

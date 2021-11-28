@@ -1,6 +1,7 @@
-package cu.lt.ult.jrja.rpn.calc;
+package cu.lt.ult.jrja.rpn.calc.Utils;
 
-import java.util.regex.*;
+import cu.lt.ult.jrja.rpn.calc.DataStructures.*;
+import cu.lt.ult.jrja.rpn.calc.Exceptions.*;
 
 public class SY
 {
