@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Calculadora NPI</string>
+    <string name="app_name">Calculadora</string>
 	<string name="mistcalc">Ha ocurrido un error</string>
 	<string name="exit_message">¿Está seguro(a) de que desea salir?</string>
 	<string name="ok_text">ACEPTAR</string>

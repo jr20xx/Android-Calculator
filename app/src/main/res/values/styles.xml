@@ -3,8 +3,8 @@
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
 		<item name="colorAccent">#CCCCCC</item>
 		<item name="colorPrimary">#111111</item>
-		<item name="colorPrimaryDark">@android:color/transparent</item>
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowTranslucentNavigation">true</item>
+		<item name="colorPrimaryDark">#1F1F1F</item>
+        <!--item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item-->
 	</style>
 </resources>

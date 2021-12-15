@@ -46,9 +46,29 @@ public class RPN
 			case("+"): return (a.add(b)) + "";
 			case("-"): return (a.subtract(b)) + "";
 			case("*"): return (a.multiply(b)) + "";
-			case("/"): return (a.divide(b)) + "";
-			case("%"): return (a.remainder(b)) + "";
-			case("^"): return (Math.pow(Double.parseDouble(a.toPlainString()), Double.parseDouble(b.toPlainString()))) + "";
+			case("/"):
+                {
+                    try
+                    {
+                        return (a.divide(b)) + "";
+                    }
+                    catch (Exception e)
+                    {
+                        return a.doubleValue() / b.doubleValue() + "";
+                    }
+                }
+			case("%"):
+                {
+                    try
+                    {
+                        return (a.remainder(b)) + "";
+                    }
+                    catch (Exception e)
+                    {
+                        return a.doubleValue() % b.doubleValue() + "";
+                    }
+                }
+			case("^"): return (Math.pow(Double.parseDouble(x), Double.parseDouble(y))) + "";
 			default: throw new OperaciónNoRegistrada("Operación no declarada");
 		}
 	}

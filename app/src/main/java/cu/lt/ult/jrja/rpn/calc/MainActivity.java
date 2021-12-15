@@ -2,22 +2,19 @@ package cu.lt.ult.jrja.rpn.calc;
 
 import android.annotation.*;
 import android.content.*;
-import android.graphics.*;
 import android.os.*;
 import android.text.*;
 import android.view.*;
 import android.view.View.*;
 import android.view.animation.*;
 import android.widget.*;
-
 import androidx.appcompat.app.*;
-
 import com.google.android.material.bottomsheet.*;
 import com.google.android.material.snackbar.*;
-
 import cu.lt.ult.jrja.rpn.calc.DataStructures.*;
 import cu.lt.ult.jrja.rpn.calc.Exceptions.*;
 import cu.lt.ult.jrja.rpn.calc.Utils.*;
+import java.io.*;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -25,8 +22,8 @@ public class MainActivity extends AppCompatActivity
     private boolean solved;
     private String lastOp = "";
     private EditText screen;
-    private Button potencia, residuo, pareA, pareC, num0, num1, num2, num3, num4, num5, num6, num7, num8, num9, dividir, multiplicar, restar, sumar, igual, coma;
-    private ImageView borrar;
+    private Button residuo, pareA, pareC, num0, num1, num2, num3, num4, num5, num6, num7, num8, num9, dividir, multiplicar, restar, sumar, igual, coma;
+    private ImageButton borrar;
 
     @SuppressLint("NewApi")
     @Override
@@ -35,11 +32,10 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setRequestedOrientation(android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.main);
-
+        
         screen = findViewById(R.id.screen);
         screen.setShowSoftInputOnFocus(false);
         screen.setCursorVisible(false);
-        screen.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "Hack.ttf"));
         screen.setOnLongClickListener(new OnLongClickListener()
         {
             public boolean onLongClick(View v)
@@ -51,12 +47,6 @@ public class MainActivity extends AppCompatActivity
                     final BottomSheetDialog dialog = new BottomSheetDialog(MainActivity.this);
                     View edits = getLayoutInflater().inflate(R.layout.screen_menu, null);
                     dialog.setContentView(edits);
-                    final TextView copy = edits.findViewById(R.id.copy);
-                    final TextView cut = edits.findViewById(R.id.cut);
-                    final TextView Report = edits.findViewById(R.id.report);
-                    final ImageView Icopy = edits.findViewById(R.id.img_copy);
-                    final ImageView Icut = edits.findViewById(R.id.img_cut);
-                    final ImageView Ireport = edits.findViewById(R.id.img_report);
                     final LinearLayout copylay = edits.findViewById(R.id.copy_lay);
                     final LinearLayout cutlay = edits.findViewById(R.id.cut_lay);
                     final LinearLayout reportlay = edits.findViewById(R.id.report_lay);
@@ -71,19 +61,18 @@ public class MainActivity extends AppCompatActivity
                         reportlay.setVisibility(View.GONE);
                     }
 
-                    copy.setOnClickListener(new OnClickListener()
+                    copylay.setOnClickListener(new OnClickListener()
                     {
                         @Override
                         public void onClick(View p1)
                         {
                             android.content.ClipboardManager clipbrd = (android.content.ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
                             clipbrd.setText(screen.getText().toString());
-                            Snackbar snack = Snackbar.make(screen, R.string.copied, Snackbar.LENGTH_SHORT);
                             dialog.dismiss();
-                            snack.show();
+                            Snackbar.make(screen, R.string.copied, Snackbar.LENGTH_SHORT).show();
                         }
                     });
-                    cut.setOnClickListener(new OnClickListener()
+                    cutlay.setOnClickListener(new OnClickListener()
                     {
                         @Override
                         public void onClick(View p1)
@@ -91,13 +80,12 @@ public class MainActivity extends AppCompatActivity
                             solved = false;
                             android.content.ClipboardManager clipbrd = (android.content.ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
                             clipbrd.setText(screen.getText().toString());
-                            Snackbar snack = Snackbar.make(screen, R.string.cutText, Snackbar.LENGTH_SHORT);
                             dialog.dismiss();
                             screen.setText("");
-                            snack.show();
+                            Snackbar.make(screen, R.string.cutText, Snackbar.LENGTH_SHORT).show();
                         }
                     });
-                    Report.setOnClickListener(new OnClickListener()
+                    reportlay.setOnClickListener(new OnClickListener()
                     {
                         @Override
                         public void onClick(View p1)
@@ -105,30 +93,6 @@ public class MainActivity extends AppCompatActivity
                             solved = false;
                             report();
                             dialog.dismiss();
-                        }
-                    });
-                    Icopy.setOnClickListener(new OnClickListener()
-                    {
-                        @Override
-                        public void onClick(View v)
-                        {
-                            copy.performClick();
-                        }
-                    });
-                    Icut.setOnClickListener(new OnClickListener()
-                    {
-                        @Override
-                        public void onClick(View v)
-                        {
-                            cut.performClick();
-                        }
-                    });
-                    Ireport.setOnClickListener(new OnClickListener()
-                    {
-                        @Override
-                        public void onClick(View v)
-                        {
-                            Report.performClick();
                         }
                     });
                     dialog.show();
@@ -154,31 +118,9 @@ public class MainActivity extends AppCompatActivity
         sumar = findViewById(R.id.sumar);
         igual = findViewById(R.id.igual);
         coma = findViewById(R.id.coma);
-        potencia = findViewById(R.id.potencia);
         residuo = findViewById(R.id.divModular);
         pareA = findViewById(R.id.parAbre);
         pareC = findViewById(R.id.parCierre);
-
-        num0.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        num1.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        num2.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        num3.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        num4.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        num5.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        num6.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        num7.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        num8.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        num9.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        sumar.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        multiplicar.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        residuo.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        dividir.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        residuo.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        pareA.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        pareC.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        igual.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        coma.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
-        potencia.setTypeface(Typeface.createFromAsset(getApplicationContext().getAssets(), "DejaVu.ttf"));
 
         num9.setOnClickListener(new OnClickListener()
         {
@@ -350,10 +292,10 @@ public class MainActivity extends AppCompatActivity
                 {
                     if (isNumber(texto.charAt(texto.length() - 1) + ""))
                     {
-                        String arr[] = texto.replace("(", "( ").replace("+", " + ").replace("-", " - ").replace("×", " × ").replace("÷", " ÷ ").replace("%", " % ").replace("^", " ^ ").replace(")", " )").replace("n", "-").trim().split(" ");
+                        String arr[] = texto.replace("(", "( ").replace("+", " + ").replace("-", " - ").replace("×", " × ").replace("÷", " ÷ ").replace("%", " % ").replace(")", " )").replace("n", "-").trim().split(" ");
                         if (!arr[arr.length - 1].contains("."))
                         {
-                            screen.setText(screen.getText().append("."));
+                            screen.setText(screen.getText().toString() + ".");
                             screen.setSelection(screen.getText().length());
                         }
                     }
@@ -428,24 +370,6 @@ public class MainActivity extends AppCompatActivity
                 {
                     texto = texto.substring(0, texto.length() - 1);
                     screen.setText(texto + "÷");
-                    screen.setSelection(screen.getText().length());
-                }
-            }
-        });
-        potencia.setOnClickListener(new OnClickListener()
-        {
-            public void onClick(View v)
-            {
-                String texto = screen.getText().toString();
-                if (!texto.isEmpty() && !isOperator(texto.charAt(texto.length() - 1) + ""))
-                {
-                    screen.setText(texto + "^");
-                    screen.setSelection(screen.getText().length());
-                }
-                else if (!texto.isEmpty() && isOperator(texto.charAt(texto.length() - 1) + ""))
-                {
-                    texto = texto.substring(0, texto.length() - 1);
-                    screen.setText(texto + "^");
                     screen.setSelection(screen.getText().length());
                 }
             }
@@ -552,28 +476,32 @@ public class MainActivity extends AppCompatActivity
                     catch (ParéntesisSinEmparejar x)
                     {
                         screen.setText("");
-                        Snackbar snack = Snackbar.make(screen, R.string.mistcalc, Snackbar.LENGTH_LONG);
-                        snack.setAction(R.string.more_details, new View.OnClickListener()
+                        Snackbar.make(screen, R.string.mistcalc, Snackbar.LENGTH_LONG).setAction(R.string.more_details, new View.OnClickListener()
                         {
                             public void onClick(View v)
                             {
                                 showDetails(MainActivity.this, "PIE");
                             }
-                        });
-                        snack.show();
+                        }).show();
                     }
                     catch (Exception e)
                     {
-                        final String exception = e.getStackTrace().toString();
-                        Snackbar snack = Snackbar.make(screen, R.string.mistcalc, Snackbar.LENGTH_LONG);
-                        snack.setAction(R.string.more_details, new View.OnClickListener()
+                        Throwable t = new Throwable(e);
+                        StringWriter result = new StringWriter();
+                        PrintWriter printer = new PrintWriter(result);
+                        while(t != null)
+                        {
+                            t.printStackTrace(printer);
+                            t = t.getCause();
+                        }
+                        final String exception = result.toString();
+                        Snackbar.make(screen, R.string.mistcalc, Snackbar.LENGTH_LONG).setAction(R.string.more_details, new View.OnClickListener()
                         {
                             public void onClick(View v)
                             {
                                 showDetails(MainActivity.this, exception);
                             }
-                        });
-                        snack.show();
+                        }).show();
                     }
                 }
             }
@@ -619,7 +547,11 @@ public class MainActivity extends AppCompatActivity
                 if (solved && !texto.isEmpty())
                 {
                     solved = false;
-                    if (!isOperator(texto.charAt(texto.length() - 1) + ""))
+                    if((texto.charAt(texto.length() - 1) + "").equals("(") || (texto.charAt(texto.length() - 1) + "").equals("."))
+                    {
+                        screen.setText(texto);
+                    }
+                    else if (!isOperator(texto.charAt(texto.length() - 1) + ""))
                     {
                         texto = texto.substring(texto.length() - 1);
                         screen.setText(texto);
@@ -640,28 +572,24 @@ public class MainActivity extends AppCompatActivity
                 else if (texto.equals("null") || texto.equals("NaN"))
                 {
                     screen.setText("");
-                    Snackbar snack = Snackbar.make(screen, R.string.mistcalc, Snackbar.LENGTH_LONG);
-                    snack.setAction(R.string.more_details, new View.OnClickListener()
+                    Snackbar.make(screen, R.string.mistcalc, Snackbar.LENGTH_LONG).setAction(R.string.more_details, new View.OnClickListener()
                     {
                         public void onClick(View v)
                         {
                             showDetails(MainActivity.this, "NULO");
                         }
-                    });
-                    snack.show();
+                    }).show();
                 }
                 else if (texto.equals("Infinity"))
                 {
                     screen.setText("");
-                    Snackbar snack = Snackbar.make(screen, R.string.mistcalc, Snackbar.LENGTH_LONG);
-                    snack.setAction(R.string.more_details, new View.OnClickListener()
+                    Snackbar.make(screen, R.string.mistcalc, Snackbar.LENGTH_LONG).setAction(R.string.more_details, new View.OnClickListener()
                     {
                         public void onClick(View v)
                         {
                             showDetails(MainActivity.this, "INF");
                         }
-                    });
-                    snack.show();
+                    }).show();
                 }
             }
 
@@ -718,11 +646,8 @@ public class MainActivity extends AppCompatActivity
             {
                 exit.dismiss();
                 finish();
-                int pid = android.os.Process.myPid();
-                android.os.Process.killProcess(pid);
-                Intent intento = new Intent(Intent.ACTION_MAIN);
-                intento.addCategory(Intent.CATEGORY_HOME);
-                startActivity(intento);
+                android.os.Process.killProcess(android.os.Process.myPid());
+                startActivity(new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_HOME));
             }
         });
         notOK.setOnClickListener(new OnClickListener()
@@ -772,11 +697,8 @@ public class MainActivity extends AppCompatActivity
         {
             public void onClick(View v)
             {
-                Intent share = new Intent(Intent.ACTION_SEND);
-                share.setType("text/plain");
-                share.putExtra(Intent.EXTRA_TEXT, errorT.getText().toString());
-                share.putExtra(Intent.EXTRA_SUBJECT, head.getText().toString());
-                startActivity(Intent.createChooser(share, getResources().getString(R.string.sendTit)));
+                detError.dismiss();
+                startActivity(Intent.createChooser(new Intent(Intent.ACTION_SEND).setType("text/plain").putExtra(Intent.EXTRA_TEXT, errorT.getText().toString()).putExtra(Intent.EXTRA_SUBJECT, head.getText().toString()), getResources().getString(R.string.sendTit)));
             }
         });
         detError.show();
@@ -794,11 +716,7 @@ public class MainActivity extends AppCompatActivity
         {
             public void onClick(View v)
             {
-                Intent share = new Intent(Intent.ACTION_SEND);
-                share.setType("text/plain");
-                share.putExtra(Intent.EXTRA_TEXT, lastOp);
-                //share.putExtra(Intent.EXTRA_SUBJECT, header);
-                startActivity(Intent.createChooser(share, getResources().getString(R.string.shareOp)));
+                startActivity(Intent.createChooser(new Intent(Intent.ACTION_SEND).setType("text/plain").putExtra(Intent.EXTRA_TEXT, lastOp), getResources().getString(R.string.shareOp)));
                 dialog.dismiss();
             }
         });
@@ -812,5 +730,4 @@ public class MainActivity extends AppCompatActivity
         });
         dialog.show();
     }
-
 }

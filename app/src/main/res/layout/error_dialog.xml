@@ -16,40 +16,46 @@
 		android:textStyle="bold|italic"
 		android:id="@+id/title"/>
 
-	<TextView
-		android:layout_height="wrap_content"
-		android:textAppearance="?android:attr/textAppearanceMedium"
-		android:layout_width="match_parent"
-		android:text="[Descripción del error...]"
-		android:textColor="#E9E9E9"
-		android:paddingLeft="12dp"
-		android:paddingRight="12dp"
-		android:paddingBottom="10dp"
-		android:id="@+id/errorText"/>
+    <androidx.core.widget.NestedScrollView
+        android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:text="[Descripción del error...]"
+                android:textColor="#E9E9E9"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/errorText"/>
 
-	<LinearLayout
-		android:layout_height="wrap_content"
-		android:layout_width="match_parent"
-		android:orientation="horizontal"
-		android:gravity="right"
-		android:paddingRight="15dp"
-		android:paddingBottom="18dp">
-
-		<Button
-			android:layout_height="wrap_content"
-			android:layout_width="wrap_content"
-			android:text="@string/send"
-			android:gravity="center"
-			android:paddingLeft="30dp"
-			android:paddingRight="30dp"
-			android:background="@color/send_colors"
-			android:textColor="#FFFFFF"
-			android:elevation="21dp"
-			android:id="@+id/SEND"
-			android:paddingTop="5dp"
-			android:paddingBottom="5dp"/>
-
-	</LinearLayout>
-
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:paddingRight="15dp"
+                android:paddingBottom="18dp">
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/send"
+                    android:gravity="center"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:background="@color/send_colors"
+                    android:textColor="#FFFFFF"
+                    android:elevation="21dp"
+                    android:id="@+id/SEND"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 </LinearLayout>
 

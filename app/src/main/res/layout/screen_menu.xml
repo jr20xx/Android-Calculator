@@ -15,7 +15,9 @@
 		android:orientation="horizontal"
 		android:id="@+id/copy_lay"
 		android:paddingTop="5dp"
-		android:paddingBottom="5dp">
+		android:paddingBottom="5dp"
+        android:focusable="true"
+        android:clickable="true">
 
 		<ImageView
 			android:layout_height="match_parent"
@@ -26,7 +28,9 @@
 			android:scaleType="fitCenter"
 			android:paddingTop="10dp"
 			android:paddingBottom="10dp"
-			android:paddingLeft="10dp"/>
+			android:paddingLeft="10dp"
+            android:focusable="false"
+            android:clickable="false"/>
 
 		<TextView
 			android:layout_height="wrap_content"
@@ -42,7 +46,9 @@
 			android:textStyle="bold"
 			android:paddingBottom="10dp"
 			android:paddingTop="10dp"
-			android:paddingLeft="7dp"/>
+			android:paddingLeft="7dp"
+            android:focusable="false"
+            android:clickable="false"/>
 
 	</LinearLayout>
 
@@ -52,7 +58,9 @@
 		android:orientation="horizontal"
 		android:id="@+id/cut_lay"
 		android:paddingBottom="5dp"
-		android:paddingTop="5dp">
+		android:paddingTop="5dp"
+        android:focusable="true"
+        android:clickable="true">
 
 		<ImageView
 			android:layout_height="match_parent"
@@ -63,7 +71,9 @@
 			android:scaleType="fitCenter"
 			android:paddingTop="10dp"
 			android:paddingBottom="10dp"
-			android:paddingLeft="10dp"/>
+			android:paddingLeft="10dp"
+            android:focusable="false"
+            android:clickable="false"/>
 
 		<TextView
 			android:id="@+id/cut"
@@ -79,7 +89,9 @@
 			android:textAlignment="gravity"
 			android:textAppearance="?android:attr/textAppearanceMedium"
 			android:textColor="#E6E6E6"
-			android:textStyle="bold" />
+			android:textStyle="bold"
+            android:focusable="false"
+            android:clickable="false"/>
 
 	</LinearLayout>
 
@@ -89,7 +101,9 @@
 		android:orientation="horizontal"
 		android:id="@+id/report_lay"
 		android:paddingBottom="5dp"
-		android:paddingTop="5dp">
+		android:paddingTop="5dp"
+        android:focusable="true"
+        android:clickable="true">
 
 		<ImageView
 			android:layout_height="match_parent"
@@ -101,7 +115,9 @@
 			android:paddingBottom="10dp"
 			android:paddingTop="10dp"
 			android:textAlignment="gravity"
-			android:paddingLeft="10dp"/>
+			android:paddingLeft="10dp"
+            android:focusable="false"
+            android:clickable="false"/>
 
 		<TextView
 			android:layout_height="wrap_content"
@@ -117,7 +133,9 @@
 			android:textStyle="bold"
 			android:paddingBottom="10dp"
 			android:paddingTop="10dp"
-			android:paddingLeft="7dp"/>
+			android:paddingLeft="7dp"
+            android:focusable="false"
+            android:clickable="false"/>
 
 	</LinearLayout>
 

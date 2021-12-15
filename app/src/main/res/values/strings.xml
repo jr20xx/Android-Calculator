@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RPN Calculator</string>
+    <string name="app_name">Calculator</string>
 	<string name="mistcalc">Something went wrong</string>
 	<string name="exit_message">Are you sure that you wanna leave?</string>
 	<string name="ok_text">YES</string>
