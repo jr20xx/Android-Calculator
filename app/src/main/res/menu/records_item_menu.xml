@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/copy_operation"
+        android:title="Copiar operación"/>
+    <item
+        android:id="@+id/copy_result"
+        android:title="Copiar resultado"/>
+    <item
+        android:id="@+id/delete_history_item"
+        android:title="Eliminar"/>
+</menu>
