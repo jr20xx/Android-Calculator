@@ -2,7 +2,7 @@
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:installLocation="preferExternal"
-    package="cu.lt.ult.jrja.rpn.calc" >
+    package="cu.lt.joe.calculator" >
 
     <application
         android:allowBackup="true"

@@ -1,4 +1,4 @@
-package cu.lt.ult.jrja.rpn.calc;
+package cu.lt.joe.calculator;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -27,21 +27,18 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.snackbar.Snackbar;
-import cu.lt.ult.jrja.rpn.calc.MainActivity;
-import cu.lt.ult.jrja.rpn.calc.R;
-import cu.lt.ult.jrja.rpn.calc.adapters.OperationsHistoryAdapter;
-import cu.lt.ult.jrja.rpn.calc.data_structures.Queue;
-import cu.lt.ult.jrja.rpn.calc.data_structures.Stack;
-import cu.lt.ult.jrja.rpn.calc.db.HistoryDatabaseHandler;
-import cu.lt.ult.jrja.rpn.calc.exceptions.InfinityResultException;
-import cu.lt.ult.jrja.rpn.calc.exceptions.NotNumericResultException;
-import cu.lt.ult.jrja.rpn.calc.exceptions.UnbalancedParenthesesException;
-import cu.lt.ult.jrja.rpn.calc.models.HistoryItem;
-import cu.lt.ult.jrja.rpn.calc.utils.RPN;
-import cu.lt.ult.jrja.rpn.calc.utils.SY;
+import cu.lt.joe.calculator.adapters.OperationsHistoryAdapter;
+import cu.lt.joe.calculator.data_structures.Stack;
+import cu.lt.joe.calculator.db.HistoryDatabaseHandler;
+import cu.lt.joe.calculator.exceptions.InfinityResultException;
+import cu.lt.joe.calculator.exceptions.NotNumericResultException;
+import cu.lt.joe.calculator.exceptions.UnbalancedParenthesesException;
+import cu.lt.joe.calculator.models.HistoryItem;
+import cu.lt.joe.calculator.utils.RPN;
+import cu.lt.joe.calculator.utils.SY;
+import cu.lt.joe.calculator.R;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import android.view.animation.AnimationUtils;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, View.OnLongClickListener
 {

@@ -1,8 +1,8 @@
-package cu.lt.ult.jrja.rpn.calc.utils;
+package cu.lt.joe.calculator.utils;
 
-import cu.lt.ult.jrja.rpn.calc.data_structures.Queue;
-import cu.lt.ult.jrja.rpn.calc.data_structures.Stack;
-import cu.lt.ult.jrja.rpn.calc.exceptions.UnbalancedParenthesesException;
+import cu.lt.joe.calculator.data_structures.Queue;
+import cu.lt.joe.calculator.data_structures.Stack;
+import cu.lt.joe.calculator.exceptions.UnbalancedParenthesesException;
 
 public class SY
 {

@@ -1,4 +1,4 @@
-package cu.lt.ult.jrja.rpn.calc.exceptions;
+package cu.lt.joe.calculator.exceptions;
 
 public class NotNumericResultException extends RuntimeException
 {

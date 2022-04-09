@@ -1,12 +1,12 @@
-package cu.lt.ult.jrja.rpn.calc.db;
+package cu.lt.joe.calculator.db;
 
-import android.database.sqlite.SQLiteOpenHelper;
-import android.database.sqlite.SQLiteDatabase;
-import android.content.Context;
 import android.content.ContentValues;
-import java.util.ArrayList;
-import cu.lt.ult.jrja.rpn.calc.models.HistoryItem;
+import android.content.Context;
 import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+import cu.lt.joe.calculator.models.HistoryItem;
+import java.util.ArrayList;
 
 public class HistoryDatabaseHandler extends SQLiteOpenHelper
 {

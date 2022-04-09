@@ -1,4 +1,4 @@
-package cu.lt.ult.jrja.rpn.calc.data_structures;
+package cu.lt.joe.calculator.data_structures;
 
 public class Queue<T>
 {

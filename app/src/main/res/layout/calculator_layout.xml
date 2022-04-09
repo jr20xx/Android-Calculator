@@ -5,12 +5,11 @@
 	android:layout_height="match_parent"
 	android:layout_width="match_parent"
 	android:orientation="vertical"
-	android:background="#1F1F1F"
 	android:gravity="center">
 
 	<LinearLayout
 		android:layout_margin="10dp"
-		android:background="@color/screen"
+		android:background="@drawable/screen"
 		android:orientation="vertical"
 		android:layout_height="wrap_content"
 		android:layout_width="match_parent"
@@ -32,7 +31,6 @@
 			android:layout_width="match_parent"
 			android:gravity="bottom|right"
 			android:id="@+id/screen"
-			android:textColor="#FFFFFF"
 			android:textStyle="bold"
 			android:textSize="32sp"
 			android:singleLine="true"
@@ -61,9 +59,8 @@
 				android:layout_height="wrap_content"
 				android:layout_width="match_parent"
 				android:text="("
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:background="@color/operators"
+				android:background="@drawable/operators"
 				android:textStyle="bold"
 				android:id="@+id/openParentheses"
 				android:layout_weight="1.0"
@@ -74,9 +71,8 @@
 				android:layout_width="match_parent"
 				android:text="7"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:background="@color/numbers"
+				android:background="@drawable/numbers"
 				android:id="@+id/seven"
 				android:onClick="onClick"/>
 
@@ -85,9 +81,8 @@
 				android:layout_width="match_parent"
 				android:text="4"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:background="@color/numbers"
+				android:background="@drawable/numbers"
 				android:id="@+id/four"
 				android:onClick="onClick"/>
 
@@ -96,9 +91,8 @@
 				android:layout_width="match_parent"
 				android:text="1"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:background="@color/numbers"
+				android:background="@drawable/numbers"
 				android:id="@+id/one"
 				android:onClick="onClick"/>
 
@@ -107,10 +101,9 @@
 				android:layout_width="match_parent"
 				android:text="0"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:id="@+id/zero"
-				android:background="@color/numbers"
+				android:background="@drawable/numbers"
 				android:onClick="onClick"/>
 
 		</LinearLayout>
@@ -125,11 +118,10 @@
 				android:layout_height="wrap_content"
 				android:layout_width="match_parent"
 				android:text=")"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:textStyle="bold"
 				android:id="@+id/closeParentheses"
-				android:background="@color/operators"
+				android:background="@drawable/operators"
 				android:layout_weight="1.0"
 				android:onClick="onClick"/>
 
@@ -138,9 +130,8 @@
 				android:layout_width="match_parent"
 				android:text="8"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:background="@color/numbers"
+				android:background="@drawable/numbers"
 				android:id="@+id/eight"
 				android:onClick="onClick"/>
 
@@ -149,9 +140,8 @@
 				android:layout_width="match_parent"
 				android:text="5"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:background="@color/numbers"
+				android:background="@drawable/numbers"
 				android:id="@+id/five"
 				android:onClick="onClick"/>
 
@@ -160,9 +150,8 @@
 				android:layout_width="match_parent"
 				android:text="2"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:background="@color/numbers"
+				android:background="@drawable/numbers"
 				android:id="@+id/two"
 				android:onClick="onClick"/>
 
@@ -171,11 +160,10 @@
 				android:layout_width="match_parent"
 				android:text="."
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:textStyle="bold"
 				android:id="@+id/comma"
-				android:background="@color/operators"
+				android:background="@drawable/operators"
 				android:onClick="onClick"/>
 
 		</LinearLayout>
@@ -190,11 +178,10 @@
 				android:layout_height="wrap_content"
 				android:layout_width="match_parent"
 				android:text="%"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:textStyle="bold"
 				android:id="@+id/modDiv"
-				android:background="@color/basic"
+				android:background="@drawable/basic"
 				android:layout_weight="1.0"
 				android:onClick="onClick"/>
 
@@ -203,9 +190,8 @@
 				android:layout_width="match_parent"
 				android:text="9"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:background="@color/numbers"
+				android:background="@drawable/numbers"
 				android:id="@+id/nine"
 				android:onClick="onClick"/>
 
@@ -214,9 +200,8 @@
 				android:layout_width="match_parent"
 				android:text="6"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:background="@color/numbers"
+				android:background="@drawable/numbers"
 				android:id="@+id/six"
 				android:onClick="onClick"/>
 
@@ -225,9 +210,8 @@
 				android:layout_width="match_parent"
 				android:text="3"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:background="@color/numbers"
+				android:background="@drawable/numbers"
 				android:id="@+id/three"
 				android:onClick="onClick"/>
 
@@ -236,11 +220,10 @@
 				android:layout_width="match_parent"
 				android:text="="
 				android:layout_weight="1"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:textStyle="bold"
 				android:id="@+id/equal"
-				android:background="@color/equals"
+				android:background="@drawable/equals"
 				android:onClick="onClick"/>
 
 		</LinearLayout>
@@ -255,7 +238,7 @@
 				android:id="@+id/delete"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				android:background="@color/back"
+				android:background="@drawable/back"
 				app:srcCompat="@drawable/ic_backspace"
 				android:onClick="onClick"
 				android:layout_weight="1"/>
@@ -265,11 +248,10 @@
 				android:layout_width="match_parent"
 				android:text="÷"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:textStyle="bold"
 				android:id="@+id/divide"
-				android:background="@color/basic"
+				android:background="@drawable/basic"
 				android:onClick="onClick"/>
 
 			<Button
@@ -277,11 +259,10 @@
 				android:layout_width="match_parent"
 				android:text="×"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:textStyle="bold"
 				android:id="@+id/multiply"
-				android:background="@color/basic"
+				android:background="@drawable/basic"
 				android:onClick="onClick"/>
 
 			<Button
@@ -289,11 +270,10 @@
 				android:layout_width="match_parent"
 				android:text="-"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:textStyle="bold"
 				android:id="@+id/subtract"
-				android:background="@color/basic"
+				android:background="@drawable/basic"
 				android:onClick="onClick"/>
 
 			<Button
@@ -301,11 +281,10 @@
 				android:layout_width="match_parent"
 				android:text="+"
 				android:layout_weight="1.0"
-				android:textColor="#FFFFFF"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:textStyle="bold"
 				android:id="@+id/add"
-				android:background="@color/basic"
+				android:background="@drawable/basic"
 				android:onClick="onClick"/>
 
 		</LinearLayout>
@@ -313,4 +292,3 @@
 	</LinearLayout>
 
 </LinearLayout>
-

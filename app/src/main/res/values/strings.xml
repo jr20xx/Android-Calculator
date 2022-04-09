@@ -14,10 +14,11 @@
 	<string name="nan_error">The error was produced because the algorithm returned a value that isn\'t a number</string>
 	<string name="send">SEND</string>
 	<string name="sendTit">Share the information about the error</string>
-	<string name="badOp">Send last operation as an example of a bad result?</string>
-	<string name="shareOp">Share last operation</string>
 	<string name="copy">Copy</string>
 	<string name="cutText">Text transfered to clipboard</string>
 	<string name="cut">Cut</string>
-	<string name="report">Report last operation</string>
+    <string name="history_label">History</string>
+    <string name="copy_operation_label">Copy operation</string>
+    <string name="copy_result_label">Copy result</string>
+    <string name="delete_history_item_label">Delete</string>
 </resources>

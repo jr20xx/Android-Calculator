@@ -1,4 +1,4 @@
-package cu.lt.ult.jrja.rpn.calc.models;
+package cu.lt.joe.calculator.models;
 
 public class HistoryItem
 {

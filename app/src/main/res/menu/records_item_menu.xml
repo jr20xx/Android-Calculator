@@ -3,11 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/copy_operation"
-        android:title="Copiar operación"/>
+        android:title="@string/copy_operation_label"/>
     <item
         android:id="@+id/copy_result"
-        android:title="Copiar resultado"/>
+        android:title="@string/copy_result_label"/>
     <item
         android:id="@+id/delete_history_item"
-        android:title="Eliminar"/>
+        android:title="@string/delete_history_item_label"/>
 </menu>

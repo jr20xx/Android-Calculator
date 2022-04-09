@@ -3,96 +3,99 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_height="match_parent"
 	android:layout_width="match_parent"
-	xmlns:app="http://schemas.android.com/apk/res-auto"
 	android:orientation="vertical"
-	android:background="#202020"
-	android:paddingTop="10dp"
-	android:paddingBottom="10dp">
+	android:padding="18dp">
 
 	<LinearLayout
-		android:layout_height="wrap_content"
+		android:layout_height="match_parent"
 		android:layout_width="match_parent"
-		android:orientation="horizontal"
-		android:id="@+id/copy_lay"
-		android:paddingTop="5dp"
-		android:paddingBottom="5dp"
-        android:focusable="true"
-        android:clickable="true">
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:orientation="vertical"
+		android:background="@drawable/common_bsd_background">
 
-		<ImageView
-			android:layout_height="match_parent"
-			android:layout_width="wrap_content"
-			app:srcCompat="@drawable/ic_copy"
-			android:id="@+id/img_copy"
-			android:layout_gravity="center_vertical|center_horizontal"
-			android:scaleType="fitCenter"
-			android:paddingTop="10dp"
-			android:paddingBottom="10dp"
-			android:paddingLeft="10dp"
-            android:focusable="false"
-            android:clickable="false"/>
-
-		<TextView
+		<LinearLayout
 			android:layout_height="wrap_content"
-			android:layout_width="wrap_content"
-			android:text="@string/copy"
-			android:id="@+id/copy"
-			android:textColor="#E6E6E6"
-			android:gravity="left|center_vertical"
-			android:textAlignment="gravity"
-			android:layout_weight="1.0"
-			android:background="#202020"
-			android:textAppearance="?android:attr/textAppearanceMedium"
-			android:textStyle="bold"
-			android:paddingBottom="10dp"
-			android:paddingTop="10dp"
-			android:paddingLeft="7dp"
-            android:focusable="false"
-            android:clickable="false"/>
-
-	</LinearLayout>
-
-	<LinearLayout
-		android:layout_height="wrap_content"
-		android:layout_width="match_parent"
-		android:orientation="horizontal"
-		android:id="@+id/cut_lay"
-		android:paddingBottom="5dp"
-		android:paddingTop="5dp"
-        android:focusable="true"
-        android:clickable="true">
-
-		<ImageView
-			android:layout_height="match_parent"
-			android:layout_width="wrap_content"
-			app:srcCompat="@drawable/ic_cut"
-			android:id="@+id/img_cut"
-			android:layout_gravity="center_vertical|center_horizontal"
-			android:scaleType="fitCenter"
-			android:paddingTop="10dp"
-			android:paddingBottom="10dp"
-			android:paddingLeft="10dp"
-            android:focusable="false"
-            android:clickable="false"/>
-
-		<TextView
-			android:id="@+id/cut"
 			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:id="@+id/copy_lay"
+			android:paddingTop="5dp"
+			android:paddingBottom="5dp"
+			android:focusable="true"
+			android:clickable="true">
+
+			<ImageView
+				android:layout_height="match_parent"
+				android:layout_width="wrap_content"
+				app:srcCompat="@drawable/ic_copy"
+				android:id="@+id/img_copy"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:scaleType="fitCenter"
+				android:paddingTop="10dp"
+				android:paddingBottom="10dp"
+				android:paddingLeft="10dp"
+				android:focusable="false"
+				android:clickable="false"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/copy"
+				android:id="@+id/copy"
+				android:gravity="left|center_vertical"
+				android:textAlignment="gravity"
+				android:layout_weight="1.0"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textStyle="bold"
+				android:paddingBottom="10dp"
+				android:paddingTop="10dp"
+				android:paddingLeft="7dp"
+				android:focusable="false"
+				android:clickable="false"/>
+
+		</LinearLayout>
+
+		<LinearLayout
 			android:layout_height="wrap_content"
-			android:layout_weight="1.0"
-			android:background="#202020"
-			android:gravity="left|center_vertical"
-			android:paddingLeft="7dp"
-			android:paddingTop="10dp"
-			android:paddingBottom="10dp"
-			android:text="@string/cut"
-			android:textAlignment="gravity"
-			android:textAppearance="?android:attr/textAppearanceMedium"
-			android:textColor="#E6E6E6"
-			android:textStyle="bold"
-            android:focusable="false"
-            android:clickable="false"/>
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:id="@+id/cut_lay"
+			android:paddingBottom="5dp"
+			android:paddingTop="5dp"
+			android:focusable="true"
+			android:clickable="true">
+
+			<ImageView
+				android:layout_height="match_parent"
+				android:layout_width="wrap_content"
+				app:srcCompat="@drawable/ic_cut"
+				android:id="@+id/img_cut"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:scaleType="fitCenter"
+				android:paddingTop="10dp"
+				android:paddingBottom="10dp"
+				android:paddingLeft="10dp"
+				android:focusable="false"
+				android:clickable="false"/>
+
+			<TextView
+				android:id="@+id/cut"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				android:gravity="left|center_vertical"
+				android:paddingLeft="7dp"
+				android:paddingTop="10dp"
+				android:paddingBottom="10dp"
+				android:text="@string/cut"
+				android:textAlignment="gravity"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textStyle="bold"
+				android:focusable="false"
+				android:clickable="false"/>
+
+		</LinearLayout>
 
 	</LinearLayout>
 
 </LinearLayout>
+

@@ -1,9 +1,9 @@
-package cu.lt.ult.jrja.rpn.calc.utils;
+package cu.lt.joe.calculator.utils;
 
-import cu.lt.ult.jrja.rpn.calc.data_structures.Stack;
-import cu.lt.ult.jrja.rpn.calc.exceptions.InfinityResultException;
-import cu.lt.ult.jrja.rpn.calc.exceptions.NotNumericResultException;
-import cu.lt.ult.jrja.rpn.calc.exceptions.UnregisteredOperationException;
+import cu.lt.joe.calculator.data_structures.Stack;
+import cu.lt.joe.calculator.exceptions.InfinityResultException;
+import cu.lt.joe.calculator.exceptions.NotNumericResultException;
+import cu.lt.joe.calculator.exceptions.UnregisteredOperationException;
 import java.math.BigDecimal;
 
 public class RPN

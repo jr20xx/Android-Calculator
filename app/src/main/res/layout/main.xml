@@ -24,7 +24,7 @@
 		android:layout_weight="1"
 		android:fitsSystemWindows="true">
 		<TextView
-            android:text="Historial"
+            android:text="@string/history_label"
             android:gravity="center"
             android:layout_alignParentTop="true"
             android:id="@+id/history_header_tv"

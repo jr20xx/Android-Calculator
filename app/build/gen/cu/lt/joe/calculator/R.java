@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package cu.lt.ult.jrja.rpn.calc;
+package cu.lt.joe.calculator;
 
 public final class R {
     public static final class anim {
@@ -4103,38 +4103,36 @@ containing a value of this type.
         public static final int mtrl_btn_textappearance_all_caps=0x7f0c0000;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a0055;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0a0056;
-        public static final int abc_btn_colored_borderless_text_material=0x7f0a0057;
-        public static final int abc_btn_colored_text_material=0x7f0a0058;
-        public static final int abc_color_highlight_material=0x7f0a0059;
-        public static final int abc_hint_foreground_material_dark=0x7f0a005a;
-        public static final int abc_hint_foreground_material_light=0x7f0a005b;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a0059;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0a005a;
+        public static final int abc_btn_colored_borderless_text_material=0x7f0a005b;
+        public static final int abc_btn_colored_text_material=0x7f0a005c;
+        public static final int abc_color_highlight_material=0x7f0a005d;
+        public static final int abc_hint_foreground_material_dark=0x7f0a005e;
+        public static final int abc_hint_foreground_material_light=0x7f0a005f;
         public static final int abc_input_method_navigation_guard=0x7f0a001b;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0a005c;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0a005d;
-        public static final int abc_primary_text_material_dark=0x7f0a005e;
-        public static final int abc_primary_text_material_light=0x7f0a005f;
-        public static final int abc_search_url_text=0x7f0a0060;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0a0060;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0a0061;
+        public static final int abc_primary_text_material_dark=0x7f0a0062;
+        public static final int abc_primary_text_material_light=0x7f0a0063;
+        public static final int abc_search_url_text=0x7f0a0064;
         public static final int abc_search_url_text_normal=0x7f0a001c;
         public static final int abc_search_url_text_pressed=0x7f0a001d;
         public static final int abc_search_url_text_selected=0x7f0a001e;
-        public static final int abc_secondary_text_material_dark=0x7f0a0061;
-        public static final int abc_secondary_text_material_light=0x7f0a0062;
-        public static final int abc_tint_btn_checkable=0x7f0a0063;
-        public static final int abc_tint_default=0x7f0a0064;
-        public static final int abc_tint_edittext=0x7f0a0065;
-        public static final int abc_tint_seek_thumb=0x7f0a0066;
-        public static final int abc_tint_spinner=0x7f0a0067;
-        public static final int abc_tint_switch_track=0x7f0a0068;
+        public static final int abc_secondary_text_material_dark=0x7f0a0065;
+        public static final int abc_secondary_text_material_light=0x7f0a0066;
+        public static final int abc_tint_btn_checkable=0x7f0a0067;
+        public static final int abc_tint_default=0x7f0a0068;
+        public static final int abc_tint_edittext=0x7f0a0069;
+        public static final int abc_tint_seek_thumb=0x7f0a006a;
+        public static final int abc_tint_spinner=0x7f0a006b;
+        public static final int abc_tint_switch_track=0x7f0a006c;
         public static final int accent_material_dark=0x7f0a001f;
         public static final int accent_material_light=0x7f0a0020;
-        public static final int back=0x7f0a0069;
         public static final int background_floating_material_dark=0x7f0a0021;
         public static final int background_floating_material_light=0x7f0a0022;
         public static final int background_material_dark=0x7f0a0023;
         public static final int background_material_light=0x7f0a0024;
-        public static final int basic=0x7f0a006a;
         public static final int bright_foreground_disabled_material_dark=0x7f0a0025;
         public static final int bright_foreground_disabled_material_light=0x7f0a0026;
         public static final int bright_foreground_inverse_material_dark=0x7f0a0027;
@@ -4147,10 +4145,13 @@ containing a value of this type.
         public static final int cardview_light_background=0x7f0a0001;
         public static final int cardview_shadow_end_color=0x7f0a0002;
         public static final int cardview_shadow_start_color=0x7f0a0003;
+        public static final int colorAccent=0x7f0a0055;
+        public static final int colorPrimary=0x7f0a0056;
+        public static final int colorPrimaryDark=0x7f0a0057;
         public static final int design_bottom_navigation_shadow_color=0x7f0a0004;
         public static final int design_default_color_primary=0x7f0a0005;
         public static final int design_default_color_primary_dark=0x7f0a0006;
-        public static final int design_error=0x7f0a006b;
+        public static final int design_error=0x7f0a006d;
         public static final int design_fab_shadow_end_color=0x7f0a0007;
         public static final int design_fab_shadow_mid_color=0x7f0a0008;
         public static final int design_fab_shadow_start_color=0x7f0a0009;
@@ -4159,12 +4160,11 @@ containing a value of this type.
         public static final int design_fab_stroke_top_inner_color=0x7f0a000c;
         public static final int design_fab_stroke_top_outer_color=0x7f0a000d;
         public static final int design_snackbar_background_color=0x7f0a000e;
-        public static final int design_tint_password_toggle=0x7f0a006c;
+        public static final int design_tint_password_toggle=0x7f0a006e;
         public static final int dim_foreground_disabled_material_dark=0x7f0a002d;
         public static final int dim_foreground_disabled_material_light=0x7f0a002e;
         public static final int dim_foreground_material_dark=0x7f0a002f;
         public static final int dim_foreground_material_light=0x7f0a0030;
-        public static final int equals=0x7f0a006d;
         public static final int error_color_material_dark=0x7f0a0031;
         public static final int error_color_material_light=0x7f0a0032;
         public static final int foreground_material_dark=0x7f0a0033;
@@ -4183,37 +4183,34 @@ containing a value of this type.
         public static final int material_grey_800=0x7f0a0040;
         public static final int material_grey_850=0x7f0a0041;
         public static final int material_grey_900=0x7f0a0042;
-        public static final int mtrl_bottom_nav_colored_item_tint=0x7f0a006e;
-        public static final int mtrl_bottom_nav_item_tint=0x7f0a006f;
+        public static final int mtrl_bottom_nav_colored_item_tint=0x7f0a006f;
+        public static final int mtrl_bottom_nav_item_tint=0x7f0a0070;
         public static final int mtrl_btn_bg_color_disabled=0x7f0a000f;
-        public static final int mtrl_btn_bg_color_selector=0x7f0a0070;
-        public static final int mtrl_btn_ripple_color=0x7f0a0071;
-        public static final int mtrl_btn_stroke_color_selector=0x7f0a0072;
-        public static final int mtrl_btn_text_btn_ripple_color=0x7f0a0073;
+        public static final int mtrl_btn_bg_color_selector=0x7f0a0071;
+        public static final int mtrl_btn_ripple_color=0x7f0a0072;
+        public static final int mtrl_btn_stroke_color_selector=0x7f0a0073;
+        public static final int mtrl_btn_text_btn_ripple_color=0x7f0a0074;
         public static final int mtrl_btn_text_color_disabled=0x7f0a0010;
-        public static final int mtrl_btn_text_color_selector=0x7f0a0074;
+        public static final int mtrl_btn_text_color_selector=0x7f0a0075;
         public static final int mtrl_btn_transparent_bg_color=0x7f0a0011;
-        public static final int mtrl_chip_background_color=0x7f0a0075;
-        public static final int mtrl_chip_close_icon_tint=0x7f0a0076;
-        public static final int mtrl_chip_ripple_color=0x7f0a0077;
-        public static final int mtrl_chip_text_color=0x7f0a0078;
-        public static final int mtrl_fab_ripple_color=0x7f0a0079;
+        public static final int mtrl_chip_background_color=0x7f0a0076;
+        public static final int mtrl_chip_close_icon_tint=0x7f0a0077;
+        public static final int mtrl_chip_ripple_color=0x7f0a0078;
+        public static final int mtrl_chip_text_color=0x7f0a0079;
+        public static final int mtrl_fab_ripple_color=0x7f0a007a;
         public static final int mtrl_scrim_color=0x7f0a0012;
-        public static final int mtrl_tabs_colored_ripple_color=0x7f0a007a;
-        public static final int mtrl_tabs_icon_color_selector=0x7f0a007b;
-        public static final int mtrl_tabs_icon_color_selector_colored=0x7f0a007c;
-        public static final int mtrl_tabs_legacy_text_color_selector=0x7f0a007d;
-        public static final int mtrl_tabs_ripple_color=0x7f0a007e;
-        public static final int mtrl_text_btn_text_color_selector=0x7f0a007f;
+        public static final int mtrl_tabs_colored_ripple_color=0x7f0a007b;
+        public static final int mtrl_tabs_icon_color_selector=0x7f0a007c;
+        public static final int mtrl_tabs_icon_color_selector_colored=0x7f0a007d;
+        public static final int mtrl_tabs_legacy_text_color_selector=0x7f0a007e;
+        public static final int mtrl_tabs_ripple_color=0x7f0a007f;
+        public static final int mtrl_text_btn_text_color_selector=0x7f0a0080;
         public static final int mtrl_textinput_default_box_stroke_color=0x7f0a0013;
         public static final int mtrl_textinput_disabled_color=0x7f0a0014;
         public static final int mtrl_textinput_filled_box_default_background_color=0x7f0a0015;
         public static final int mtrl_textinput_hovered_box_stroke_color=0x7f0a0016;
         public static final int notification_action_color_filter=0x7f0a0017;
         public static final int notification_icon_bg_color=0x7f0a0018;
-        public static final int numbers=0x7f0a0080;
-        public static final int ok_exit=0x7f0a0081;
-        public static final int operators=0x7f0a0082;
         public static final int primary_dark_material_dark=0x7f0a0043;
         public static final int primary_dark_material_light=0x7f0a0044;
         public static final int primary_material_dark=0x7f0a0045;
@@ -4222,21 +4219,19 @@ containing a value of this type.
         public static final int primary_text_default_material_light=0x7f0a0048;
         public static final int primary_text_disabled_material_dark=0x7f0a0049;
         public static final int primary_text_disabled_material_light=0x7f0a004a;
-        public static final int report_ok=0x7f0a0083;
         public static final int ripple_material_dark=0x7f0a004b;
         public static final int ripple_material_light=0x7f0a0019;
-        public static final int screen=0x7f0a0084;
         public static final int secondary_text_default_material_dark=0x7f0a004c;
         public static final int secondary_text_default_material_light=0x7f0a001a;
         public static final int secondary_text_disabled_material_dark=0x7f0a004d;
         public static final int secondary_text_disabled_material_light=0x7f0a004e;
-        public static final int send_colors=0x7f0a0085;
         public static final int switch_thumb_disabled_material_dark=0x7f0a004f;
         public static final int switch_thumb_disabled_material_light=0x7f0a0050;
-        public static final int switch_thumb_material_dark=0x7f0a0086;
-        public static final int switch_thumb_material_light=0x7f0a0087;
+        public static final int switch_thumb_material_dark=0x7f0a0081;
+        public static final int switch_thumb_material_light=0x7f0a0082;
         public static final int switch_thumb_normal_material_dark=0x7f0a0051;
         public static final int switch_thumb_normal_material_light=0x7f0a0052;
+        public static final int textColor=0x7f0a0058;
         public static final int tooltip_background_dark=0x7f0a0053;
         public static final int tooltip_background_light=0x7f0a0054;
     }
@@ -4543,54 +4538,62 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020052;
         public static final int abc_vector_test=0x7f020053;
         public static final int avd_hide_password=0x7f020054;
-        public static final int avd_hide_password_1=0x7f020077;
-        public static final int avd_hide_password_2=0x7f020078;
-        public static final int avd_hide_password_3=0x7f020079;
+        public static final int avd_hide_password_1=0x7f020081;
+        public static final int avd_hide_password_2=0x7f020082;
+        public static final int avd_hide_password_3=0x7f020083;
         public static final int avd_show_password=0x7f020055;
-        public static final int avd_show_password_1=0x7f02007a;
-        public static final int avd_show_password_2=0x7f02007b;
-        public static final int avd_show_password_3=0x7f02007c;
-        public static final int design_bottom_navigation_item_background=0x7f020056;
-        public static final int design_fab_background=0x7f020057;
-        public static final int design_ic_visibility=0x7f020058;
-        public static final int design_ic_visibility_off=0x7f020059;
-        public static final int design_password_eye=0x7f02005a;
-        public static final int design_snackbar_background=0x7f02005b;
-        public static final int ic_backspace=0x7f02005c;
-        public static final int ic_clear_records=0x7f02005d;
-        public static final int ic_copy=0x7f02005e;
-        public static final int ic_cut=0x7f02005f;
-        public static final int ic_history=0x7f020060;
-        public static final int ic_launcher=0x7f020061;
-        public static final int ic_mtrl_chip_checked_black=0x7f020062;
-        public static final int ic_mtrl_chip_checked_circle=0x7f020063;
-        public static final int ic_mtrl_chip_close_circle=0x7f020064;
-        public static final int ic_report=0x7f020065;
-        public static final int mtrl_snackbar_background=0x7f020066;
-        public static final int mtrl_tabs_default_indicator=0x7f020067;
-        public static final int navigation_empty_icon=0x7f020068;
-        public static final int notification_action_background=0x7f020069;
-        public static final int notification_bg=0x7f02006a;
-        public static final int notification_bg_low=0x7f02006b;
-        public static final int notification_bg_low_normal=0x7f02006c;
-        public static final int notification_bg_low_pressed=0x7f02006d;
-        public static final int notification_bg_normal=0x7f02006e;
-        public static final int notification_bg_normal_pressed=0x7f02006f;
-        public static final int notification_icon_background=0x7f020070;
-        public static final int notification_template_icon_bg=0x7f020075;
-        public static final int notification_template_icon_low_bg=0x7f020076;
-        public static final int notification_tile_bg=0x7f020071;
-        public static final int notify_panel_notification_icon_bg=0x7f020072;
-        public static final int tooltip_frame_dark=0x7f020073;
-        public static final int tooltip_frame_light=0x7f020074;
+        public static final int avd_show_password_1=0x7f020084;
+        public static final int avd_show_password_2=0x7f020085;
+        public static final int avd_show_password_3=0x7f020086;
+        public static final int back=0x7f020056;
+        public static final int basic=0x7f020057;
+        public static final int common_bsd_background=0x7f020058;
+        public static final int design_bottom_navigation_item_background=0x7f020059;
+        public static final int design_fab_background=0x7f02005a;
+        public static final int design_ic_visibility=0x7f02005b;
+        public static final int design_ic_visibility_off=0x7f02005c;
+        public static final int design_password_eye=0x7f02005d;
+        public static final int design_snackbar_background=0x7f02005e;
+        public static final int equals=0x7f02005f;
+        public static final int ic_backspace=0x7f020060;
+        public static final int ic_clear_records=0x7f020061;
+        public static final int ic_copy=0x7f020062;
+        public static final int ic_cut=0x7f020063;
+        public static final int ic_history=0x7f020064;
+        public static final int ic_launcher=0x7f020065;
+        public static final int ic_mtrl_chip_checked_black=0x7f020066;
+        public static final int ic_mtrl_chip_checked_circle=0x7f020067;
+        public static final int ic_mtrl_chip_close_circle=0x7f020068;
+        public static final int mtrl_snackbar_background=0x7f020069;
+        public static final int mtrl_tabs_default_indicator=0x7f02006a;
+        public static final int navigation_empty_icon=0x7f02006b;
+        public static final int notification_action_background=0x7f02006c;
+        public static final int notification_bg=0x7f02006d;
+        public static final int notification_bg_low=0x7f02006e;
+        public static final int notification_bg_low_normal=0x7f02006f;
+        public static final int notification_bg_low_pressed=0x7f020070;
+        public static final int notification_bg_normal=0x7f020071;
+        public static final int notification_bg_normal_pressed=0x7f020072;
+        public static final int notification_icon_background=0x7f020073;
+        public static final int notification_template_icon_bg=0x7f02007f;
+        public static final int notification_template_icon_low_bg=0x7f020080;
+        public static final int notification_tile_bg=0x7f020074;
+        public static final int notify_panel_notification_icon_bg=0x7f020075;
+        public static final int numbers=0x7f020076;
+        public static final int ok_exit=0x7f020077;
+        public static final int operators=0x7f020078;
+        public static final int report_ok=0x7f020079;
+        public static final int screen=0x7f02007a;
+        public static final int send_colors=0x7f02007b;
+        public static final int tooltip_frame_dark=0x7f02007c;
+        public static final int tooltip_frame_light=0x7f02007d;
+        public static final int window_background=0x7f02007e;
     }
     public static final class id {
         public static final int ALT=0x7f08005e;
         public static final int CTRL=0x7f08005f;
         public static final int FUNCTION=0x7f080060;
-        public static final int I_do=0x7f0800d5;
         public static final int I_do_want=0x7f0800bf;
-        public static final int I_dont=0x7f0800d4;
         public static final int I_dont_want=0x7f0800be;
         public static final int META=0x7f080061;
         public static final int SEND=0x7f0800bd;
@@ -4640,18 +4643,18 @@ containing a value of this type.
         public static final int content=0x7f080082;
         public static final int contentPanel=0x7f080075;
         public static final int coordinator=0x7f0800b3;
-        public static final int copy=0x7f0800d8;
-        public static final int copy_lay=0x7f0800d6;
-        public static final int copy_operation=0x7f0800de;
-        public static final int copy_result=0x7f0800df;
+        public static final int copy=0x7f0800d6;
+        public static final int copy_lay=0x7f0800d4;
+        public static final int copy_operation=0x7f0800dc;
+        public static final int copy_result=0x7f0800dd;
         public static final int custom=0x7f08007c;
         public static final int customPanel=0x7f08007b;
-        public static final int cut=0x7f0800db;
-        public static final int cut_lay=0x7f0800d9;
+        public static final int cut=0x7f0800d9;
+        public static final int cut_lay=0x7f0800d7;
         public static final int decor_content_parent=0x7f08008b;
         public static final int default_activity_button=0x7f08006f;
         public static final int delete=0x7f0800ad;
-        public static final int delete_history_item=0x7f0800e0;
+        public static final int delete_history_item=0x7f0800de;
         public static final int design_bottom_sheet=0x7f0800b5;
         public static final int design_menu_item_action_area=0x7f0800ba;
         public static final int design_menu_item_action_area_stub=0x7f0800b9;
@@ -4690,8 +4693,8 @@ containing a value of this type.
         public static final int icon_group=0x7f0800d3;
         public static final int ifRoom=0x7f080066;
         public static final int image=0x7f08006e;
-        public static final int img_copy=0x7f0800d7;
-        public static final int img_cut=0x7f0800da;
+        public static final int img_copy=0x7f0800d5;
+        public static final int img_cut=0x7f0800d8;
         public static final int info=0x7f0800cc;
         public static final int italic=0x7f080051;
         public static final int item_touch_helper_previous_elevation=0x7f080000;
@@ -4702,7 +4705,7 @@ containing a value of this type.
         public static final int line3=0x7f080014;
         public static final int listMode=0x7f080052;
         public static final int list_item=0x7f080070;
-        public static final int masked=0x7f0800dd;
+        public static final int masked=0x7f0800db;
         public static final int message=0x7f08009c;
         public static final int middle=0x7f08005d;
         public static final int mini=0x7f08003b;
@@ -4806,7 +4809,7 @@ containing a value of this type.
         public static final int up=0x7f080023;
         public static final int useLogo=0x7f080059;
         public static final int view_offset_helper=0x7f080012;
-        public static final int visible=0x7f0800dc;
+        public static final int visible=0x7f0800da;
         public static final int withText=0x7f080068;
         public static final int wrap_content=0x7f08005b;
         public static final int zero=0x7f0800a2;
@@ -4890,12 +4893,11 @@ containing a value of this type.
         public static final int notification_template_icon_group=0x7f030034;
         public static final int notification_template_part_chronometer=0x7f030035;
         public static final int notification_template_part_time=0x7f030036;
-        public static final int report_bad_result=0x7f030037;
-        public static final int screen_menu=0x7f030038;
-        public static final int select_dialog_item_material=0x7f030039;
-        public static final int select_dialog_multichoice_material=0x7f03003a;
-        public static final int select_dialog_singlechoice_material=0x7f03003b;
-        public static final int support_simple_spinner_dropdown_item=0x7f03003c;
+        public static final int screen_menu=0x7f030037;
+        public static final int select_dialog_item_material=0x7f030038;
+        public static final int select_dialog_multichoice_material=0x7f030039;
+        public static final int select_dialog_singlechoice_material=0x7f03003a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03003b;
     }
     public static final class menu {
         public static final int records_item_menu=0x7f0e0000;
@@ -4942,21 +4944,24 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f0d0028;
         public static final int app_name=0x7f0d0036;
         public static final int appbar_scrolling_view_behavior=0x7f0d0000;
-        public static final int badOp=0x7f0d0044;
         public static final int bottom_sheet_behavior=0x7f0d0001;
         public static final int cancel_text=0x7f0d003a;
         public static final int character_counter_content_description=0x7f0d0002;
         public static final int character_counter_pattern=0x7f0d0003;
         public static final int copied=0x7f0d003b;
-        public static final int copy=0x7f0d0046;
-        public static final int cut=0x7f0d0048;
-        public static final int cutText=0x7f0d0047;
+        public static final int copy=0x7f0d0044;
+        public static final int copy_operation_label=0x7f0d0048;
+        public static final int copy_result_label=0x7f0d0049;
+        public static final int cut=0x7f0d0046;
+        public static final int cutText=0x7f0d0045;
+        public static final int delete_history_item_label=0x7f0d004a;
         public static final int exit_message=0x7f0d0038;
         public static final int fab_transformation_scrim_behavior=0x7f0d0004;
         public static final int fab_transformation_sheet_behavior=0x7f0d0005;
         public static final int genericE=0x7f0d0040;
         public static final int head_of_report=0x7f0d003d;
         public static final int hide_bottom_view_on_scroll_behavior=0x7f0d0006;
+        public static final int history_label=0x7f0d0047;
         public static final int infinite_error=0x7f0d003e;
         public static final int missbalanced=0x7f0d003f;
         public static final int mistcalc=0x7f0d0037;
@@ -4969,11 +4974,9 @@ containing a value of this type.
         public static final int path_password_eye_mask_strike_through=0x7f0d000a;
         public static final int path_password_eye_mask_visible=0x7f0d000b;
         public static final int path_password_strike_through=0x7f0d000c;
-        public static final int report=0x7f0d0049;
         public static final int search_menu_title=0x7f0d0029;
         public static final int send=0x7f0d0042;
         public static final int sendTit=0x7f0d0043;
-        public static final int shareOp=0x7f0d0045;
         public static final int status_bar_notification_info_overflow=0x7f0d000d;
     }
     public static final class style {
@@ -4983,9 +4986,7 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f090129;
         public static final int Animation_AppCompat_Tooltip=0x7f09012a;
         public static final int Animation_Design_BottomSheetDialog=0x7f09000b;
-        /** item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowTranslucentNavigation">true</item
-         */
+        public static final int AppBottomSheetDialogTheme=0x7f0901f0;
         public static final int AppTheme=0x7f0901ef;
         public static final int Base_AlertDialog_AppCompat=0x7f09012b;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f09012c;
@@ -5175,6 +5176,7 @@ containing a value of this type.
         public static final int Base_Widget_MaterialComponents_Chip=0x7f090027;
         public static final int Base_Widget_MaterialComponents_TextInputEditText=0x7f090028;
         public static final int Base_Widget_MaterialComponents_TextInputLayout=0x7f090029;
+        public static final int BottomSheetDialogStyle=0x7f0901f1;
         public static final int CardView=0x7f090000;
         public static final int CardView_Dark=0x7f090002;
         public static final int CardView_Light=0x7f090003;
@@ -5209,6 +5211,7 @@ containing a value of this type.
         public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0900b7;
         public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0900b8;
         public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0900b9;
+        public static final int SnackbarStyle=0x7f0901f2;
         public static final int TextAppearance_AppCompat=0x7f090160;
         public static final int TextAppearance_AppCompat_Body1=0x7f090161;
         public static final int TextAppearance_AppCompat_Body2=0x7f090162;
@@ -5488,39 +5491,39 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background cu.lt.ult.jrja.rpn.calc:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit cu.lt.ult.jrja.rpn.calc:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked cu.lt.ult.jrja.rpn.calc:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd cu.lt.ult.jrja.rpn.calc:contentInsetEnd}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions cu.lt.ult.jrja.rpn.calc:contentInsetEndWithActions}</code></td><td> Minimum inset for content views within a bar when actions from a menu
+           <tr><td><code>{@link #ActionBar_background cu.lt.joe.calculator:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit cu.lt.joe.calculator:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked cu.lt.joe.calculator:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd cu.lt.joe.calculator:contentInsetEnd}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions cu.lt.joe.calculator:contentInsetEndWithActions}</code></td><td> Minimum inset for content views within a bar when actions from a menu
              are present.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft cu.lt.ult.jrja.rpn.calc:contentInsetLeft}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight cu.lt.ult.jrja.rpn.calc:contentInsetRight}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart cu.lt.ult.jrja.rpn.calc:contentInsetStart}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation cu.lt.ult.jrja.rpn.calc:contentInsetStartWithNavigation}</code></td><td> Minimum inset for content views within a bar when a navigation button
+           <tr><td><code>{@link #ActionBar_contentInsetLeft cu.lt.joe.calculator:contentInsetLeft}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight cu.lt.joe.calculator:contentInsetRight}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart cu.lt.joe.calculator:contentInsetStart}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation cu.lt.joe.calculator:contentInsetStartWithNavigation}</code></td><td> Minimum inset for content views within a bar when a navigation button
              is present, such as the Up button.</td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout cu.lt.ult.jrja.rpn.calc:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions cu.lt.ult.jrja.rpn.calc:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
-           <tr><td><code>{@link #ActionBar_divider cu.lt.ult.jrja.rpn.calc:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
-           <tr><td><code>{@link #ActionBar_elevation cu.lt.ult.jrja.rpn.calc:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
-           <tr><td><code>{@link #ActionBar_height cu.lt.ult.jrja.rpn.calc:height}</code></td><td> Specifies a fixed height.</td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll cu.lt.ult.jrja.rpn.calc:hideOnContentScroll}</code></td><td> Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator cu.lt.ult.jrja.rpn.calc:homeAsUpIndicator}</code></td><td> Up navigation glyph </td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout cu.lt.ult.jrja.rpn.calc:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_icon cu.lt.ult.jrja.rpn.calc:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle cu.lt.ult.jrja.rpn.calc:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding cu.lt.ult.jrja.rpn.calc:itemPadding}</code></td><td> Specifies padding that should be applied to the left and right sides of
+           <tr><td><code>{@link #ActionBar_customNavigationLayout cu.lt.joe.calculator:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions cu.lt.joe.calculator:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
+           <tr><td><code>{@link #ActionBar_divider cu.lt.joe.calculator:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
+           <tr><td><code>{@link #ActionBar_elevation cu.lt.joe.calculator:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
+           <tr><td><code>{@link #ActionBar_height cu.lt.joe.calculator:height}</code></td><td> Specifies a fixed height.</td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll cu.lt.joe.calculator:hideOnContentScroll}</code></td><td> Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator cu.lt.joe.calculator:homeAsUpIndicator}</code></td><td> Up navigation glyph </td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout cu.lt.joe.calculator:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_icon cu.lt.joe.calculator:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle cu.lt.joe.calculator:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding cu.lt.joe.calculator:itemPadding}</code></td><td> Specifies padding that should be applied to the left and right sides of
              system-provided items in the bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_logo cu.lt.ult.jrja.rpn.calc:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode cu.lt.ult.jrja.rpn.calc:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme cu.lt.ult.jrja.rpn.calc:popupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
+           <tr><td><code>{@link #ActionBar_logo cu.lt.joe.calculator:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode cu.lt.joe.calculator:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme cu.lt.joe.calculator:popupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
              shown by widgets in the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding cu.lt.ult.jrja.rpn.calc:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle cu.lt.ult.jrja.rpn.calc:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle cu.lt.ult.jrja.rpn.calc:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle cu.lt.ult.jrja.rpn.calc:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #ActionBar_title cu.lt.ult.jrja.rpn.calc:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle cu.lt.ult.jrja.rpn.calc:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding cu.lt.joe.calculator:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle cu.lt.joe.calculator:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle cu.lt.joe.calculator:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle cu.lt.joe.calculator:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionBar_title cu.lt.joe.calculator:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle cu.lt.joe.calculator:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -5571,7 +5574,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:background
+          @attr name cu.lt.joe.calculator:background
         */
         public static final int ActionBar_background = 10;
         /**
@@ -5585,7 +5588,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:backgroundSplit
+          @attr name cu.lt.joe.calculator:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
@@ -5599,7 +5602,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:backgroundStacked
+          @attr name cu.lt.joe.calculator:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
@@ -5618,7 +5621,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentInsetEnd
+          @attr name cu.lt.joe.calculator:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
@@ -5637,7 +5640,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentInsetEndWithActions
+          @attr name cu.lt.joe.calculator:contentInsetEndWithActions
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
@@ -5656,7 +5659,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentInsetLeft
+          @attr name cu.lt.joe.calculator:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
@@ -5675,7 +5678,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentInsetRight
+          @attr name cu.lt.joe.calculator:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
@@ -5694,7 +5697,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentInsetStart
+          @attr name cu.lt.joe.calculator:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
@@ -5713,7 +5716,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentInsetStartWithNavigation
+          @attr name cu.lt.joe.calculator:contentInsetStartWithNavigation
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
@@ -5725,7 +5728,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:customNavigationLayout
+          @attr name cu.lt.joe.calculator:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
@@ -5749,7 +5752,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:displayOptions
+          @attr name cu.lt.joe.calculator:displayOptions
         */
         public static final int ActionBar_displayOptions = 4;
         /**
@@ -5761,7 +5764,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:divider
+          @attr name cu.lt.joe.calculator:divider
         */
         public static final int ActionBar_divider = 9;
         /**
@@ -5779,7 +5782,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:elevation
+          @attr name cu.lt.joe.calculator:elevation
         */
         public static final int ActionBar_elevation = 26;
         /**
@@ -5797,7 +5800,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:height
+          @attr name cu.lt.joe.calculator:height
         */
         public static final int ActionBar_height = 1;
         /**
@@ -5813,7 +5816,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:hideOnContentScroll
+          @attr name cu.lt.joe.calculator:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
@@ -5825,7 +5828,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:homeAsUpIndicator
+          @attr name cu.lt.joe.calculator:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
@@ -5837,7 +5840,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:homeLayout
+          @attr name cu.lt.joe.calculator:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
@@ -5851,7 +5854,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:icon
+          @attr name cu.lt.joe.calculator:icon
         */
         public static final int ActionBar_icon = 0;
         /**
@@ -5863,7 +5866,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:indeterminateProgressStyle
+          @attr name cu.lt.joe.calculator:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
@@ -5882,7 +5885,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:itemPadding
+          @attr name cu.lt.joe.calculator:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
@@ -5894,7 +5897,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:logo
+          @attr name cu.lt.joe.calculator:logo
         */
         public static final int ActionBar_logo = 8;
         /**
@@ -5914,7 +5917,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td> The action bar will use a series of horizontal tabs for navigation. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:navigationMode
+          @attr name cu.lt.joe.calculator:navigationMode
         */
         public static final int ActionBar_navigationMode = 3;
         /**
@@ -5927,7 +5930,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:popupTheme
+          @attr name cu.lt.joe.calculator:popupTheme
         */
         public static final int ActionBar_popupTheme = 27;
         /**
@@ -5945,7 +5948,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:progressBarPadding
+          @attr name cu.lt.joe.calculator:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
@@ -5957,7 +5960,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:progressBarStyle
+          @attr name cu.lt.joe.calculator:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
@@ -5973,7 +5976,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:subtitle
+          @attr name cu.lt.joe.calculator:subtitle
         */
         public static final int ActionBar_subtitle = 5;
         /**
@@ -5985,7 +5988,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:subtitleTextStyle
+          @attr name cu.lt.joe.calculator:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 7;
         /**
@@ -6001,7 +6004,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:title
+          @attr name cu.lt.joe.calculator:title
         */
         public static final int ActionBar_title = 2;
         /**
@@ -6013,7 +6016,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:titleTextStyle
+          @attr name cu.lt.joe.calculator:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 6;
         /** Attributes that can be used with a ActionBarLayout.
@@ -6065,12 +6068,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background cu.lt.ult.jrja.rpn.calc:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit cu.lt.ult.jrja.rpn.calc:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout cu.lt.ult.jrja.rpn.calc:closeItemLayout}</code></td><td> Specifies a layout to use for the "close" item at the starting edge.</td></tr>
-           <tr><td><code>{@link #ActionMode_height cu.lt.ult.jrja.rpn.calc:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle cu.lt.ult.jrja.rpn.calc:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle cu.lt.ult.jrja.rpn.calc:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionMode_background cu.lt.joe.calculator:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit cu.lt.joe.calculator:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout cu.lt.joe.calculator:closeItemLayout}</code></td><td> Specifies a layout to use for the "close" item at the starting edge.</td></tr>
+           <tr><td><code>{@link #ActionMode_height cu.lt.joe.calculator:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle cu.lt.joe.calculator:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle cu.lt.joe.calculator:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -6092,7 +6095,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:background
+          @attr name cu.lt.joe.calculator:background
         */
         public static final int ActionMode_background = 3;
         /**
@@ -6106,7 +6109,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:backgroundSplit
+          @attr name cu.lt.joe.calculator:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
@@ -6118,7 +6121,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:closeItemLayout
+          @attr name cu.lt.joe.calculator:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
@@ -6136,7 +6139,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:height
+          @attr name cu.lt.joe.calculator:height
         */
         public static final int ActionMode_height = 0;
         /**
@@ -6148,7 +6151,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:subtitleTextStyle
+          @attr name cu.lt.joe.calculator:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
@@ -6160,7 +6163,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:titleTextStyle
+          @attr name cu.lt.joe.calculator:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -6169,8 +6172,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable cu.lt.ult.jrja.rpn.calc:expandActivityOverflowButtonDrawable}</code></td><td> The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount cu.lt.ult.jrja.rpn.calc:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable cu.lt.joe.calculator:expandActivityOverflowButtonDrawable}</code></td><td> The drawable to show in the button for expanding the activities overflow popup.</td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount cu.lt.joe.calculator:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -6192,7 +6195,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:expandActivityOverflowButtonDrawable
+          @attr name cu.lt.joe.calculator:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
@@ -6208,7 +6211,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:initialActivityCount
+          @attr name cu.lt.joe.calculator:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -6218,13 +6221,13 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonIconDimen cu.lt.ult.jrja.rpn.calc:buttonIconDimen}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout cu.lt.ult.jrja.rpn.calc:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout cu.lt.ult.jrja.rpn.calc:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout cu.lt.ult.jrja.rpn.calc:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout cu.lt.ult.jrja.rpn.calc:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_showTitle cu.lt.ult.jrja.rpn.calc:showTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout cu.lt.ult.jrja.rpn.calc:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonIconDimen cu.lt.joe.calculator:buttonIconDimen}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout cu.lt.joe.calculator:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout cu.lt.joe.calculator:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout cu.lt.joe.calculator:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout cu.lt.joe.calculator:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_showTitle cu.lt.joe.calculator:showTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout cu.lt.joe.calculator:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonIconDimen
@@ -6246,7 +6249,7 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#buttonIconDimen}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#buttonIconDimen}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -6258,51 +6261,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:buttonIconDimen
+          @attr name cu.lt.joe.calculator:buttonIconDimen
         */
         public static final int AlertDialog_buttonIconDimen = 7;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:buttonPanelSideLayout
+          @attr name cu.lt.joe.calculator:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:listItemLayout
+          @attr name cu.lt.joe.calculator:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:listLayout
+          @attr name cu.lt.joe.calculator:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:multiChoiceItemLayout
+          @attr name cu.lt.joe.calculator:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#showTitle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#showTitle}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -6312,17 +6315,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:showTitle
+          @attr name cu.lt.joe.calculator:showTitle
         */
         public static final int AlertDialog_showTitle = 6;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:singleChoiceItemLayout
+          @attr name cu.lt.joe.calculator:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /**  Indicates if the drawable needs to be mirrored when its layout direction is
@@ -6519,9 +6522,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
            <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation cu.lt.ult.jrja.rpn.calc:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded cu.lt.ult.jrja.rpn.calc:expanded}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_liftOnScroll cu.lt.ult.jrja.rpn.calc:liftOnScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation cu.lt.joe.calculator:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded cu.lt.joe.calculator:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_liftOnScroll cu.lt.joe.calculator:liftOnScroll}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_android_keyboardNavigationCluster
@@ -6567,11 +6570,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:elevation
+          @attr name cu.lt.joe.calculator:elevation
         */
         public static final int AppBarLayout_elevation = 5;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#expanded}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -6581,11 +6584,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:expanded
+          @attr name cu.lt.joe.calculator:expanded
         */
         public static final int AppBarLayout_expanded = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#liftOnScroll}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#liftOnScroll}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -6595,7 +6598,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:liftOnScroll
+          @attr name cu.lt.joe.calculator:liftOnScroll
         */
         public static final int AppBarLayout_liftOnScroll = 4;
         /** Attributes that can be used with a AppBarLayoutStates.
@@ -6604,10 +6607,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed cu.lt.ult.jrja.rpn.calc:state_collapsed}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible cu.lt.ult.jrja.rpn.calc:state_collapsible}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_liftable cu.lt.ult.jrja.rpn.calc:state_liftable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_lifted cu.lt.ult.jrja.rpn.calc:state_lifted}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed cu.lt.joe.calculator:state_collapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible cu.lt.joe.calculator:state_collapsible}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_liftable cu.lt.joe.calculator:state_liftable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_lifted cu.lt.joe.calculator:state_lifted}</code></td><td></td></tr>
            </table>
            @see #AppBarLayoutStates_state_collapsed
            @see #AppBarLayoutStates_state_collapsible
@@ -6618,7 +6621,7 @@ containing a value of this type.
             0x7f010038, 0x7f010039, 0x7f01003a, 0x7f01003b
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#state_collapsed}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#state_collapsed}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -6628,11 +6631,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:state_collapsed
+          @attr name cu.lt.joe.calculator:state_collapsed
         */
         public static final int AppBarLayoutStates_state_collapsed = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#state_collapsible}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#state_collapsible}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -6642,11 +6645,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:state_collapsible
+          @attr name cu.lt.joe.calculator:state_collapsible
         */
         public static final int AppBarLayoutStates_state_collapsible = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#state_liftable}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#state_liftable}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -6656,11 +6659,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:state_liftable
+          @attr name cu.lt.joe.calculator:state_liftable
         */
         public static final int AppBarLayoutStates_state_liftable = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#state_lifted}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#state_lifted}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -6670,7 +6673,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:state_lifted
+          @attr name cu.lt.joe.calculator:state_lifted
         */
         public static final int AppBarLayoutStates_state_lifted = 2;
         /** Attributes that can be used with a AppBarLayout_Layout.
@@ -6679,8 +6682,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags cu.lt.ult.jrja.rpn.calc:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator cu.lt.ult.jrja.rpn.calc:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags cu.lt.joe.calculator:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator cu.lt.joe.calculator:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_Layout_layout_scrollFlags
            @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -6689,7 +6692,7 @@ containing a value of this type.
             0x7f01003c, 0x7f01003d
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
@@ -6706,17 +6709,17 @@ containing a value of this type.
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>snapMargins</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:layout_scrollFlags
+          @attr name cu.lt.joe.calculator:layout_scrollFlags
         */
         public static final int AppBarLayout_Layout_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:layout_scrollInterpolator
+          @attr name cu.lt.joe.calculator:layout_scrollInterpolator
         */
         public static final int AppBarLayout_Layout_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -6726,9 +6729,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat cu.lt.ult.jrja.rpn.calc:srcCompat}</code></td><td> Sets a drawable as the content of this ImageView.</td></tr>
-           <tr><td><code>{@link #AppCompatImageView_tint cu.lt.ult.jrja.rpn.calc:tint}</code></td><td> Tint to apply to the image source.</td></tr>
-           <tr><td><code>{@link #AppCompatImageView_tintMode cu.lt.ult.jrja.rpn.calc:tintMode}</code></td><td> Blending mode used to apply the image source tint.</td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat cu.lt.joe.calculator:srcCompat}</code></td><td> Sets a drawable as the content of this ImageView.</td></tr>
+           <tr><td><code>{@link #AppCompatImageView_tint cu.lt.joe.calculator:tint}</code></td><td> Tint to apply to the image source.</td></tr>
+           <tr><td><code>{@link #AppCompatImageView_tintMode cu.lt.joe.calculator:tintMode}</code></td><td> Blending mode used to apply the image source tint.</td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -6754,7 +6757,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:srcCompat
+          @attr name cu.lt.joe.calculator:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /**
@@ -6771,7 +6774,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:tint
+          @attr name cu.lt.joe.calculator:tint
         */
         public static final int AppCompatImageView_tint = 2;
         /**
@@ -6799,7 +6802,7 @@ containing a value of this type.
                  result to valid color values. Saturate(S + D) </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:tintMode
+          @attr name cu.lt.joe.calculator:tintMode
         */
         public static final int AppCompatImageView_tintMode = 3;
         /** Attributes that can be used with a AppCompatSeekBar.
@@ -6809,9 +6812,9 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark cu.lt.ult.jrja.rpn.calc:tickMark}</code></td><td> Drawable displayed at each progress position on a seekbar.</td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint cu.lt.ult.jrja.rpn.calc:tickMarkTint}</code></td><td> Tint to apply to the tick mark drawable.</td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode cu.lt.ult.jrja.rpn.calc:tickMarkTintMode}</code></td><td> Blending mode used to apply the tick mark tint.</td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark cu.lt.joe.calculator:tickMark}</code></td><td> Drawable displayed at each progress position on a seekbar.</td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint cu.lt.joe.calculator:tickMarkTint}</code></td><td> Tint to apply to the tick mark drawable.</td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode cu.lt.joe.calculator:tickMarkTintMode}</code></td><td> Blending mode used to apply the tick mark tint.</td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -6836,7 +6839,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:tickMark
+          @attr name cu.lt.joe.calculator:tickMark
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
@@ -6853,7 +6856,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:tickMarkTint
+          @attr name cu.lt.joe.calculator:tickMarkTint
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
@@ -6881,7 +6884,7 @@ containing a value of this type.
                  result to valid color values. Saturate(S + D) </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:tickMarkTintMode
+          @attr name cu.lt.joe.calculator:tickMarkTintMode
         */
         public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextHelper.
@@ -6959,18 +6962,18 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize cu.lt.ult.jrja.rpn.calc:autoSizeMaxTextSize}</code></td><td> The maximum text size constraint to be used when auto-sizing text.</td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize cu.lt.ult.jrja.rpn.calc:autoSizeMinTextSize}</code></td><td> The minimum text size constraint to be used when auto-sizing text.</td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes cu.lt.ult.jrja.rpn.calc:autoSizePresetSizes}</code></td><td> Resource array of dimensions to be used in conjunction with
+           <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize cu.lt.joe.calculator:autoSizeMaxTextSize}</code></td><td> The maximum text size constraint to be used when auto-sizing text.</td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize cu.lt.joe.calculator:autoSizeMinTextSize}</code></td><td> The minimum text size constraint to be used when auto-sizing text.</td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes cu.lt.joe.calculator:autoSizePresetSizes}</code></td><td> Resource array of dimensions to be used in conjunction with
         <code>autoSizeTextType</code> set to <code>uniform</code>.</td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity cu.lt.ult.jrja.rpn.calc:autoSizeStepGranularity}</code></td><td> Specify the auto-size step size if <code>autoSizeTextType</code> is set to
+           <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity cu.lt.joe.calculator:autoSizeStepGranularity}</code></td><td> Specify the auto-size step size if <code>autoSizeTextType</code> is set to
         <code>uniform</code>.</td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeTextType cu.lt.ult.jrja.rpn.calc:autoSizeTextType}</code></td><td> Specify the type of auto-size.</td></tr>
-           <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight cu.lt.ult.jrja.rpn.calc:firstBaselineToTopHeight}</code></td><td> Distance from the top of the TextView to the first text baseline.</td></tr>
-           <tr><td><code>{@link #AppCompatTextView_fontFamily cu.lt.ult.jrja.rpn.calc:fontFamily}</code></td><td> The attribute for the font family.</td></tr>
-           <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight cu.lt.ult.jrja.rpn.calc:lastBaselineToBottomHeight}</code></td><td> Distance from the bottom of the TextView to the last text baseline.</td></tr>
-           <tr><td><code>{@link #AppCompatTextView_lineHeight cu.lt.ult.jrja.rpn.calc:lineHeight}</code></td><td> Explicit height between lines of text.</td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps cu.lt.ult.jrja.rpn.calc:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeTextType cu.lt.joe.calculator:autoSizeTextType}</code></td><td> Specify the type of auto-size.</td></tr>
+           <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight cu.lt.joe.calculator:firstBaselineToTopHeight}</code></td><td> Distance from the top of the TextView to the first text baseline.</td></tr>
+           <tr><td><code>{@link #AppCompatTextView_fontFamily cu.lt.joe.calculator:fontFamily}</code></td><td> The attribute for the font family.</td></tr>
+           <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight cu.lt.joe.calculator:lastBaselineToBottomHeight}</code></td><td> Distance from the bottom of the TextView to the last text baseline.</td></tr>
+           <tr><td><code>{@link #AppCompatTextView_lineHeight cu.lt.joe.calculator:lineHeight}</code></td><td> Explicit height between lines of text.</td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps cu.lt.joe.calculator:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_autoSizeMaxTextSize
@@ -7010,7 +7013,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:autoSizeMaxTextSize
+          @attr name cu.lt.joe.calculator:autoSizeMaxTextSize
         */
         public static final int AppCompatTextView_autoSizeMaxTextSize = 6;
         /**
@@ -7028,7 +7031,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:autoSizeMinTextSize
+          @attr name cu.lt.joe.calculator:autoSizeMinTextSize
         */
         public static final int AppCompatTextView_autoSizeMinTextSize = 5;
         /**
@@ -7042,7 +7045,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:autoSizePresetSizes
+          @attr name cu.lt.joe.calculator:autoSizePresetSizes
         */
         public static final int AppCompatTextView_autoSizePresetSizes = 4;
         /**
@@ -7062,7 +7065,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:autoSizeStepGranularity
+          @attr name cu.lt.joe.calculator:autoSizeStepGranularity
         */
         public static final int AppCompatTextView_autoSizeStepGranularity = 3;
         /**
@@ -7083,7 +7086,7 @@ containing a value of this type.
             container. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:autoSizeTextType
+          @attr name cu.lt.joe.calculator:autoSizeTextType
         */
         public static final int AppCompatTextView_autoSizeTextType = 2;
         /**
@@ -7102,7 +7105,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:firstBaselineToTopHeight
+          @attr name cu.lt.joe.calculator:firstBaselineToTopHeight
         */
         public static final int AppCompatTextView_firstBaselineToTopHeight = 9;
         /**
@@ -7118,7 +7121,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:fontFamily
+          @attr name cu.lt.joe.calculator:fontFamily
         */
         public static final int AppCompatTextView_fontFamily = 7;
         /**
@@ -7137,7 +7140,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:lastBaselineToBottomHeight
+          @attr name cu.lt.joe.calculator:lastBaselineToBottomHeight
         */
         public static final int AppCompatTextView_lastBaselineToBottomHeight = 10;
         /**
@@ -7156,7 +7159,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:lineHeight
+          @attr name cu.lt.joe.calculator:lineHeight
         */
         public static final int AppCompatTextView_lineHeight = 8;
         /**
@@ -7169,7 +7172,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:textAllCaps
+          @attr name cu.lt.joe.calculator:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -7178,144 +7181,144 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider cu.lt.ult.jrja.rpn.calc:actionBarDivider}</code></td><td> Custom divider drawable to use for elements in the action bar.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground cu.lt.ult.jrja.rpn.calc:actionBarItemBackground}</code></td><td> Custom item state list drawable background for action bar items.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme cu.lt.ult.jrja.rpn.calc:actionBarPopupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider cu.lt.joe.calculator:actionBarDivider}</code></td><td> Custom divider drawable to use for elements in the action bar.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground cu.lt.joe.calculator:actionBarItemBackground}</code></td><td> Custom item state list drawable background for action bar items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme cu.lt.joe.calculator:actionBarPopupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
              shown by widgets in the action bar.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize cu.lt.ult.jrja.rpn.calc:actionBarSize}</code></td><td> Size of the Action Bar, including the contextual
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize cu.lt.joe.calculator:actionBarSize}</code></td><td> Size of the Action Bar, including the contextual
              bar used to present Action Modes.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle cu.lt.ult.jrja.rpn.calc:actionBarSplitStyle}</code></td><td> Reference to a style for the split Action Bar.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle cu.lt.ult.jrja.rpn.calc:actionBarStyle}</code></td><td> Reference to a style for the Action Bar </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle cu.lt.ult.jrja.rpn.calc:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle cu.lt.ult.jrja.rpn.calc:actionBarTabStyle}</code></td><td> Default style for tabs within an action bar </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle cu.lt.ult.jrja.rpn.calc:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme cu.lt.ult.jrja.rpn.calc:actionBarTheme}</code></td><td> Reference to a theme that should be used to inflate the
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle cu.lt.joe.calculator:actionBarSplitStyle}</code></td><td> Reference to a style for the split Action Bar.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle cu.lt.joe.calculator:actionBarStyle}</code></td><td> Reference to a style for the Action Bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle cu.lt.joe.calculator:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle cu.lt.joe.calculator:actionBarTabStyle}</code></td><td> Default style for tabs within an action bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle cu.lt.joe.calculator:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme cu.lt.joe.calculator:actionBarTheme}</code></td><td> Reference to a theme that should be used to inflate the
              action bar.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme cu.lt.ult.jrja.rpn.calc:actionBarWidgetTheme}</code></td><td> Reference to a theme that should be used to inflate widgets
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme cu.lt.joe.calculator:actionBarWidgetTheme}</code></td><td> Reference to a theme that should be used to inflate widgets
              and layouts destined for the action bar.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle cu.lt.ult.jrja.rpn.calc:actionButtonStyle}</code></td><td> Default action button style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle cu.lt.ult.jrja.rpn.calc:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance cu.lt.ult.jrja.rpn.calc:actionMenuTextAppearance}</code></td><td> TextAppearance style that will be applied to text that
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle cu.lt.joe.calculator:actionButtonStyle}</code></td><td> Default action button style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle cu.lt.joe.calculator:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance cu.lt.joe.calculator:actionMenuTextAppearance}</code></td><td> TextAppearance style that will be applied to text that
              appears within action menu items.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor cu.lt.ult.jrja.rpn.calc:actionMenuTextColor}</code></td><td> Color for text that appears within action menu items.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground cu.lt.ult.jrja.rpn.calc:actionModeBackground}</code></td><td> Background drawable to use for action mode UI </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle cu.lt.ult.jrja.rpn.calc:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable cu.lt.ult.jrja.rpn.calc:actionModeCloseDrawable}</code></td><td> Drawable to use for the close action mode button </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable cu.lt.ult.jrja.rpn.calc:actionModeCopyDrawable}</code></td><td> Drawable to use for the Copy action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable cu.lt.ult.jrja.rpn.calc:actionModeCutDrawable}</code></td><td> Drawable to use for the Cut action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable cu.lt.ult.jrja.rpn.calc:actionModeFindDrawable}</code></td><td> Drawable to use for the Find action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable cu.lt.ult.jrja.rpn.calc:actionModePasteDrawable}</code></td><td> Drawable to use for the Paste action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle cu.lt.ult.jrja.rpn.calc:actionModePopupWindowStyle}</code></td><td> PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable cu.lt.ult.jrja.rpn.calc:actionModeSelectAllDrawable}</code></td><td> Drawable to use for the Select all action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable cu.lt.ult.jrja.rpn.calc:actionModeShareDrawable}</code></td><td> Drawable to use for the Share action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground cu.lt.ult.jrja.rpn.calc:actionModeSplitBackground}</code></td><td> Background drawable to use for action mode UI in the lower split bar </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle cu.lt.ult.jrja.rpn.calc:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable cu.lt.ult.jrja.rpn.calc:actionModeWebSearchDrawable}</code></td><td> Drawable to use for the Web Search action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle cu.lt.ult.jrja.rpn.calc:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle cu.lt.ult.jrja.rpn.calc:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle cu.lt.ult.jrja.rpn.calc:activityChooserViewStyle}</code></td><td> Default ActivityChooserView style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle cu.lt.ult.jrja.rpn.calc:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons cu.lt.ult.jrja.rpn.calc:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle cu.lt.ult.jrja.rpn.calc:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme cu.lt.ult.jrja.rpn.calc:alertDialogTheme}</code></td><td> Theme to use for alert dialogs spawned from this theme.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor cu.lt.joe.calculator:actionMenuTextColor}</code></td><td> Color for text that appears within action menu items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground cu.lt.joe.calculator:actionModeBackground}</code></td><td> Background drawable to use for action mode UI </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle cu.lt.joe.calculator:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable cu.lt.joe.calculator:actionModeCloseDrawable}</code></td><td> Drawable to use for the close action mode button </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable cu.lt.joe.calculator:actionModeCopyDrawable}</code></td><td> Drawable to use for the Copy action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable cu.lt.joe.calculator:actionModeCutDrawable}</code></td><td> Drawable to use for the Cut action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable cu.lt.joe.calculator:actionModeFindDrawable}</code></td><td> Drawable to use for the Find action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable cu.lt.joe.calculator:actionModePasteDrawable}</code></td><td> Drawable to use for the Paste action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle cu.lt.joe.calculator:actionModePopupWindowStyle}</code></td><td> PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable cu.lt.joe.calculator:actionModeSelectAllDrawable}</code></td><td> Drawable to use for the Select all action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable cu.lt.joe.calculator:actionModeShareDrawable}</code></td><td> Drawable to use for the Share action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground cu.lt.joe.calculator:actionModeSplitBackground}</code></td><td> Background drawable to use for action mode UI in the lower split bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle cu.lt.joe.calculator:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable cu.lt.joe.calculator:actionModeWebSearchDrawable}</code></td><td> Drawable to use for the Web Search action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle cu.lt.joe.calculator:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle cu.lt.joe.calculator:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle cu.lt.joe.calculator:activityChooserViewStyle}</code></td><td> Default ActivityChooserView style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle cu.lt.joe.calculator:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons cu.lt.joe.calculator:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle cu.lt.joe.calculator:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme cu.lt.joe.calculator:alertDialogTheme}</code></td><td> Theme to use for alert dialogs spawned from this theme.</td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle cu.lt.ult.jrja.rpn.calc:autoCompleteTextViewStyle}</code></td><td> Default AutoCompleteTextView style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle cu.lt.ult.jrja.rpn.calc:borderlessButtonStyle}</code></td><td> Style for buttons without an explicit border, often used in groups.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle cu.lt.ult.jrja.rpn.calc:buttonBarButtonStyle}</code></td><td> Style for buttons within button bars </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle cu.lt.ult.jrja.rpn.calc:buttonBarNegativeButtonStyle}</code></td><td> Style for the "negative" buttons within button bars </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle cu.lt.ult.jrja.rpn.calc:buttonBarNeutralButtonStyle}</code></td><td> Style for the "neutral" buttons within button bars </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle cu.lt.ult.jrja.rpn.calc:buttonBarPositiveButtonStyle}</code></td><td> Style for the "positive" buttons within button bars </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle cu.lt.ult.jrja.rpn.calc:buttonBarStyle}</code></td><td> Style for button bars </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle cu.lt.ult.jrja.rpn.calc:buttonStyle}</code></td><td> Normal Button style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall cu.lt.ult.jrja.rpn.calc:buttonStyleSmall}</code></td><td> Small Button style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle cu.lt.ult.jrja.rpn.calc:checkboxStyle}</code></td><td> Default Checkbox style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle cu.lt.ult.jrja.rpn.calc:checkedTextViewStyle}</code></td><td> Default CheckedTextView style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent cu.lt.ult.jrja.rpn.calc:colorAccent}</code></td><td> Bright complement to the primary branding color.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating cu.lt.ult.jrja.rpn.calc:colorBackgroundFloating}</code></td><td> Default color of background imagery for floating components, ex.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal cu.lt.ult.jrja.rpn.calc:colorButtonNormal}</code></td><td> The color applied to framework buttons in their normal state.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated cu.lt.ult.jrja.rpn.calc:colorControlActivated}</code></td><td> The color applied to framework controls in their activated (ex.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight cu.lt.ult.jrja.rpn.calc:colorControlHighlight}</code></td><td> The color applied to framework control highlights (ex.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal cu.lt.ult.jrja.rpn.calc:colorControlNormal}</code></td><td> The color applied to framework controls in their normal state.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorError cu.lt.ult.jrja.rpn.calc:colorError}</code></td><td> Color used for error states and things that need to be drawn to
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle cu.lt.joe.calculator:autoCompleteTextViewStyle}</code></td><td> Default AutoCompleteTextView style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle cu.lt.joe.calculator:borderlessButtonStyle}</code></td><td> Style for buttons without an explicit border, often used in groups.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle cu.lt.joe.calculator:buttonBarButtonStyle}</code></td><td> Style for buttons within button bars </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle cu.lt.joe.calculator:buttonBarNegativeButtonStyle}</code></td><td> Style for the "negative" buttons within button bars </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle cu.lt.joe.calculator:buttonBarNeutralButtonStyle}</code></td><td> Style for the "neutral" buttons within button bars </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle cu.lt.joe.calculator:buttonBarPositiveButtonStyle}</code></td><td> Style for the "positive" buttons within button bars </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle cu.lt.joe.calculator:buttonBarStyle}</code></td><td> Style for button bars </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle cu.lt.joe.calculator:buttonStyle}</code></td><td> Normal Button style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall cu.lt.joe.calculator:buttonStyleSmall}</code></td><td> Small Button style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle cu.lt.joe.calculator:checkboxStyle}</code></td><td> Default Checkbox style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle cu.lt.joe.calculator:checkedTextViewStyle}</code></td><td> Default CheckedTextView style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent cu.lt.joe.calculator:colorAccent}</code></td><td> Bright complement to the primary branding color.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating cu.lt.joe.calculator:colorBackgroundFloating}</code></td><td> Default color of background imagery for floating components, ex.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal cu.lt.joe.calculator:colorButtonNormal}</code></td><td> The color applied to framework buttons in their normal state.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated cu.lt.joe.calculator:colorControlActivated}</code></td><td> The color applied to framework controls in their activated (ex.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight cu.lt.joe.calculator:colorControlHighlight}</code></td><td> The color applied to framework control highlights (ex.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal cu.lt.joe.calculator:colorControlNormal}</code></td><td> The color applied to framework controls in their normal state.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorError cu.lt.joe.calculator:colorError}</code></td><td> Color used for error states and things that need to be drawn to
              the user's attention.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary cu.lt.ult.jrja.rpn.calc:colorPrimary}</code></td><td> The primary branding color for the app.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark cu.lt.ult.jrja.rpn.calc:colorPrimaryDark}</code></td><td> Dark variant of the primary branding color.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal cu.lt.ult.jrja.rpn.calc:colorSwitchThumbNormal}</code></td><td> The color applied to framework switch thumbs in their normal state.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground cu.lt.ult.jrja.rpn.calc:controlBackground}</code></td><td> The background used by framework controls.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius cu.lt.ult.jrja.rpn.calc:dialogCornerRadius}</code></td><td> Preferred corner radius of dialogs.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding cu.lt.ult.jrja.rpn.calc:dialogPreferredPadding}</code></td><td> Preferred padding for dialog content.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme cu.lt.ult.jrja.rpn.calc:dialogTheme}</code></td><td> Theme to use for dialogs spawned from this theme.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal cu.lt.ult.jrja.rpn.calc:dividerHorizontal}</code></td><td> A drawable that may be used as a horizontal divider between visual elements.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical cu.lt.ult.jrja.rpn.calc:dividerVertical}</code></td><td> A drawable that may be used as a vertical divider between visual elements.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle cu.lt.ult.jrja.rpn.calc:dropDownListViewStyle}</code></td><td> ListPopupWindow compatibility </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight cu.lt.ult.jrja.rpn.calc:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground cu.lt.ult.jrja.rpn.calc:editTextBackground}</code></td><td> EditText background drawable.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor cu.lt.ult.jrja.rpn.calc:editTextColor}</code></td><td> EditText text foreground color.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle cu.lt.ult.jrja.rpn.calc:editTextStyle}</code></td><td> Default EditText style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator cu.lt.ult.jrja.rpn.calc:homeAsUpIndicator}</code></td><td> Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle cu.lt.ult.jrja.rpn.calc:imageButtonStyle}</code></td><td> ImageButton background drawable.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator cu.lt.ult.jrja.rpn.calc:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog cu.lt.ult.jrja.rpn.calc:listDividerAlertDialog}</code></td><td> The list divider used in alert dialogs.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle cu.lt.ult.jrja.rpn.calc:listMenuViewStyle}</code></td><td> Default menu-style ListView style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle cu.lt.ult.jrja.rpn.calc:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight cu.lt.ult.jrja.rpn.calc:listPreferredItemHeight}</code></td><td> The preferred list item height.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge cu.lt.ult.jrja.rpn.calc:listPreferredItemHeightLarge}</code></td><td> A larger, more robust list item height.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall cu.lt.ult.jrja.rpn.calc:listPreferredItemHeightSmall}</code></td><td> A smaller, sleeker list item height.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft cu.lt.ult.jrja.rpn.calc:listPreferredItemPaddingLeft}</code></td><td> The preferred padding along the left edge of list items.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight cu.lt.ult.jrja.rpn.calc:listPreferredItemPaddingRight}</code></td><td> The preferred padding along the right edge of list items.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground cu.lt.ult.jrja.rpn.calc:panelBackground}</code></td><td> The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme cu.lt.ult.jrja.rpn.calc:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth cu.lt.ult.jrja.rpn.calc:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle cu.lt.ult.jrja.rpn.calc:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle cu.lt.ult.jrja.rpn.calc:popupWindowStyle}</code></td><td> Default PopupWindow style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle cu.lt.ult.jrja.rpn.calc:radioButtonStyle}</code></td><td> Default RadioButton style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle cu.lt.ult.jrja.rpn.calc:ratingBarStyle}</code></td><td> Default RatingBar style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator cu.lt.ult.jrja.rpn.calc:ratingBarStyleIndicator}</code></td><td> Indicator RatingBar style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall cu.lt.ult.jrja.rpn.calc:ratingBarStyleSmall}</code></td><td> Small indicator RatingBar style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle cu.lt.ult.jrja.rpn.calc:searchViewStyle}</code></td><td> Style for the search query widget.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle cu.lt.ult.jrja.rpn.calc:seekBarStyle}</code></td><td> Default SeekBar style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground cu.lt.ult.jrja.rpn.calc:selectableItemBackground}</code></td><td> A style that may be applied to buttons or other selectable items
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary cu.lt.joe.calculator:colorPrimary}</code></td><td> The primary branding color for the app.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark cu.lt.joe.calculator:colorPrimaryDark}</code></td><td> Dark variant of the primary branding color.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal cu.lt.joe.calculator:colorSwitchThumbNormal}</code></td><td> The color applied to framework switch thumbs in their normal state.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground cu.lt.joe.calculator:controlBackground}</code></td><td> The background used by framework controls.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius cu.lt.joe.calculator:dialogCornerRadius}</code></td><td> Preferred corner radius of dialogs.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding cu.lt.joe.calculator:dialogPreferredPadding}</code></td><td> Preferred padding for dialog content.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme cu.lt.joe.calculator:dialogTheme}</code></td><td> Theme to use for dialogs spawned from this theme.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal cu.lt.joe.calculator:dividerHorizontal}</code></td><td> A drawable that may be used as a horizontal divider between visual elements.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical cu.lt.joe.calculator:dividerVertical}</code></td><td> A drawable that may be used as a vertical divider between visual elements.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle cu.lt.joe.calculator:dropDownListViewStyle}</code></td><td> ListPopupWindow compatibility </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight cu.lt.joe.calculator:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground cu.lt.joe.calculator:editTextBackground}</code></td><td> EditText background drawable.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor cu.lt.joe.calculator:editTextColor}</code></td><td> EditText text foreground color.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle cu.lt.joe.calculator:editTextStyle}</code></td><td> Default EditText style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator cu.lt.joe.calculator:homeAsUpIndicator}</code></td><td> Specifies a drawable to use for the 'home as up' indicator.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle cu.lt.joe.calculator:imageButtonStyle}</code></td><td> ImageButton background drawable.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator cu.lt.joe.calculator:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog cu.lt.joe.calculator:listDividerAlertDialog}</code></td><td> The list divider used in alert dialogs.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle cu.lt.joe.calculator:listMenuViewStyle}</code></td><td> Default menu-style ListView style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle cu.lt.joe.calculator:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight cu.lt.joe.calculator:listPreferredItemHeight}</code></td><td> The preferred list item height.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge cu.lt.joe.calculator:listPreferredItemHeightLarge}</code></td><td> A larger, more robust list item height.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall cu.lt.joe.calculator:listPreferredItemHeightSmall}</code></td><td> A smaller, sleeker list item height.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft cu.lt.joe.calculator:listPreferredItemPaddingLeft}</code></td><td> The preferred padding along the left edge of list items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight cu.lt.joe.calculator:listPreferredItemPaddingRight}</code></td><td> The preferred padding along the right edge of list items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground cu.lt.joe.calculator:panelBackground}</code></td><td> The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme cu.lt.joe.calculator:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth cu.lt.joe.calculator:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle cu.lt.joe.calculator:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle cu.lt.joe.calculator:popupWindowStyle}</code></td><td> Default PopupWindow style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle cu.lt.joe.calculator:radioButtonStyle}</code></td><td> Default RadioButton style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle cu.lt.joe.calculator:ratingBarStyle}</code></td><td> Default RatingBar style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator cu.lt.joe.calculator:ratingBarStyleIndicator}</code></td><td> Indicator RatingBar style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall cu.lt.joe.calculator:ratingBarStyleSmall}</code></td><td> Small indicator RatingBar style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle cu.lt.joe.calculator:searchViewStyle}</code></td><td> Style for the search query widget.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle cu.lt.joe.calculator:seekBarStyle}</code></td><td> Default SeekBar style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground cu.lt.joe.calculator:selectableItemBackground}</code></td><td> A style that may be applied to buttons or other selectable items
              that should react to pressed and focus states, but that do not
              have a clear visual border along the edges.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless cu.lt.ult.jrja.rpn.calc:selectableItemBackgroundBorderless}</code></td><td> Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle cu.lt.ult.jrja.rpn.calc:spinnerDropDownItemStyle}</code></td><td> Default Spinner style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle cu.lt.ult.jrja.rpn.calc:spinnerStyle}</code></td><td> Default Spinner style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle cu.lt.ult.jrja.rpn.calc:switchStyle}</code></td><td> Default style for the Switch widget.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu cu.lt.ult.jrja.rpn.calc:textAppearanceLargePopupMenu}</code></td><td> Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem cu.lt.ult.jrja.rpn.calc:textAppearanceListItem}</code></td><td> The preferred TextAppearance for the primary text of list items.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary cu.lt.ult.jrja.rpn.calc:textAppearanceListItemSecondary}</code></td><td> The preferred TextAppearance for the secondary text of list items.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall cu.lt.ult.jrja.rpn.calc:textAppearanceListItemSmall}</code></td><td> The preferred TextAppearance for the primary text of small list items.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader cu.lt.ult.jrja.rpn.calc:textAppearancePopupMenuHeader}</code></td><td> Text color, typeface, size, and style for header text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle cu.lt.ult.jrja.rpn.calc:textAppearanceSearchResultSubtitle}</code></td><td> Text color, typeface, size, and style for system search result subtitle.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle cu.lt.ult.jrja.rpn.calc:textAppearanceSearchResultTitle}</code></td><td> Text color, typeface, size, and style for system search result title.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu cu.lt.ult.jrja.rpn.calc:textAppearanceSmallPopupMenu}</code></td><td> Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem cu.lt.ult.jrja.rpn.calc:textColorAlertDialogListItem}</code></td><td> Color of list item text in alert dialogs.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl cu.lt.ult.jrja.rpn.calc:textColorSearchUrl}</code></td><td> Text color for urls in search suggestions, used by things like global search </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle cu.lt.ult.jrja.rpn.calc:toolbarNavigationButtonStyle}</code></td><td> Default Toolar NavigationButtonStyle </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle cu.lt.ult.jrja.rpn.calc:toolbarStyle}</code></td><td> Default Toolbar style.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor cu.lt.ult.jrja.rpn.calc:tooltipForegroundColor}</code></td><td> Foreground color to use for tooltips </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground cu.lt.ult.jrja.rpn.calc:tooltipFrameBackground}</code></td><td> Background to use for tooltips </td></tr>
-           <tr><td><code>{@link #AppCompatTheme_viewInflaterClass cu.lt.ult.jrja.rpn.calc:viewInflaterClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar cu.lt.ult.jrja.rpn.calc:windowActionBar}</code></td><td> Flag indicating whether this window should have an Action Bar
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless cu.lt.joe.calculator:selectableItemBackgroundBorderless}</code></td><td> Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle cu.lt.joe.calculator:spinnerDropDownItemStyle}</code></td><td> Default Spinner style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle cu.lt.joe.calculator:spinnerStyle}</code></td><td> Default Spinner style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle cu.lt.joe.calculator:switchStyle}</code></td><td> Default style for the Switch widget.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu cu.lt.joe.calculator:textAppearanceLargePopupMenu}</code></td><td> Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem cu.lt.joe.calculator:textAppearanceListItem}</code></td><td> The preferred TextAppearance for the primary text of list items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary cu.lt.joe.calculator:textAppearanceListItemSecondary}</code></td><td> The preferred TextAppearance for the secondary text of list items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall cu.lt.joe.calculator:textAppearanceListItemSmall}</code></td><td> The preferred TextAppearance for the primary text of small list items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader cu.lt.joe.calculator:textAppearancePopupMenuHeader}</code></td><td> Text color, typeface, size, and style for header text inside of a popup menu.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle cu.lt.joe.calculator:textAppearanceSearchResultSubtitle}</code></td><td> Text color, typeface, size, and style for system search result subtitle.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle cu.lt.joe.calculator:textAppearanceSearchResultTitle}</code></td><td> Text color, typeface, size, and style for system search result title.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu cu.lt.joe.calculator:textAppearanceSmallPopupMenu}</code></td><td> Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem cu.lt.joe.calculator:textColorAlertDialogListItem}</code></td><td> Color of list item text in alert dialogs.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl cu.lt.joe.calculator:textColorSearchUrl}</code></td><td> Text color for urls in search suggestions, used by things like global search </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle cu.lt.joe.calculator:toolbarNavigationButtonStyle}</code></td><td> Default Toolar NavigationButtonStyle </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle cu.lt.joe.calculator:toolbarStyle}</code></td><td> Default Toolbar style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor cu.lt.joe.calculator:tooltipForegroundColor}</code></td><td> Foreground color to use for tooltips </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground cu.lt.joe.calculator:tooltipFrameBackground}</code></td><td> Background to use for tooltips </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_viewInflaterClass cu.lt.joe.calculator:viewInflaterClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar cu.lt.joe.calculator:windowActionBar}</code></td><td> Flag indicating whether this window should have an Action Bar
              in place of the usual title bar.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay cu.lt.ult.jrja.rpn.calc:windowActionBarOverlay}</code></td><td> Flag indicating whether this window's Action Bar should overlay
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay cu.lt.joe.calculator:windowActionBarOverlay}</code></td><td> Flag indicating whether this window's Action Bar should overlay
              application content.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay cu.lt.ult.jrja.rpn.calc:windowActionModeOverlay}</code></td><td> Flag indicating whether action modes should overlay window content
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay cu.lt.joe.calculator:windowActionModeOverlay}</code></td><td> Flag indicating whether action modes should overlay window content
              when there is not reserved space for their UI (such as an Action Bar).</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor cu.lt.ult.jrja.rpn.calc:windowFixedHeightMajor}</code></td><td> A fixed height for the window along the major axis of the screen,
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor cu.lt.joe.calculator:windowFixedHeightMajor}</code></td><td> A fixed height for the window along the major axis of the screen,
              that is, when in portrait.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor cu.lt.ult.jrja.rpn.calc:windowFixedHeightMinor}</code></td><td> A fixed height for the window along the minor axis of the screen,
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor cu.lt.joe.calculator:windowFixedHeightMinor}</code></td><td> A fixed height for the window along the minor axis of the screen,
              that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor cu.lt.ult.jrja.rpn.calc:windowFixedWidthMajor}</code></td><td> A fixed width for the window along the major axis of the screen,
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor cu.lt.joe.calculator:windowFixedWidthMajor}</code></td><td> A fixed width for the window along the major axis of the screen,
              that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor cu.lt.ult.jrja.rpn.calc:windowFixedWidthMinor}</code></td><td> A fixed width for the window along the minor axis of the screen,
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor cu.lt.joe.calculator:windowFixedWidthMinor}</code></td><td> A fixed width for the window along the minor axis of the screen,
              that is, when in portrait.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor cu.lt.ult.jrja.rpn.calc:windowMinWidthMajor}</code></td><td> The minimum width the window is allowed to be, along the major
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor cu.lt.joe.calculator:windowMinWidthMajor}</code></td><td> The minimum width the window is allowed to be, along the major
              axis of the screen.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor cu.lt.ult.jrja.rpn.calc:windowMinWidthMinor}</code></td><td> The minimum width the window is allowed to be, along the minor
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor cu.lt.joe.calculator:windowMinWidthMinor}</code></td><td> The minimum width the window is allowed to be, along the minor
              axis of the screen.</td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle cu.lt.ult.jrja.rpn.calc:windowNoTitle}</code></td><td> Flag indicating whether there should be no title on this window.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle cu.lt.joe.calculator:windowNoTitle}</code></td><td> Flag indicating whether there should be no title on this window.</td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -7481,7 +7484,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionBarDivider
+          @attr name cu.lt.joe.calculator:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
@@ -7493,7 +7496,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionBarItemBackground
+          @attr name cu.lt.joe.calculator:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
@@ -7506,7 +7509,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionBarPopupTheme
+          @attr name cu.lt.joe.calculator:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
@@ -7533,7 +7536,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionBarSize
+          @attr name cu.lt.joe.calculator:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
@@ -7548,7 +7551,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionBarSplitStyle
+          @attr name cu.lt.joe.calculator:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
@@ -7560,17 +7563,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionBarStyle
+          @attr name cu.lt.joe.calculator:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:actionBarTabBarStyle
+          @attr name cu.lt.joe.calculator:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
@@ -7582,17 +7585,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionBarTabStyle
+          @attr name cu.lt.joe.calculator:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:actionBarTabTextStyle
+          @attr name cu.lt.joe.calculator:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
@@ -7606,7 +7609,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionBarTheme
+          @attr name cu.lt.joe.calculator:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
@@ -7624,7 +7627,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionBarWidgetTheme
+          @attr name cu.lt.joe.calculator:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
@@ -7636,7 +7639,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionButtonStyle
+          @attr name cu.lt.joe.calculator:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 51;
         /**
@@ -7648,7 +7651,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionDropDownStyle
+          @attr name cu.lt.joe.calculator:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 47;
         /**
@@ -7661,7 +7664,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionMenuTextAppearance
+          @attr name cu.lt.joe.calculator:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
@@ -7676,7 +7679,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionMenuTextColor
+          @attr name cu.lt.joe.calculator:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
@@ -7688,17 +7691,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModeBackground
+          @attr name cu.lt.joe.calculator:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModeCloseButtonStyle
+          @attr name cu.lt.joe.calculator:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
@@ -7710,7 +7713,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModeCloseDrawable
+          @attr name cu.lt.joe.calculator:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
@@ -7722,7 +7725,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModeCopyDrawable
+          @attr name cu.lt.joe.calculator:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
@@ -7734,7 +7737,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModeCutDrawable
+          @attr name cu.lt.joe.calculator:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
@@ -7746,7 +7749,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModeFindDrawable
+          @attr name cu.lt.joe.calculator:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
@@ -7758,7 +7761,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModePasteDrawable
+          @attr name cu.lt.joe.calculator:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
@@ -7770,7 +7773,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModePopupWindowStyle
+          @attr name cu.lt.joe.calculator:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
@@ -7782,7 +7785,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModeSelectAllDrawable
+          @attr name cu.lt.joe.calculator:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
@@ -7794,7 +7797,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModeShareDrawable
+          @attr name cu.lt.joe.calculator:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
@@ -7806,17 +7809,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModeSplitBackground
+          @attr name cu.lt.joe.calculator:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModeStyle
+          @attr name cu.lt.joe.calculator:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
@@ -7828,27 +7831,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionModeWebSearchDrawable
+          @attr name cu.lt.joe.calculator:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:actionOverflowButtonStyle
+          @attr name cu.lt.joe.calculator:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:actionOverflowMenuStyle
+          @attr name cu.lt.joe.calculator:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
@@ -7860,21 +7863,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:activityChooserViewStyle
+          @attr name cu.lt.joe.calculator:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:alertDialogButtonGroupStyle
+          @attr name cu.lt.joe.calculator:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7884,17 +7887,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:alertDialogCenterButtons
+          @attr name cu.lt.joe.calculator:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 97;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:alertDialogStyle
+          @attr name cu.lt.joe.calculator:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 95;
         /**
@@ -7906,7 +7909,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:alertDialogTheme
+          @attr name cu.lt.joe.calculator:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 98;
         /**
@@ -7930,7 +7933,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:autoCompleteTextViewStyle
+          @attr name cu.lt.joe.calculator:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 103;
         /**
@@ -7942,7 +7945,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:borderlessButtonStyle
+          @attr name cu.lt.joe.calculator:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 56;
         /**
@@ -7954,7 +7957,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:buttonBarButtonStyle
+          @attr name cu.lt.joe.calculator:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 53;
         /**
@@ -7966,7 +7969,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:buttonBarNegativeButtonStyle
+          @attr name cu.lt.joe.calculator:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 101;
         /**
@@ -7978,7 +7981,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:buttonBarNeutralButtonStyle
+          @attr name cu.lt.joe.calculator:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 102;
         /**
@@ -7990,7 +7993,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:buttonBarPositiveButtonStyle
+          @attr name cu.lt.joe.calculator:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 100;
         /**
@@ -8002,7 +8005,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:buttonBarStyle
+          @attr name cu.lt.joe.calculator:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 52;
         /**
@@ -8014,7 +8017,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:buttonStyle
+          @attr name cu.lt.joe.calculator:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 104;
         /**
@@ -8026,7 +8029,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:buttonStyleSmall
+          @attr name cu.lt.joe.calculator:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 105;
         /**
@@ -8038,7 +8041,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:checkboxStyle
+          @attr name cu.lt.joe.calculator:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 106;
         /**
@@ -8050,7 +8053,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:checkedTextViewStyle
+          @attr name cu.lt.joe.calculator:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 107;
         /**
@@ -8068,7 +8071,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorAccent
+          @attr name cu.lt.joe.calculator:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 87;
         /**
@@ -8085,7 +8088,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorBackgroundFloating
+          @attr name cu.lt.joe.calculator:colorBackgroundFloating
         */
         public static final int AppCompatTheme_colorBackgroundFloating = 94;
         /**
@@ -8102,7 +8105,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorButtonNormal
+          @attr name cu.lt.joe.calculator:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 91;
         /**
@@ -8119,7 +8122,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorControlActivated
+          @attr name cu.lt.joe.calculator:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 89;
         /**
@@ -8136,7 +8139,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorControlHighlight
+          @attr name cu.lt.joe.calculator:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 90;
         /**
@@ -8153,7 +8156,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorControlNormal
+          @attr name cu.lt.joe.calculator:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 88;
         /**
@@ -8168,7 +8171,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorError
+          @attr name cu.lt.joe.calculator:colorError
         */
         public static final int AppCompatTheme_colorError = 119;
         /**
@@ -8186,7 +8189,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorPrimary
+          @attr name cu.lt.joe.calculator:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 85;
         /**
@@ -8204,7 +8207,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorPrimaryDark
+          @attr name cu.lt.joe.calculator:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 86;
         /**
@@ -8221,7 +8224,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorSwitchThumbNormal
+          @attr name cu.lt.joe.calculator:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 92;
         /**
@@ -8233,7 +8236,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:controlBackground
+          @attr name cu.lt.joe.calculator:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 93;
         /**
@@ -8251,7 +8254,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:dialogCornerRadius
+          @attr name cu.lt.joe.calculator:dialogCornerRadius
         */
         public static final int AppCompatTheme_dialogCornerRadius = 46;
         /**
@@ -8269,7 +8272,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:dialogPreferredPadding
+          @attr name cu.lt.joe.calculator:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
@@ -8281,7 +8284,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:dialogTheme
+          @attr name cu.lt.joe.calculator:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
@@ -8293,7 +8296,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:dividerHorizontal
+          @attr name cu.lt.joe.calculator:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 58;
         /**
@@ -8305,7 +8308,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:dividerVertical
+          @attr name cu.lt.joe.calculator:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 57;
         /**
@@ -8317,7 +8320,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:dropDownListViewStyle
+          @attr name cu.lt.joe.calculator:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 76;
         /**
@@ -8335,7 +8338,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:dropdownListPreferredItemHeight
+          @attr name cu.lt.joe.calculator:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 48;
         /**
@@ -8347,7 +8350,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:editTextBackground
+          @attr name cu.lt.joe.calculator:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 65;
         /**
@@ -8361,7 +8364,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:editTextColor
+          @attr name cu.lt.joe.calculator:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 64;
         /**
@@ -8373,7 +8376,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:editTextStyle
+          @attr name cu.lt.joe.calculator:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 108;
         /**
@@ -8385,7 +8388,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:homeAsUpIndicator
+          @attr name cu.lt.joe.calculator:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 50;
         /**
@@ -8397,7 +8400,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:imageButtonStyle
+          @attr name cu.lt.joe.calculator:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 66;
         /**
@@ -8409,7 +8412,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:listChoiceBackgroundIndicator
+          @attr name cu.lt.joe.calculator:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 84;
         /**
@@ -8421,7 +8424,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:listDividerAlertDialog
+          @attr name cu.lt.joe.calculator:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
@@ -8433,17 +8436,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:listMenuViewStyle
+          @attr name cu.lt.joe.calculator:listMenuViewStyle
         */
         public static final int AppCompatTheme_listMenuViewStyle = 116;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:listPopupWindowStyle
+          @attr name cu.lt.joe.calculator:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 77;
         /**
@@ -8461,7 +8464,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:listPreferredItemHeight
+          @attr name cu.lt.joe.calculator:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 71;
         /**
@@ -8479,7 +8482,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:listPreferredItemHeightLarge
+          @attr name cu.lt.joe.calculator:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 73;
         /**
@@ -8497,7 +8500,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:listPreferredItemHeightSmall
+          @attr name cu.lt.joe.calculator:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 72;
         /**
@@ -8515,7 +8518,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:listPreferredItemPaddingLeft
+          @attr name cu.lt.joe.calculator:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 74;
         /**
@@ -8533,7 +8536,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:listPreferredItemPaddingRight
+          @attr name cu.lt.joe.calculator:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 75;
         /**
@@ -8545,7 +8548,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:panelBackground
+          @attr name cu.lt.joe.calculator:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 81;
         /**
@@ -8557,7 +8560,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:panelMenuListTheme
+          @attr name cu.lt.joe.calculator:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 83;
         /**
@@ -8575,7 +8578,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:panelMenuListWidth
+          @attr name cu.lt.joe.calculator:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 82;
         /**
@@ -8587,7 +8590,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:popupMenuStyle
+          @attr name cu.lt.joe.calculator:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 62;
         /**
@@ -8599,7 +8602,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:popupWindowStyle
+          @attr name cu.lt.joe.calculator:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 63;
         /**
@@ -8611,7 +8614,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:radioButtonStyle
+          @attr name cu.lt.joe.calculator:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 109;
         /**
@@ -8623,7 +8626,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:ratingBarStyle
+          @attr name cu.lt.joe.calculator:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 110;
         /**
@@ -8635,7 +8638,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:ratingBarStyleIndicator
+          @attr name cu.lt.joe.calculator:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 111;
         /**
@@ -8647,7 +8650,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:ratingBarStyleSmall
+          @attr name cu.lt.joe.calculator:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 112;
         /**
@@ -8659,7 +8662,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:searchViewStyle
+          @attr name cu.lt.joe.calculator:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 70;
         /**
@@ -8671,7 +8674,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:seekBarStyle
+          @attr name cu.lt.joe.calculator:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 113;
         /**
@@ -8685,7 +8688,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:selectableItemBackground
+          @attr name cu.lt.joe.calculator:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 54;
         /**
@@ -8697,7 +8700,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:selectableItemBackgroundBorderless
+          @attr name cu.lt.joe.calculator:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 55;
         /**
@@ -8709,7 +8712,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:spinnerDropDownItemStyle
+          @attr name cu.lt.joe.calculator:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 49;
         /**
@@ -8721,7 +8724,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:spinnerStyle
+          @attr name cu.lt.joe.calculator:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 114;
         /**
@@ -8733,7 +8736,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:switchStyle
+          @attr name cu.lt.joe.calculator:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 115;
         /**
@@ -8745,7 +8748,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceLargePopupMenu
+          @attr name cu.lt.joe.calculator:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
@@ -8757,7 +8760,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceListItem
+          @attr name cu.lt.joe.calculator:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 78;
         /**
@@ -8769,7 +8772,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceListItemSecondary
+          @attr name cu.lt.joe.calculator:textAppearanceListItemSecondary
         */
         public static final int AppCompatTheme_textAppearanceListItemSecondary = 79;
         /**
@@ -8781,7 +8784,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceListItemSmall
+          @attr name cu.lt.joe.calculator:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 80;
         /**
@@ -8793,7 +8796,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearancePopupMenuHeader
+          @attr name cu.lt.joe.calculator:textAppearancePopupMenuHeader
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
@@ -8805,7 +8808,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceSearchResultSubtitle
+          @attr name cu.lt.joe.calculator:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 68;
         /**
@@ -8817,7 +8820,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceSearchResultTitle
+          @attr name cu.lt.joe.calculator:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 67;
         /**
@@ -8829,7 +8832,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceSmallPopupMenu
+          @attr name cu.lt.joe.calculator:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
@@ -8843,7 +8846,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:textColorAlertDialogListItem
+          @attr name cu.lt.joe.calculator:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 99;
         /**
@@ -8857,7 +8860,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:textColorSearchUrl
+          @attr name cu.lt.joe.calculator:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 69;
         /**
@@ -8869,7 +8872,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:toolbarNavigationButtonStyle
+          @attr name cu.lt.joe.calculator:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 61;
         /**
@@ -8881,7 +8884,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:toolbarStyle
+          @attr name cu.lt.joe.calculator:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 60;
         /**
@@ -8895,7 +8898,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:tooltipForegroundColor
+          @attr name cu.lt.joe.calculator:tooltipForegroundColor
         */
         public static final int AppCompatTheme_tooltipForegroundColor = 118;
         /**
@@ -8907,11 +8910,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:tooltipFrameBackground
+          @attr name cu.lt.joe.calculator:tooltipFrameBackground
         */
         public static final int AppCompatTheme_tooltipFrameBackground = 117;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#viewInflaterClass}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#viewInflaterClass}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -8921,7 +8924,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:viewInflaterClass
+          @attr name cu.lt.joe.calculator:viewInflaterClass
         */
         public static final int AppCompatTheme_viewInflaterClass = 120;
         /**
@@ -8938,7 +8941,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:windowActionBar
+          @attr name cu.lt.joe.calculator:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
@@ -8956,7 +8959,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:windowActionBarOverlay
+          @attr name cu.lt.joe.calculator:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
@@ -8973,7 +8976,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:windowActionModeOverlay
+          @attr name cu.lt.joe.calculator:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
@@ -8996,7 +8999,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:windowFixedHeightMajor
+          @attr name cu.lt.joe.calculator:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
@@ -9019,7 +9022,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:windowFixedHeightMinor
+          @attr name cu.lt.joe.calculator:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
@@ -9042,7 +9045,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:windowFixedWidthMajor
+          @attr name cu.lt.joe.calculator:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
@@ -9065,7 +9068,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:windowFixedWidthMinor
+          @attr name cu.lt.joe.calculator:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
@@ -9089,7 +9092,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:windowMinWidthMajor
+          @attr name cu.lt.joe.calculator:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
@@ -9113,7 +9116,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:windowMinWidthMinor
+          @attr name cu.lt.joe.calculator:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
@@ -9129,7 +9132,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:windowNoTitle
+          @attr name cu.lt.joe.calculator:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomAppBar.
@@ -9138,12 +9141,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomAppBar_backgroundTint cu.lt.ult.jrja.rpn.calc:backgroundTint}</code></td><td> Tint to apply to the background.</td></tr>
-           <tr><td><code>{@link #BottomAppBar_fabAlignmentMode cu.lt.ult.jrja.rpn.calc:fabAlignmentMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomAppBar_fabCradleMargin cu.lt.ult.jrja.rpn.calc:fabCradleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius cu.lt.ult.jrja.rpn.calc:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset cu.lt.ult.jrja.rpn.calc:fabCradleVerticalOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomAppBar_hideOnScroll cu.lt.ult.jrja.rpn.calc:hideOnScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomAppBar_backgroundTint cu.lt.joe.calculator:backgroundTint}</code></td><td> Tint to apply to the background.</td></tr>
+           <tr><td><code>{@link #BottomAppBar_fabAlignmentMode cu.lt.joe.calculator:fabAlignmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomAppBar_fabCradleMargin cu.lt.joe.calculator:fabCradleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius cu.lt.joe.calculator:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset cu.lt.joe.calculator:fabCradleVerticalOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomAppBar_hideOnScroll cu.lt.joe.calculator:hideOnScroll}</code></td><td></td></tr>
            </table>
            @see #BottomAppBar_backgroundTint
            @see #BottomAppBar_fabAlignmentMode
@@ -9170,11 +9173,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:backgroundTint
+          @attr name cu.lt.joe.calculator:backgroundTint
         */
         public static final int BottomAppBar_backgroundTint = 5;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#fabAlignmentMode}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#fabAlignmentMode}
           attribute's value can be found in the {@link #BottomAppBar} array.
 
 
@@ -9187,11 +9190,11 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>0</td><td></td></tr>
 <tr><td><code>end</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:fabAlignmentMode
+          @attr name cu.lt.joe.calculator:fabAlignmentMode
         */
         public static final int BottomAppBar_fabAlignmentMode = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#fabCradleMargin}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#fabCradleMargin}
           attribute's value can be found in the {@link #BottomAppBar} array.
 
 
@@ -9203,11 +9206,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:fabCradleMargin
+          @attr name cu.lt.joe.calculator:fabCradleMargin
         */
         public static final int BottomAppBar_fabCradleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#fabCradleRoundedCornerRadius}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#fabCradleRoundedCornerRadius}
           attribute's value can be found in the {@link #BottomAppBar} array.
 
 
@@ -9219,11 +9222,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:fabCradleRoundedCornerRadius
+          @attr name cu.lt.joe.calculator:fabCradleRoundedCornerRadius
         */
         public static final int BottomAppBar_fabCradleRoundedCornerRadius = 2;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#fabCradleVerticalOffset}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#fabCradleVerticalOffset}
           attribute's value can be found in the {@link #BottomAppBar} array.
 
 
@@ -9235,11 +9238,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:fabCradleVerticalOffset
+          @attr name cu.lt.joe.calculator:fabCradleVerticalOffset
         */
         public static final int BottomAppBar_fabCradleVerticalOffset = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#hideOnScroll}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#hideOnScroll}
           attribute's value can be found in the {@link #BottomAppBar} array.
 
 
@@ -9249,7 +9252,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:hideOnScroll
+          @attr name cu.lt.joe.calculator:hideOnScroll
         */
         public static final int BottomAppBar_hideOnScroll = 4;
         /** Attributes that can be used with a BottomNavigationView.
@@ -9258,16 +9261,16 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomNavigationView_elevation cu.lt.ult.jrja.rpn.calc:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemBackground cu.lt.ult.jrja.rpn.calc:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled cu.lt.ult.jrja.rpn.calc:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemIconSize cu.lt.ult.jrja.rpn.calc:itemIconSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemIconTint cu.lt.ult.jrja.rpn.calc:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive cu.lt.ult.jrja.rpn.calc:itemTextAppearanceActive}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive cu.lt.ult.jrja.rpn.calc:itemTextAppearanceInactive}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemTextColor cu.lt.ult.jrja.rpn.calc:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode cu.lt.ult.jrja.rpn.calc:labelVisibilityMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_menu cu.lt.ult.jrja.rpn.calc:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_elevation cu.lt.joe.calculator:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemBackground cu.lt.joe.calculator:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled cu.lt.joe.calculator:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemIconSize cu.lt.joe.calculator:itemIconSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemIconTint cu.lt.joe.calculator:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive cu.lt.joe.calculator:itemTextAppearanceActive}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive cu.lt.joe.calculator:itemTextAppearanceInactive}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemTextColor cu.lt.joe.calculator:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode cu.lt.joe.calculator:labelVisibilityMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_menu cu.lt.joe.calculator:menu}</code></td><td></td></tr>
            </table>
            @see #BottomNavigationView_elevation
            @see #BottomNavigationView_itemBackground
@@ -9300,21 +9303,21 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:elevation
+          @attr name cu.lt.joe.calculator:elevation
         */
         public static final int BottomNavigationView_elevation = 9;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemBackground}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:itemBackground
+          @attr name cu.lt.joe.calculator:itemBackground
         */
         public static final int BottomNavigationView_itemBackground = 8;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemHorizontalTranslationEnabled}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemHorizontalTranslationEnabled}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -9324,11 +9327,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:itemHorizontalTranslationEnabled
+          @attr name cu.lt.joe.calculator:itemHorizontalTranslationEnabled
         */
         public static final int BottomNavigationView_itemHorizontalTranslationEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemIconSize}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemIconSize}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -9340,11 +9343,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:itemIconSize
+          @attr name cu.lt.joe.calculator:itemIconSize
         */
         public static final int BottomNavigationView_itemIconSize = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemIconTint}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -9355,31 +9358,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:itemIconTint
+          @attr name cu.lt.joe.calculator:itemIconTint
         */
         public static final int BottomNavigationView_itemIconTint = 6;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemTextAppearanceActive}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemTextAppearanceActive}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:itemTextAppearanceActive
+          @attr name cu.lt.joe.calculator:itemTextAppearanceActive
         */
         public static final int BottomNavigationView_itemTextAppearanceActive = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemTextAppearanceInactive}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemTextAppearanceInactive}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:itemTextAppearanceInactive
+          @attr name cu.lt.joe.calculator:itemTextAppearanceInactive
         */
         public static final int BottomNavigationView_itemTextAppearanceInactive = 2;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemTextColor}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -9390,11 +9393,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:itemTextColor
+          @attr name cu.lt.joe.calculator:itemTextColor
         */
         public static final int BottomNavigationView_itemTextColor = 7;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#labelVisibilityMode}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#labelVisibilityMode}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -9409,17 +9412,17 @@ containing a value of this type.
 <tr><td><code>labeled</code></td><td>1</td><td></td></tr>
 <tr><td><code>unlabeled</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:labelVisibilityMode
+          @attr name cu.lt.joe.calculator:labelVisibilityMode
         */
         public static final int BottomNavigationView_labelVisibilityMode = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#menu}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#menu}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:menu
+          @attr name cu.lt.joe.calculator:menu
         */
         public static final int BottomNavigationView_menu = 5;
         /** Attributes that can be used with a BottomSheetBehavior_Layout.
@@ -9428,10 +9431,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents cu.lt.ult.jrja.rpn.calc:behavior_fitToContents}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable cu.lt.ult.jrja.rpn.calc:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight cu.lt.ult.jrja.rpn.calc:behavior_peekHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed cu.lt.ult.jrja.rpn.calc:behavior_skipCollapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents cu.lt.joe.calculator:behavior_fitToContents}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable cu.lt.joe.calculator:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight cu.lt.joe.calculator:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed cu.lt.joe.calculator:behavior_skipCollapsed}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Layout_behavior_fitToContents
            @see #BottomSheetBehavior_Layout_behavior_hideable
@@ -9442,7 +9445,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010048, 0x7f010049, 0x7f01004a, 0x7f01004b
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#behavior_fitToContents}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#behavior_fitToContents}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -9452,11 +9455,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:behavior_fitToContents
+          @attr name cu.lt.joe.calculator:behavior_fitToContents
         */
         public static final int BottomSheetBehavior_Layout_behavior_fitToContents = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -9466,11 +9469,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:behavior_hideable
+          @attr name cu.lt.joe.calculator:behavior_hideable
         */
         public static final int BottomSheetBehavior_Layout_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -9490,11 +9493,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>auto</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:behavior_peekHeight
+          @attr name cu.lt.joe.calculator:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Layout_behavior_peekHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#behavior_skipCollapsed}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#behavior_skipCollapsed}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -9504,7 +9507,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:behavior_skipCollapsed
+          @attr name cu.lt.joe.calculator:behavior_skipCollapsed
         */
         public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -9513,7 +9516,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking cu.lt.ult.jrja.rpn.calc:allowStacking}</code></td><td> Whether to automatically stack the buttons when there is not
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking cu.lt.joe.calculator:allowStacking}</code></td><td> Whether to automatically stack the buttons when there is not
              enough space to lay them out side-by-side.</td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
@@ -9535,7 +9538,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:allowStacking
+          @attr name cu.lt.joe.calculator:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CardView.
@@ -9546,17 +9549,17 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td> Workaround to read user defined minimum height </td></tr>
            <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td> Workaround to read user defined minimum width </td></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor cu.lt.ult.jrja.rpn.calc:cardBackgroundColor}</code></td><td> Background color for CardView.</td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius cu.lt.ult.jrja.rpn.calc:cardCornerRadius}</code></td><td> Corner radius for CardView.</td></tr>
-           <tr><td><code>{@link #CardView_cardElevation cu.lt.ult.jrja.rpn.calc:cardElevation}</code></td><td> Elevation for CardView.</td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation cu.lt.ult.jrja.rpn.calc:cardMaxElevation}</code></td><td> Maximum Elevation for CardView.</td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap cu.lt.ult.jrja.rpn.calc:cardPreventCornerOverlap}</code></td><td> Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.</td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding cu.lt.ult.jrja.rpn.calc:cardUseCompatPadding}</code></td><td> Add padding in API v21+ as well to have the same measurements with previous versions.</td></tr>
-           <tr><td><code>{@link #CardView_contentPadding cu.lt.ult.jrja.rpn.calc:contentPadding}</code></td><td> Inner padding between the edges of the Card and children of the CardView.</td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom cu.lt.ult.jrja.rpn.calc:contentPaddingBottom}</code></td><td> Inner padding between the bottom edge of the Card and children of the CardView.</td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft cu.lt.ult.jrja.rpn.calc:contentPaddingLeft}</code></td><td> Inner padding between the left edge of the Card and children of the CardView.</td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight cu.lt.ult.jrja.rpn.calc:contentPaddingRight}</code></td><td> Inner padding between the right edge of the Card and children of the CardView.</td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop cu.lt.ult.jrja.rpn.calc:contentPaddingTop}</code></td><td> Inner padding between the top edge of the Card and children of the CardView.</td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor cu.lt.joe.calculator:cardBackgroundColor}</code></td><td> Background color for CardView.</td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius cu.lt.joe.calculator:cardCornerRadius}</code></td><td> Corner radius for CardView.</td></tr>
+           <tr><td><code>{@link #CardView_cardElevation cu.lt.joe.calculator:cardElevation}</code></td><td> Elevation for CardView.</td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation cu.lt.joe.calculator:cardMaxElevation}</code></td><td> Maximum Elevation for CardView.</td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap cu.lt.joe.calculator:cardPreventCornerOverlap}</code></td><td> Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.</td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding cu.lt.joe.calculator:cardUseCompatPadding}</code></td><td> Add padding in API v21+ as well to have the same measurements with previous versions.</td></tr>
+           <tr><td><code>{@link #CardView_contentPadding cu.lt.joe.calculator:contentPadding}</code></td><td> Inner padding between the edges of the Card and children of the CardView.</td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom cu.lt.joe.calculator:contentPaddingBottom}</code></td><td> Inner padding between the bottom edge of the Card and children of the CardView.</td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft cu.lt.joe.calculator:contentPaddingLeft}</code></td><td> Inner padding between the left edge of the Card and children of the CardView.</td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight cu.lt.joe.calculator:contentPaddingRight}</code></td><td> Inner padding between the right edge of the Card and children of the CardView.</td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop cu.lt.joe.calculator:contentPaddingTop}</code></td><td> Inner padding between the top edge of the Card and children of the CardView.</td></tr>
            </table>
            @see #CardView_android_minHeight
            @see #CardView_android_minWidth
@@ -9610,7 +9613,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:cardBackgroundColor
+          @attr name cu.lt.joe.calculator:cardBackgroundColor
         */
         public static final int CardView_cardBackgroundColor = 2;
         /**
@@ -9628,7 +9631,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:cardCornerRadius
+          @attr name cu.lt.joe.calculator:cardCornerRadius
         */
         public static final int CardView_cardCornerRadius = 3;
         /**
@@ -9646,7 +9649,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:cardElevation
+          @attr name cu.lt.joe.calculator:cardElevation
         */
         public static final int CardView_cardElevation = 4;
         /**
@@ -9664,7 +9667,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:cardMaxElevation
+          @attr name cu.lt.joe.calculator:cardMaxElevation
         */
         public static final int CardView_cardMaxElevation = 5;
         /**
@@ -9680,7 +9683,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:cardPreventCornerOverlap
+          @attr name cu.lt.joe.calculator:cardPreventCornerOverlap
         */
         public static final int CardView_cardPreventCornerOverlap = 7;
         /**
@@ -9696,7 +9699,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:cardUseCompatPadding
+          @attr name cu.lt.joe.calculator:cardUseCompatPadding
         */
         public static final int CardView_cardUseCompatPadding = 6;
         /**
@@ -9714,7 +9717,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentPadding
+          @attr name cu.lt.joe.calculator:contentPadding
         */
         public static final int CardView_contentPadding = 8;
         /**
@@ -9732,7 +9735,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentPaddingBottom
+          @attr name cu.lt.joe.calculator:contentPaddingBottom
         */
         public static final int CardView_contentPaddingBottom = 12;
         /**
@@ -9750,7 +9753,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentPaddingLeft
+          @attr name cu.lt.joe.calculator:contentPaddingLeft
         */
         public static final int CardView_contentPaddingLeft = 9;
         /**
@@ -9768,7 +9771,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentPaddingRight
+          @attr name cu.lt.joe.calculator:contentPaddingRight
         */
         public static final int CardView_contentPaddingRight = 10;
         /**
@@ -9786,7 +9789,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentPaddingTop
+          @attr name cu.lt.joe.calculator:contentPaddingTop
         */
         public static final int CardView_contentPaddingTop = 11;
         /** Attributes that can be used with a Chip.
@@ -9800,35 +9803,35 @@ containing a value of this type.
            <tr><td><code>{@link #Chip_android_maxWidth android:maxWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Chip_android_text android:text}</code></td><td></td></tr>
            <tr><td><code>{@link #Chip_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_checkedIcon cu.lt.ult.jrja.rpn.calc:checkedIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_checkedIconEnabled cu.lt.ult.jrja.rpn.calc:checkedIconEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_checkedIconVisible cu.lt.ult.jrja.rpn.calc:checkedIconVisible}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_chipBackgroundColor cu.lt.ult.jrja.rpn.calc:chipBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_chipCornerRadius cu.lt.ult.jrja.rpn.calc:chipCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_chipEndPadding cu.lt.ult.jrja.rpn.calc:chipEndPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_chipIcon cu.lt.ult.jrja.rpn.calc:chipIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_chipIconEnabled cu.lt.ult.jrja.rpn.calc:chipIconEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_chipIconSize cu.lt.ult.jrja.rpn.calc:chipIconSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_chipIconTint cu.lt.ult.jrja.rpn.calc:chipIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_chipIconVisible cu.lt.ult.jrja.rpn.calc:chipIconVisible}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_chipMinHeight cu.lt.ult.jrja.rpn.calc:chipMinHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_chipStartPadding cu.lt.ult.jrja.rpn.calc:chipStartPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_chipStrokeColor cu.lt.ult.jrja.rpn.calc:chipStrokeColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_chipStrokeWidth cu.lt.ult.jrja.rpn.calc:chipStrokeWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_closeIcon cu.lt.ult.jrja.rpn.calc:closeIcon}</code></td><td> Close button icon </td></tr>
-           <tr><td><code>{@link #Chip_closeIconEnabled cu.lt.ult.jrja.rpn.calc:closeIconEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_closeIconEndPadding cu.lt.ult.jrja.rpn.calc:closeIconEndPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_closeIconSize cu.lt.ult.jrja.rpn.calc:closeIconSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_closeIconStartPadding cu.lt.ult.jrja.rpn.calc:closeIconStartPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_closeIconTint cu.lt.ult.jrja.rpn.calc:closeIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_closeIconVisible cu.lt.ult.jrja.rpn.calc:closeIconVisible}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_hideMotionSpec cu.lt.ult.jrja.rpn.calc:hideMotionSpec}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_iconEndPadding cu.lt.ult.jrja.rpn.calc:iconEndPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_iconStartPadding cu.lt.ult.jrja.rpn.calc:iconStartPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_rippleColor cu.lt.ult.jrja.rpn.calc:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_showMotionSpec cu.lt.ult.jrja.rpn.calc:showMotionSpec}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_textEndPadding cu.lt.ult.jrja.rpn.calc:textEndPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Chip_textStartPadding cu.lt.ult.jrja.rpn.calc:textStartPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_checkedIcon cu.lt.joe.calculator:checkedIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_checkedIconEnabled cu.lt.joe.calculator:checkedIconEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_checkedIconVisible cu.lt.joe.calculator:checkedIconVisible}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_chipBackgroundColor cu.lt.joe.calculator:chipBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_chipCornerRadius cu.lt.joe.calculator:chipCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_chipEndPadding cu.lt.joe.calculator:chipEndPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_chipIcon cu.lt.joe.calculator:chipIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_chipIconEnabled cu.lt.joe.calculator:chipIconEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_chipIconSize cu.lt.joe.calculator:chipIconSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_chipIconTint cu.lt.joe.calculator:chipIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_chipIconVisible cu.lt.joe.calculator:chipIconVisible}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_chipMinHeight cu.lt.joe.calculator:chipMinHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_chipStartPadding cu.lt.joe.calculator:chipStartPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_chipStrokeColor cu.lt.joe.calculator:chipStrokeColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_chipStrokeWidth cu.lt.joe.calculator:chipStrokeWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_closeIcon cu.lt.joe.calculator:closeIcon}</code></td><td> Close button icon </td></tr>
+           <tr><td><code>{@link #Chip_closeIconEnabled cu.lt.joe.calculator:closeIconEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_closeIconEndPadding cu.lt.joe.calculator:closeIconEndPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_closeIconSize cu.lt.joe.calculator:closeIconSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_closeIconStartPadding cu.lt.joe.calculator:closeIconStartPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_closeIconTint cu.lt.joe.calculator:closeIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_closeIconVisible cu.lt.joe.calculator:closeIconVisible}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_hideMotionSpec cu.lt.joe.calculator:hideMotionSpec}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_iconEndPadding cu.lt.joe.calculator:iconEndPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_iconStartPadding cu.lt.joe.calculator:iconStartPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_rippleColor cu.lt.joe.calculator:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_showMotionSpec cu.lt.joe.calculator:showMotionSpec}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_textEndPadding cu.lt.joe.calculator:textEndPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Chip_textStartPadding cu.lt.joe.calculator:textStartPadding}</code></td><td></td></tr>
            </table>
            @see #Chip_android_checkable
            @see #Chip_android_ellipsize
@@ -9907,17 +9910,17 @@ containing a value of this type.
         */
         public static final int Chip_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#checkedIcon}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#checkedIcon}
           attribute's value can be found in the {@link #Chip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:checkedIcon
+          @attr name cu.lt.joe.calculator:checkedIcon
         */
         public static final int Chip_checkedIcon = 25;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#checkedIconEnabled}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#checkedIconEnabled}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -9927,11 +9930,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:checkedIconEnabled
+          @attr name cu.lt.joe.calculator:checkedIconEnabled
         */
         public static final int Chip_checkedIconEnabled = 24;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#checkedIconVisible}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#checkedIconVisible}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -9941,11 +9944,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:checkedIconVisible
+          @attr name cu.lt.joe.calculator:checkedIconVisible
         */
         public static final int Chip_checkedIconVisible = 23;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipBackgroundColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipBackgroundColor}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -9956,11 +9959,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipBackgroundColor
+          @attr name cu.lt.joe.calculator:chipBackgroundColor
         */
         public static final int Chip_chipBackgroundColor = 8;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipCornerRadius}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipCornerRadius}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -9972,11 +9975,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipCornerRadius
+          @attr name cu.lt.joe.calculator:chipCornerRadius
         */
         public static final int Chip_chipCornerRadius = 10;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipEndPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipEndPadding}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -9988,21 +9991,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipEndPadding
+          @attr name cu.lt.joe.calculator:chipEndPadding
         */
         public static final int Chip_chipEndPadding = 33;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipIcon}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipIcon}
           attribute's value can be found in the {@link #Chip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:chipIcon
+          @attr name cu.lt.joe.calculator:chipIcon
         */
         public static final int Chip_chipIcon = 15;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipIconEnabled}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipIconEnabled}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10012,11 +10015,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipIconEnabled
+          @attr name cu.lt.joe.calculator:chipIconEnabled
         */
         public static final int Chip_chipIconEnabled = 14;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipIconSize}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipIconSize}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10028,11 +10031,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipIconSize
+          @attr name cu.lt.joe.calculator:chipIconSize
         */
         public static final int Chip_chipIconSize = 17;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipIconTint}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipIconTint}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10043,11 +10046,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipIconTint
+          @attr name cu.lt.joe.calculator:chipIconTint
         */
         public static final int Chip_chipIconTint = 16;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipIconVisible}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipIconVisible}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10057,11 +10060,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipIconVisible
+          @attr name cu.lt.joe.calculator:chipIconVisible
         */
         public static final int Chip_chipIconVisible = 13;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipMinHeight}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipMinHeight}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10073,11 +10076,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipMinHeight
+          @attr name cu.lt.joe.calculator:chipMinHeight
         */
         public static final int Chip_chipMinHeight = 9;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipStartPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipStartPadding}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10089,11 +10092,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipStartPadding
+          @attr name cu.lt.joe.calculator:chipStartPadding
         */
         public static final int Chip_chipStartPadding = 26;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipStrokeColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipStrokeColor}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10104,11 +10107,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipStrokeColor
+          @attr name cu.lt.joe.calculator:chipStrokeColor
         */
         public static final int Chip_chipStrokeColor = 11;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipStrokeWidth}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipStrokeWidth}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10120,7 +10123,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipStrokeWidth
+          @attr name cu.lt.joe.calculator:chipStrokeWidth
         */
         public static final int Chip_chipStrokeWidth = 12;
         /**
@@ -10134,11 +10137,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:closeIcon
+          @attr name cu.lt.joe.calculator:closeIcon
         */
         public static final int Chip_closeIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#closeIconEnabled}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#closeIconEnabled}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10148,11 +10151,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:closeIconEnabled
+          @attr name cu.lt.joe.calculator:closeIconEnabled
         */
         public static final int Chip_closeIconEnabled = 19;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#closeIconEndPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#closeIconEndPadding}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10164,11 +10167,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:closeIconEndPadding
+          @attr name cu.lt.joe.calculator:closeIconEndPadding
         */
         public static final int Chip_closeIconEndPadding = 32;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#closeIconSize}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#closeIconSize}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10180,11 +10183,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:closeIconSize
+          @attr name cu.lt.joe.calculator:closeIconSize
         */
         public static final int Chip_closeIconSize = 22;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#closeIconStartPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#closeIconStartPadding}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10196,11 +10199,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:closeIconStartPadding
+          @attr name cu.lt.joe.calculator:closeIconStartPadding
         */
         public static final int Chip_closeIconStartPadding = 31;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#closeIconTint}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#closeIconTint}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10211,11 +10214,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:closeIconTint
+          @attr name cu.lt.joe.calculator:closeIconTint
         */
         public static final int Chip_closeIconTint = 21;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#closeIconVisible}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#closeIconVisible}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10225,21 +10228,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:closeIconVisible
+          @attr name cu.lt.joe.calculator:closeIconVisible
         */
         public static final int Chip_closeIconVisible = 18;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#hideMotionSpec}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#hideMotionSpec}
           attribute's value can be found in the {@link #Chip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:hideMotionSpec
+          @attr name cu.lt.joe.calculator:hideMotionSpec
         */
         public static final int Chip_hideMotionSpec = 5;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#iconEndPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#iconEndPadding}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10251,11 +10254,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:iconEndPadding
+          @attr name cu.lt.joe.calculator:iconEndPadding
         */
         public static final int Chip_iconEndPadding = 28;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#iconStartPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#iconStartPadding}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10267,11 +10270,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:iconStartPadding
+          @attr name cu.lt.joe.calculator:iconStartPadding
         */
         public static final int Chip_iconStartPadding = 27;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#rippleColor}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10282,21 +10285,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:rippleColor
+          @attr name cu.lt.joe.calculator:rippleColor
         */
         public static final int Chip_rippleColor = 6;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#showMotionSpec}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#showMotionSpec}
           attribute's value can be found in the {@link #Chip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:showMotionSpec
+          @attr name cu.lt.joe.calculator:showMotionSpec
         */
         public static final int Chip_showMotionSpec = 7;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textEndPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textEndPadding}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10308,11 +10311,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:textEndPadding
+          @attr name cu.lt.joe.calculator:textEndPadding
         */
         public static final int Chip_textEndPadding = 30;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textStartPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textStartPadding}
           attribute's value can be found in the {@link #Chip} array.
 
 
@@ -10324,7 +10327,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:textStartPadding
+          @attr name cu.lt.joe.calculator:textStartPadding
         */
         public static final int Chip_textStartPadding = 29;
         /** Attributes that can be used with a ChipGroup.
@@ -10333,12 +10336,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ChipGroup_checkedChip cu.lt.ult.jrja.rpn.calc:checkedChip}</code></td><td></td></tr>
-           <tr><td><code>{@link #ChipGroup_chipSpacing cu.lt.ult.jrja.rpn.calc:chipSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal cu.lt.ult.jrja.rpn.calc:chipSpacingHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #ChipGroup_chipSpacingVertical cu.lt.ult.jrja.rpn.calc:chipSpacingVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #ChipGroup_singleLine cu.lt.ult.jrja.rpn.calc:singleLine}</code></td><td></td></tr>
-           <tr><td><code>{@link #ChipGroup_singleSelection cu.lt.ult.jrja.rpn.calc:singleSelection}</code></td><td></td></tr>
+           <tr><td><code>{@link #ChipGroup_checkedChip cu.lt.joe.calculator:checkedChip}</code></td><td></td></tr>
+           <tr><td><code>{@link #ChipGroup_chipSpacing cu.lt.joe.calculator:chipSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal cu.lt.joe.calculator:chipSpacingHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #ChipGroup_chipSpacingVertical cu.lt.joe.calculator:chipSpacingVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #ChipGroup_singleLine cu.lt.joe.calculator:singleLine}</code></td><td></td></tr>
+           <tr><td><code>{@link #ChipGroup_singleSelection cu.lt.joe.calculator:singleSelection}</code></td><td></td></tr>
            </table>
            @see #ChipGroup_checkedChip
            @see #ChipGroup_chipSpacing
@@ -10352,17 +10355,17 @@ containing a value of this type.
             0x7f01006a, 0x7f01006b
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#checkedChip}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#checkedChip}
           attribute's value can be found in the {@link #ChipGroup} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:checkedChip
+          @attr name cu.lt.joe.calculator:checkedChip
         */
         public static final int ChipGroup_checkedChip = 5;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipSpacing}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipSpacing}
           attribute's value can be found in the {@link #ChipGroup} array.
 
 
@@ -10374,11 +10377,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipSpacing
+          @attr name cu.lt.joe.calculator:chipSpacing
         */
         public static final int ChipGroup_chipSpacing = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipSpacingHorizontal}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipSpacingHorizontal}
           attribute's value can be found in the {@link #ChipGroup} array.
 
 
@@ -10390,11 +10393,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipSpacingHorizontal
+          @attr name cu.lt.joe.calculator:chipSpacingHorizontal
         */
         public static final int ChipGroup_chipSpacingHorizontal = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipSpacingVertical}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipSpacingVertical}
           attribute's value can be found in the {@link #ChipGroup} array.
 
 
@@ -10406,11 +10409,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:chipSpacingVertical
+          @attr name cu.lt.joe.calculator:chipSpacingVertical
         */
         public static final int ChipGroup_chipSpacingVertical = 2;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#singleLine}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#singleLine}
           attribute's value can be found in the {@link #ChipGroup} array.
 
 
@@ -10420,11 +10423,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:singleLine
+          @attr name cu.lt.joe.calculator:singleLine
         */
         public static final int ChipGroup_singleLine = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#singleSelection}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#singleSelection}
           attribute's value can be found in the {@link #ChipGroup} array.
 
 
@@ -10434,7 +10437,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:singleSelection
+          @attr name cu.lt.joe.calculator:singleSelection
         */
         public static final int ChipGroup_singleSelection = 4;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -10443,22 +10446,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity cu.lt.ult.jrja.rpn.calc:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance cu.lt.ult.jrja.rpn.calc:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim cu.lt.ult.jrja.rpn.calc:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity cu.lt.ult.jrja.rpn.calc:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin cu.lt.ult.jrja.rpn.calc:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom cu.lt.ult.jrja.rpn.calc:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd cu.lt.ult.jrja.rpn.calc:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart cu.lt.ult.jrja.rpn.calc:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop cu.lt.ult.jrja.rpn.calc:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance cu.lt.ult.jrja.rpn.calc:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration cu.lt.ult.jrja.rpn.calc:scrimAnimationDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger cu.lt.ult.jrja.rpn.calc:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim cu.lt.ult.jrja.rpn.calc:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title cu.lt.ult.jrja.rpn.calc:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled cu.lt.ult.jrja.rpn.calc:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId cu.lt.ult.jrja.rpn.calc:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity cu.lt.joe.calculator:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance cu.lt.joe.calculator:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim cu.lt.joe.calculator:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity cu.lt.joe.calculator:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin cu.lt.joe.calculator:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom cu.lt.joe.calculator:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd cu.lt.joe.calculator:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart cu.lt.joe.calculator:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop cu.lt.joe.calculator:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance cu.lt.joe.calculator:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration cu.lt.joe.calculator:scrimAnimationDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger cu.lt.joe.calculator:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim cu.lt.joe.calculator:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title cu.lt.joe.calculator:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled cu.lt.joe.calculator:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId cu.lt.joe.calculator:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -10484,7 +10487,7 @@ containing a value of this type.
             0x7f010078, 0x7f010079, 0x7f01007a, 0x7f0100e8
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10505,21 +10508,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:collapsedTitleGravity
+          @attr name cu.lt.joe.calculator:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:collapsedTitleTextAppearance
+          @attr name cu.lt.joe.calculator:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10530,11 +10533,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentScrim
+          @attr name cu.lt.joe.calculator:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 7;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10555,11 +10558,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:expandedTitleGravity
+          @attr name cu.lt.joe.calculator:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 13;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10571,11 +10574,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:expandedTitleMargin
+          @attr name cu.lt.joe.calculator:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10587,11 +10590,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:expandedTitleMarginBottom
+          @attr name cu.lt.joe.calculator:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 4;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10603,11 +10606,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:expandedTitleMarginEnd
+          @attr name cu.lt.joe.calculator:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10619,11 +10622,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:expandedTitleMarginStart
+          @attr name cu.lt.joe.calculator:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10635,21 +10638,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:expandedTitleMarginTop
+          @attr name cu.lt.joe.calculator:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 2;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:expandedTitleTextAppearance
+          @attr name cu.lt.joe.calculator:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#scrimAnimationDuration}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#scrimAnimationDuration}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10659,11 +10662,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:scrimAnimationDuration
+          @attr name cu.lt.joe.calculator:scrimAnimationDuration
         */
         public static final int CollapsingToolbarLayout_scrimAnimationDuration = 11;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#scrimVisibleHeightTrigger}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#scrimVisibleHeightTrigger}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10675,11 +10678,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:scrimVisibleHeightTrigger
+          @attr name cu.lt.joe.calculator:scrimVisibleHeightTrigger
         */
         public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 10;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10690,11 +10693,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:statusBarScrim
+          @attr name cu.lt.joe.calculator:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#title}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10704,11 +10707,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:title
+          @attr name cu.lt.joe.calculator:title
         */
         public static final int CollapsingToolbarLayout_title = 15;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -10718,17 +10721,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:titleEnabled
+          @attr name cu.lt.joe.calculator:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 14;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:toolbarId
+          @attr name cu.lt.joe.calculator:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 9;
         /** Attributes that can be used with a CollapsingToolbarLayout_Layout.
@@ -10737,8 +10740,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode cu.lt.ult.jrja.rpn.calc:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier cu.lt.ult.jrja.rpn.calc:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode cu.lt.joe.calculator:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier cu.lt.joe.calculator:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_Layout_layout_collapseMode
            @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -10747,7 +10750,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01007b, 0x7f01007c
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -10761,11 +10764,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:layout_collapseMode
+          @attr name cu.lt.joe.calculator:layout_collapseMode
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -10775,7 +10778,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:layout_collapseParallaxMultiplier
+          @attr name cu.lt.joe.calculator:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a ColorStateListItem.
@@ -10784,7 +10787,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha cu.lt.ult.jrja.rpn.calc:alpha}</code></td><td> Alpha multiplier applied to the base color.</td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha cu.lt.joe.calculator:alpha}</code></td><td> Alpha multiplier applied to the base color.</td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td> Base color for this state.</td></tr>
            </table>
@@ -10808,7 +10811,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:alpha
+          @attr name cu.lt.joe.calculator:alpha
         */
         public static final int ColorStateListItem_alpha = 2;
         /**
@@ -10833,8 +10836,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint cu.lt.ult.jrja.rpn.calc:buttonTint}</code></td><td> Tint to apply to the button drawable.</td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode cu.lt.ult.jrja.rpn.calc:buttonTintMode}</code></td><td> Blending mode used to apply the button tint.</td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint cu.lt.joe.calculator:buttonTint}</code></td><td> Tint to apply to the button drawable.</td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode cu.lt.joe.calculator:buttonTintMode}</code></td><td> Blending mode used to apply the button tint.</td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -10863,7 +10866,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:buttonTint
+          @attr name cu.lt.joe.calculator:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
@@ -10891,7 +10894,7 @@ containing a value of this type.
                  result to valid color values. Saturate(S + D) </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:buttonTintMode
+          @attr name cu.lt.joe.calculator:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -10900,9 +10903,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines cu.lt.ult.jrja.rpn.calc:keylines}</code></td><td> A reference to an array of integers representing the
+           <tr><td><code>{@link #CoordinatorLayout_keylines cu.lt.joe.calculator:keylines}</code></td><td> A reference to an array of integers representing the
              locations of horizontal keylines in dp from the starting edge.</td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground cu.lt.ult.jrja.rpn.calc:statusBarBackground}</code></td><td> Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground cu.lt.joe.calculator:statusBarBackground}</code></td><td> Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -10923,7 +10926,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:keylines
+          @attr name cu.lt.joe.calculator:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
@@ -10937,7 +10940,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:statusBarBackground
+          @attr name cu.lt.joe.calculator:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_Layout.
@@ -10947,15 +10950,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor cu.lt.ult.jrja.rpn.calc:layout_anchor}</code></td><td> The id of an anchor view that this view should position relative to.</td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity cu.lt.ult.jrja.rpn.calc:layout_anchorGravity}</code></td><td> Specifies how an object should position relative to an anchor, on both the X and Y axes,
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor cu.lt.joe.calculator:layout_anchor}</code></td><td> The id of an anchor view that this view should position relative to.</td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity cu.lt.joe.calculator:layout_anchorGravity}</code></td><td> Specifies how an object should position relative to an anchor, on both the X and Y axes,
              within its parent's bounds.</td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior cu.lt.ult.jrja.rpn.calc:layout_behavior}</code></td><td> The class name of a Behavior class defining special runtime behavior
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior cu.lt.joe.calculator:layout_behavior}</code></td><td> The class name of a Behavior class defining special runtime behavior
              for this child view.</td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges cu.lt.ult.jrja.rpn.calc:layout_dodgeInsetEdges}</code></td><td> Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge cu.lt.ult.jrja.rpn.calc:layout_insetEdge}</code></td><td> Specifies how this view insets the CoordinatorLayout and make some other views
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges cu.lt.joe.calculator:layout_dodgeInsetEdges}</code></td><td> Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge cu.lt.joe.calculator:layout_insetEdge}</code></td><td> Specifies how this view insets the CoordinatorLayout and make some other views
              dodge it.</td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline cu.lt.ult.jrja.rpn.calc:layout_keyline}</code></td><td> The index of a keyline this view should position relative to.</td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline cu.lt.joe.calculator:layout_keyline}</code></td><td> The index of a keyline this view should position relative to.</td></tr>
            </table>
            @see #CoordinatorLayout_Layout_android_layout_gravity
            @see #CoordinatorLayout_Layout_layout_anchor
@@ -10984,7 +10987,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:layout_anchor
+          @attr name cu.lt.joe.calculator:layout_anchor
         */
         public static final int CoordinatorLayout_Layout_layout_anchor = 2;
         /**
@@ -11022,7 +11025,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td> Push object to the end of its container, not changing its size. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:layout_anchorGravity
+          @attr name cu.lt.joe.calculator:layout_anchorGravity
         */
         public static final int CoordinatorLayout_Layout_layout_anchorGravity = 4;
         /**
@@ -11039,7 +11042,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:layout_behavior
+          @attr name cu.lt.joe.calculator:layout_behavior
         */
         public static final int CoordinatorLayout_Layout_layout_behavior = 1;
         /**
@@ -11064,7 +11067,7 @@ containing a value of this type.
 <tr><td><code>all</code></td><td>0x77</td><td> Dodge all the inset edges. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:layout_dodgeInsetEdges
+          @attr name cu.lt.joe.calculator:layout_dodgeInsetEdges
         */
         public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 6;
         /**
@@ -11089,7 +11092,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td> Inset the end edge. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:layout_insetEdge
+          @attr name cu.lt.joe.calculator:layout_insetEdge
         */
         public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
         /**
@@ -11107,7 +11110,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:layout_keyline
+          @attr name cu.lt.joe.calculator:layout_keyline
         */
         public static final int CoordinatorLayout_Layout_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
@@ -11116,8 +11119,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme cu.lt.ult.jrja.rpn.calc:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle cu.lt.ult.jrja.rpn.calc:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme cu.lt.joe.calculator:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle cu.lt.joe.calculator:bottomSheetStyle}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
@@ -11126,23 +11129,23 @@ containing a value of this type.
             0x7f010017, 0x7f010018
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:bottomSheetDialogTheme
+          @attr name cu.lt.joe.calculator:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:bottomSheetStyle
+          @attr name cu.lt.joe.calculator:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -11151,14 +11154,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength cu.lt.ult.jrja.rpn.calc:arrowHeadLength}</code></td><td> The length of the arrow head when formed to make an arrow </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength cu.lt.ult.jrja.rpn.calc:arrowShaftLength}</code></td><td> The length of the shaft when formed to make an arrow </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength cu.lt.ult.jrja.rpn.calc:barLength}</code></td><td> The length of the bars when they are parallel to each other </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color cu.lt.ult.jrja.rpn.calc:color}</code></td><td> The drawing color for the bars </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize cu.lt.ult.jrja.rpn.calc:drawableSize}</code></td><td> The total size of the drawable </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars cu.lt.ult.jrja.rpn.calc:gapBetweenBars}</code></td><td> The max gap between the bars when they are parallel to each other </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars cu.lt.ult.jrja.rpn.calc:spinBars}</code></td><td> Whether bars should rotate or not during transition </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness cu.lt.ult.jrja.rpn.calc:thickness}</code></td><td> The thickness (stroke size) for the bar paint </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength cu.lt.joe.calculator:arrowHeadLength}</code></td><td> The length of the arrow head when formed to make an arrow </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength cu.lt.joe.calculator:arrowShaftLength}</code></td><td> The length of the shaft when formed to make an arrow </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength cu.lt.joe.calculator:barLength}</code></td><td> The length of the bars when they are parallel to each other </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color cu.lt.joe.calculator:color}</code></td><td> The drawing color for the bars </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize cu.lt.joe.calculator:drawableSize}</code></td><td> The total size of the drawable </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars cu.lt.joe.calculator:gapBetweenBars}</code></td><td> The max gap between the bars when they are parallel to each other </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars cu.lt.joe.calculator:spinBars}</code></td><td> Whether bars should rotate or not during transition </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness cu.lt.joe.calculator:thickness}</code></td><td> The thickness (stroke size) for the bar paint </td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -11188,7 +11191,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:arrowHeadLength
+          @attr name cu.lt.joe.calculator:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
@@ -11206,7 +11209,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:arrowShaftLength
+          @attr name cu.lt.joe.calculator:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
@@ -11224,7 +11227,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:barLength
+          @attr name cu.lt.joe.calculator:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
@@ -11241,7 +11244,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:color
+          @attr name cu.lt.joe.calculator:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
@@ -11259,7 +11262,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:drawableSize
+          @attr name cu.lt.joe.calculator:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
@@ -11277,7 +11280,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:gapBetweenBars
+          @attr name cu.lt.joe.calculator:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
@@ -11293,7 +11296,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:spinBars
+          @attr name cu.lt.joe.calculator:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
@@ -11311,7 +11314,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:thickness
+          @attr name cu.lt.joe.calculator:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -11320,19 +11323,19 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint cu.lt.ult.jrja.rpn.calc:backgroundTint}</code></td><td> Tint to apply to the background.</td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode cu.lt.ult.jrja.rpn.calc:backgroundTintMode}</code></td><td> Blending mode used to apply the background tint.</td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth cu.lt.ult.jrja.rpn.calc:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation cu.lt.ult.jrja.rpn.calc:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabCustomSize cu.lt.ult.jrja.rpn.calc:fabCustomSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize cu.lt.ult.jrja.rpn.calc:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_hideMotionSpec cu.lt.ult.jrja.rpn.calc:hideMotionSpec}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ cu.lt.ult.jrja.rpn.calc:hoveredFocusedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_maxImageSize cu.lt.ult.jrja.rpn.calc:maxImageSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ cu.lt.ult.jrja.rpn.calc:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor cu.lt.ult.jrja.rpn.calc:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_showMotionSpec cu.lt.ult.jrja.rpn.calc:showMotionSpec}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding cu.lt.ult.jrja.rpn.calc:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint cu.lt.joe.calculator:backgroundTint}</code></td><td> Tint to apply to the background.</td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode cu.lt.joe.calculator:backgroundTintMode}</code></td><td> Blending mode used to apply the background tint.</td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth cu.lt.joe.calculator:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation cu.lt.joe.calculator:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabCustomSize cu.lt.joe.calculator:fabCustomSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize cu.lt.joe.calculator:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_hideMotionSpec cu.lt.joe.calculator:hideMotionSpec}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ cu.lt.joe.calculator:hoveredFocusedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_maxImageSize cu.lt.joe.calculator:maxImageSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ cu.lt.joe.calculator:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor cu.lt.joe.calculator:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_showMotionSpec cu.lt.joe.calculator:showMotionSpec}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding cu.lt.joe.calculator:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -11368,7 +11371,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:backgroundTint
+          @attr name cu.lt.joe.calculator:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 11;
         /**
@@ -11396,11 +11399,11 @@ containing a value of this type.
                  result to valid color values. Saturate(S + D) </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:backgroundTintMode
+          @attr name cu.lt.joe.calculator:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 12;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11412,7 +11415,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:borderWidth
+          @attr name cu.lt.joe.calculator:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 7;
         /**
@@ -11430,11 +11433,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:elevation
+          @attr name cu.lt.joe.calculator:elevation
         */
         public static final int FloatingActionButton_elevation = 10;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#fabCustomSize}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#fabCustomSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11446,11 +11449,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:fabCustomSize
+          @attr name cu.lt.joe.calculator:fabCustomSize
         */
         public static final int FloatingActionButton_fabCustomSize = 4;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11464,21 +11467,21 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:fabSize
+          @attr name cu.lt.joe.calculator:fabSize
         */
         public static final int FloatingActionButton_fabSize = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#hideMotionSpec}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#hideMotionSpec}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:hideMotionSpec
+          @attr name cu.lt.joe.calculator:hideMotionSpec
         */
         public static final int FloatingActionButton_hideMotionSpec = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#hoveredFocusedTranslationZ}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#hoveredFocusedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11490,11 +11493,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:hoveredFocusedTranslationZ
+          @attr name cu.lt.joe.calculator:hoveredFocusedTranslationZ
         */
         public static final int FloatingActionButton_hoveredFocusedTranslationZ = 5;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#maxImageSize}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#maxImageSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11506,11 +11509,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:maxImageSize
+          @attr name cu.lt.joe.calculator:maxImageSize
         */
         public static final int FloatingActionButton_maxImageSize = 9;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11522,11 +11525,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:pressedTranslationZ
+          @attr name cu.lt.joe.calculator:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 6;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11537,21 +11540,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:rippleColor
+          @attr name cu.lt.joe.calculator:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#showMotionSpec}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#showMotionSpec}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:showMotionSpec
+          @attr name cu.lt.joe.calculator:showMotionSpec
         */
         public static final int FloatingActionButton_showMotionSpec = 2;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -11561,7 +11564,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:useCompatPadding
+          @attr name cu.lt.joe.calculator:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 8;
         /** Attributes that can be used with a FloatingActionButton_Behavior_Layout.
@@ -11570,7 +11573,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide cu.lt.ult.jrja.rpn.calc:behavior_autoHide}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide cu.lt.joe.calculator:behavior_autoHide}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
          */
@@ -11578,7 +11581,7 @@ containing a value of this type.
             0x7f010084
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#behavior_autoHide}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#behavior_autoHide}
           attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
 
 
@@ -11588,7 +11591,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:behavior_autoHide
+          @attr name cu.lt.joe.calculator:behavior_autoHide
         */
         public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
         /** Attributes that can be used with a FlowLayout.
@@ -11597,8 +11600,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FlowLayout_itemSpacing cu.lt.ult.jrja.rpn.calc:itemSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #FlowLayout_lineSpacing cu.lt.ult.jrja.rpn.calc:lineSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #FlowLayout_itemSpacing cu.lt.joe.calculator:itemSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #FlowLayout_lineSpacing cu.lt.joe.calculator:lineSpacing}</code></td><td></td></tr>
            </table>
            @see #FlowLayout_itemSpacing
            @see #FlowLayout_lineSpacing
@@ -11607,7 +11610,7 @@ containing a value of this type.
             0x7f010085, 0x7f010086
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemSpacing}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemSpacing}
           attribute's value can be found in the {@link #FlowLayout} array.
 
 
@@ -11619,11 +11622,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:itemSpacing
+          @attr name cu.lt.joe.calculator:itemSpacing
         */
         public static final int FlowLayout_itemSpacing = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#lineSpacing}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#lineSpacing}
           attribute's value can be found in the {@link #FlowLayout} array.
 
 
@@ -11635,7 +11638,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:lineSpacing
+          @attr name cu.lt.joe.calculator:lineSpacing
         */
         public static final int FlowLayout_lineSpacing = 1;
         /** Attributes that can be used with a FontFamily.
@@ -11644,12 +11647,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderAuthority cu.lt.ult.jrja.rpn.calc:fontProviderAuthority}</code></td><td> The authority of the Font Provider to be used for the request.</td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderCerts cu.lt.ult.jrja.rpn.calc:fontProviderCerts}</code></td><td> The sets of hashes for the certificates the provider should be signed with.</td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy cu.lt.ult.jrja.rpn.calc:fontProviderFetchStrategy}</code></td><td> The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout cu.lt.ult.jrja.rpn.calc:fontProviderFetchTimeout}</code></td><td> The length of the timeout during fetching.</td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderPackage cu.lt.ult.jrja.rpn.calc:fontProviderPackage}</code></td><td> The package for the Font Provider to be used for the request.</td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderQuery cu.lt.ult.jrja.rpn.calc:fontProviderQuery}</code></td><td> The query to be sent over to the provider.</td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderAuthority cu.lt.joe.calculator:fontProviderAuthority}</code></td><td> The authority of the Font Provider to be used for the request.</td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderCerts cu.lt.joe.calculator:fontProviderCerts}</code></td><td> The sets of hashes for the certificates the provider should be signed with.</td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy cu.lt.joe.calculator:fontProviderFetchStrategy}</code></td><td> The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout cu.lt.joe.calculator:fontProviderFetchTimeout}</code></td><td> The length of the timeout during fetching.</td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderPackage cu.lt.joe.calculator:fontProviderPackage}</code></td><td> The package for the Font Provider to be used for the request.</td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderQuery cu.lt.joe.calculator:fontProviderQuery}</code></td><td> The query to be sent over to the provider.</td></tr>
            </table>
            @see #FontFamily_fontProviderAuthority
            @see #FontFamily_fontProviderCerts
@@ -11675,7 +11678,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:fontProviderAuthority
+          @attr name cu.lt.joe.calculator:fontProviderAuthority
         */
         public static final int FontFamily_fontProviderAuthority = 0;
         /**
@@ -11691,7 +11694,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:fontProviderCerts
+          @attr name cu.lt.joe.calculator:fontProviderCerts
         */
         public static final int FontFamily_fontProviderCerts = 3;
         /**
@@ -11724,7 +11727,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
               fontProviderFetchTimeout will be ignored if async loading is specified. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:fontProviderFetchStrategy
+          @attr name cu.lt.joe.calculator:fontProviderFetchStrategy
         */
         public static final int FontFamily_fontProviderFetchStrategy = 4;
         /**
@@ -11749,7 +11752,7 @@ containing a value of this type.
               timeout and wait until a reply is received from the font provider. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:fontProviderFetchTimeout
+          @attr name cu.lt.joe.calculator:fontProviderFetchTimeout
         */
         public static final int FontFamily_fontProviderFetchTimeout = 5;
         /**
@@ -11766,7 +11769,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:fontProviderPackage
+          @attr name cu.lt.joe.calculator:fontProviderPackage
         */
         public static final int FontFamily_fontProviderPackage = 1;
         /**
@@ -11783,7 +11786,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:fontProviderQuery
+          @attr name cu.lt.joe.calculator:fontProviderQuery
         */
         public static final int FontFamily_fontProviderQuery = 2;
         /** Attributes that can be used with a FontFamilyFont.
@@ -11797,11 +11800,11 @@ containing a value of this type.
            <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
            <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
            <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamilyFont_font cu.lt.ult.jrja.rpn.calc:font}</code></td><td> The reference to the font file to be used.</td></tr>
-           <tr><td><code>{@link #FontFamilyFont_fontStyle cu.lt.ult.jrja.rpn.calc:fontStyle}</code></td><td> The style of the given font file.</td></tr>
-           <tr><td><code>{@link #FontFamilyFont_fontVariationSettings cu.lt.ult.jrja.rpn.calc:fontVariationSettings}</code></td><td> The variation settings to be applied to the font.</td></tr>
-           <tr><td><code>{@link #FontFamilyFont_fontWeight cu.lt.ult.jrja.rpn.calc:fontWeight}</code></td><td> The weight of the given font file.</td></tr>
-           <tr><td><code>{@link #FontFamilyFont_ttcIndex cu.lt.ult.jrja.rpn.calc:ttcIndex}</code></td><td> The index of the font in the tcc font file.</td></tr>
+           <tr><td><code>{@link #FontFamilyFont_font cu.lt.joe.calculator:font}</code></td><td> The reference to the font file to be used.</td></tr>
+           <tr><td><code>{@link #FontFamilyFont_fontStyle cu.lt.joe.calculator:fontStyle}</code></td><td> The style of the given font file.</td></tr>
+           <tr><td><code>{@link #FontFamilyFont_fontVariationSettings cu.lt.joe.calculator:fontVariationSettings}</code></td><td> The variation settings to be applied to the font.</td></tr>
+           <tr><td><code>{@link #FontFamilyFont_fontWeight cu.lt.joe.calculator:fontWeight}</code></td><td> The weight of the given font file.</td></tr>
+           <tr><td><code>{@link #FontFamilyFont_ttcIndex cu.lt.joe.calculator:ttcIndex}</code></td><td> The index of the font in the tcc font file.</td></tr>
            </table>
            @see #FontFamilyFont_android_font
            @see #FontFamilyFont_android_fontStyle
@@ -11862,7 +11865,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:font
+          @attr name cu.lt.joe.calculator:font
         */
         public static final int FontFamilyFont_font = 6;
         /**
@@ -11883,7 +11886,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>italic</code></td><td>1</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:fontStyle
+          @attr name cu.lt.joe.calculator:fontStyle
         */
         public static final int FontFamilyFont_fontStyle = 5;
         /**
@@ -11902,7 +11905,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:fontVariationSettings
+          @attr name cu.lt.joe.calculator:fontVariationSettings
         */
         public static final int FontFamilyFont_fontVariationSettings = 8;
         /**
@@ -11922,7 +11925,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:fontWeight
+          @attr name cu.lt.joe.calculator:fontWeight
         */
         public static final int FontFamilyFont_fontWeight = 7;
         /**
@@ -11939,7 +11942,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:ttcIndex
+          @attr name cu.lt.joe.calculator:ttcIndex
         */
         public static final int FontFamilyFont_ttcIndex = 9;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -11950,7 +11953,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding cu.lt.ult.jrja.rpn.calc:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding cu.lt.joe.calculator:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -11972,7 +11975,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -11982,7 +11985,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:foregroundInsidePadding
+          @attr name cu.lt.joe.calculator:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a GradientColor.
@@ -12189,11 +12192,11 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td> Should the layout be a column or a row?  Use "horizontal"
              for a row, "vertical" for a column.</td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td> Defines the maximum weight sum.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider cu.lt.ult.jrja.rpn.calc:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding cu.lt.ult.jrja.rpn.calc:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild cu.lt.ult.jrja.rpn.calc:measureWithLargestChild}</code></td><td> When set to true, all children with a weight will be considered having
+           <tr><td><code>{@link #LinearLayoutCompat_divider cu.lt.joe.calculator:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding cu.lt.joe.calculator:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild cu.lt.joe.calculator:measureWithLargestChild}</code></td><td> When set to true, all children with a weight will be considered having
              the minimum size of the largest child.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers cu.lt.ult.jrja.rpn.calc:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers cu.lt.joe.calculator:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -12271,7 +12274,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:divider
+          @attr name cu.lt.joe.calculator:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
@@ -12289,7 +12292,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:dividerPadding
+          @attr name cu.lt.joe.calculator:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
@@ -12307,7 +12310,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:measureWithLargestChild
+          @attr name cu.lt.joe.calculator:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
@@ -12328,7 +12331,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:showDividers
+          @attr name cu.lt.joe.calculator:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -12417,18 +12420,18 @@ containing a value of this type.
            <tr><td><code>{@link #MaterialButton_android_insetLeft android:insetLeft}</code></td><td></td></tr>
            <tr><td><code>{@link #MaterialButton_android_insetRight android:insetRight}</code></td><td></td></tr>
            <tr><td><code>{@link #MaterialButton_android_insetTop android:insetTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialButton_backgroundTint cu.lt.ult.jrja.rpn.calc:backgroundTint}</code></td><td> Tint to apply to the background.</td></tr>
-           <tr><td><code>{@link #MaterialButton_backgroundTintMode cu.lt.ult.jrja.rpn.calc:backgroundTintMode}</code></td><td> Blending mode used to apply the background tint.</td></tr>
-           <tr><td><code>{@link #MaterialButton_cornerRadius cu.lt.ult.jrja.rpn.calc:cornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialButton_icon cu.lt.ult.jrja.rpn.calc:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
-           <tr><td><code>{@link #MaterialButton_iconGravity cu.lt.ult.jrja.rpn.calc:iconGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialButton_iconPadding cu.lt.ult.jrja.rpn.calc:iconPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialButton_iconSize cu.lt.ult.jrja.rpn.calc:iconSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialButton_iconTint cu.lt.ult.jrja.rpn.calc:iconTint}</code></td><td> Tint to apply to the icon.</td></tr>
-           <tr><td><code>{@link #MaterialButton_iconTintMode cu.lt.ult.jrja.rpn.calc:iconTintMode}</code></td><td> Blending mode used to apply the icon tint.</td></tr>
-           <tr><td><code>{@link #MaterialButton_rippleColor cu.lt.ult.jrja.rpn.calc:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialButton_strokeColor cu.lt.ult.jrja.rpn.calc:strokeColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialButton_strokeWidth cu.lt.ult.jrja.rpn.calc:strokeWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialButton_backgroundTint cu.lt.joe.calculator:backgroundTint}</code></td><td> Tint to apply to the background.</td></tr>
+           <tr><td><code>{@link #MaterialButton_backgroundTintMode cu.lt.joe.calculator:backgroundTintMode}</code></td><td> Blending mode used to apply the background tint.</td></tr>
+           <tr><td><code>{@link #MaterialButton_cornerRadius cu.lt.joe.calculator:cornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialButton_icon cu.lt.joe.calculator:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
+           <tr><td><code>{@link #MaterialButton_iconGravity cu.lt.joe.calculator:iconGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialButton_iconPadding cu.lt.joe.calculator:iconPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialButton_iconSize cu.lt.joe.calculator:iconSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialButton_iconTint cu.lt.joe.calculator:iconTint}</code></td><td> Tint to apply to the icon.</td></tr>
+           <tr><td><code>{@link #MaterialButton_iconTintMode cu.lt.joe.calculator:iconTintMode}</code></td><td> Blending mode used to apply the icon tint.</td></tr>
+           <tr><td><code>{@link #MaterialButton_rippleColor cu.lt.joe.calculator:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialButton_strokeColor cu.lt.joe.calculator:strokeColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialButton_strokeWidth cu.lt.joe.calculator:strokeWidth}</code></td><td></td></tr>
            </table>
            @see #MaterialButton_android_insetBottom
            @see #MaterialButton_android_insetLeft
@@ -12491,7 +12494,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:backgroundTint
+          @attr name cu.lt.joe.calculator:backgroundTint
         */
         public static final int MaterialButton_backgroundTint = 14;
         /**
@@ -12519,11 +12522,11 @@ containing a value of this type.
                  result to valid color values. Saturate(S + D) </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:backgroundTintMode
+          @attr name cu.lt.joe.calculator:backgroundTintMode
         */
         public static final int MaterialButton_backgroundTintMode = 15;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#cornerRadius}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#cornerRadius}
           attribute's value can be found in the {@link #MaterialButton} array.
 
 
@@ -12535,7 +12538,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:cornerRadius
+          @attr name cu.lt.joe.calculator:cornerRadius
         */
         public static final int MaterialButton_cornerRadius = 12;
         /**
@@ -12549,11 +12552,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:icon
+          @attr name cu.lt.joe.calculator:icon
         */
         public static final int MaterialButton_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#iconGravity}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#iconGravity}
           attribute's value can be found in the {@link #MaterialButton} array.
 
 
@@ -12566,11 +12569,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x1</td><td></td></tr>
 <tr><td><code>textStart</code></td><td>0x2</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:iconGravity
+          @attr name cu.lt.joe.calculator:iconGravity
         */
         public static final int MaterialButton_iconGravity = 10;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#iconPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#iconPadding}
           attribute's value can be found in the {@link #MaterialButton} array.
 
 
@@ -12582,11 +12585,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:iconPadding
+          @attr name cu.lt.joe.calculator:iconPadding
         */
         public static final int MaterialButton_iconPadding = 9;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#iconSize}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#iconSize}
           attribute's value can be found in the {@link #MaterialButton} array.
 
 
@@ -12598,7 +12601,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:iconSize
+          @attr name cu.lt.joe.calculator:iconSize
         */
         public static final int MaterialButton_iconSize = 8;
         /**
@@ -12622,7 +12625,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:iconTint
+          @attr name cu.lt.joe.calculator:iconTint
         */
         public static final int MaterialButton_iconTint = 11;
         /**
@@ -12650,11 +12653,11 @@ containing a value of this type.
                  result to valid color values. Saturate(S + D) </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:iconTintMode
+          @attr name cu.lt.joe.calculator:iconTintMode
         */
         public static final int MaterialButton_iconTintMode = 13;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#rippleColor}
           attribute's value can be found in the {@link #MaterialButton} array.
 
 
@@ -12665,11 +12668,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:rippleColor
+          @attr name cu.lt.joe.calculator:rippleColor
         */
         public static final int MaterialButton_rippleColor = 4;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#strokeColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#strokeColor}
           attribute's value can be found in the {@link #MaterialButton} array.
 
 
@@ -12680,11 +12683,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:strokeColor
+          @attr name cu.lt.joe.calculator:strokeColor
         */
         public static final int MaterialButton_strokeColor = 5;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#strokeWidth}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#strokeWidth}
           attribute's value can be found in the {@link #MaterialButton} array.
 
 
@@ -12696,7 +12699,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:strokeWidth
+          @attr name cu.lt.joe.calculator:strokeWidth
         */
         public static final int MaterialButton_strokeWidth = 6;
         /** Attributes that can be used with a MaterialCardView.
@@ -12705,8 +12708,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MaterialCardView_strokeColor cu.lt.ult.jrja.rpn.calc:strokeColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialCardView_strokeWidth cu.lt.ult.jrja.rpn.calc:strokeWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialCardView_strokeColor cu.lt.joe.calculator:strokeColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialCardView_strokeWidth cu.lt.joe.calculator:strokeWidth}</code></td><td></td></tr>
            </table>
            @see #MaterialCardView_strokeColor
            @see #MaterialCardView_strokeWidth
@@ -12715,7 +12718,7 @@ containing a value of this type.
             0x7f010025, 0x7f010026
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#strokeColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#strokeColor}
           attribute's value can be found in the {@link #MaterialCardView} array.
 
 
@@ -12726,11 +12729,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:strokeColor
+          @attr name cu.lt.joe.calculator:strokeColor
         */
         public static final int MaterialCardView_strokeColor = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#strokeWidth}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#strokeWidth}
           attribute's value can be found in the {@link #MaterialCardView} array.
 
 
@@ -12742,7 +12745,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:strokeWidth
+          @attr name cu.lt.joe.calculator:strokeWidth
         */
         public static final int MaterialCardView_strokeWidth = 1;
         /** Attributes that can be used with a MaterialComponentsTheme.
@@ -12751,38 +12754,38 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme cu.lt.ult.jrja.rpn.calc:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle cu.lt.ult.jrja.rpn.calc:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle cu.lt.ult.jrja.rpn.calc:chipGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle cu.lt.ult.jrja.rpn.calc:chipStandaloneStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_chipStyle cu.lt.ult.jrja.rpn.calc:chipStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_colorAccent cu.lt.ult.jrja.rpn.calc:colorAccent}</code></td><td> Bright complement to the primary branding color.</td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating cu.lt.ult.jrja.rpn.calc:colorBackgroundFloating}</code></td><td> Default color of background imagery for floating components, ex.</td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary cu.lt.ult.jrja.rpn.calc:colorPrimary}</code></td><td> The primary branding color for the app.</td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark cu.lt.ult.jrja.rpn.calc:colorPrimaryDark}</code></td><td> Dark variant of the primary branding color.</td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary cu.lt.ult.jrja.rpn.calc:colorSecondary}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle cu.lt.ult.jrja.rpn.calc:editTextStyle}</code></td><td> Default EditText style.</td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle cu.lt.ult.jrja.rpn.calc:floatingActionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle cu.lt.ult.jrja.rpn.calc:materialButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle cu.lt.ult.jrja.rpn.calc:materialCardViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle cu.lt.ult.jrja.rpn.calc:navigationViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground cu.lt.ult.jrja.rpn.calc:scrimBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle cu.lt.ult.jrja.rpn.calc:snackbarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_tabStyle cu.lt.ult.jrja.rpn.calc:tabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 cu.lt.ult.jrja.rpn.calc:textAppearanceBody1}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 cu.lt.ult.jrja.rpn.calc:textAppearanceBody2}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton cu.lt.ult.jrja.rpn.calc:textAppearanceButton}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption cu.lt.ult.jrja.rpn.calc:textAppearanceCaption}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 cu.lt.ult.jrja.rpn.calc:textAppearanceHeadline1}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 cu.lt.ult.jrja.rpn.calc:textAppearanceHeadline2}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 cu.lt.ult.jrja.rpn.calc:textAppearanceHeadline3}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 cu.lt.ult.jrja.rpn.calc:textAppearanceHeadline4}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 cu.lt.ult.jrja.rpn.calc:textAppearanceHeadline5}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 cu.lt.ult.jrja.rpn.calc:textAppearanceHeadline6}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline cu.lt.ult.jrja.rpn.calc:textAppearanceOverline}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 cu.lt.ult.jrja.rpn.calc:textAppearanceSubtitle1}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 cu.lt.ult.jrja.rpn.calc:textAppearanceSubtitle2}</code></td><td></td></tr>
-           <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle cu.lt.ult.jrja.rpn.calc:textInputStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme cu.lt.joe.calculator:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle cu.lt.joe.calculator:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle cu.lt.joe.calculator:chipGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle cu.lt.joe.calculator:chipStandaloneStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_chipStyle cu.lt.joe.calculator:chipStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_colorAccent cu.lt.joe.calculator:colorAccent}</code></td><td> Bright complement to the primary branding color.</td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating cu.lt.joe.calculator:colorBackgroundFloating}</code></td><td> Default color of background imagery for floating components, ex.</td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary cu.lt.joe.calculator:colorPrimary}</code></td><td> The primary branding color for the app.</td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark cu.lt.joe.calculator:colorPrimaryDark}</code></td><td> Dark variant of the primary branding color.</td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary cu.lt.joe.calculator:colorSecondary}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle cu.lt.joe.calculator:editTextStyle}</code></td><td> Default EditText style.</td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle cu.lt.joe.calculator:floatingActionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle cu.lt.joe.calculator:materialButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle cu.lt.joe.calculator:materialCardViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle cu.lt.joe.calculator:navigationViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground cu.lt.joe.calculator:scrimBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle cu.lt.joe.calculator:snackbarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_tabStyle cu.lt.joe.calculator:tabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 cu.lt.joe.calculator:textAppearanceBody1}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 cu.lt.joe.calculator:textAppearanceBody2}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton cu.lt.joe.calculator:textAppearanceButton}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption cu.lt.joe.calculator:textAppearanceCaption}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 cu.lt.joe.calculator:textAppearanceHeadline1}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 cu.lt.joe.calculator:textAppearanceHeadline2}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 cu.lt.joe.calculator:textAppearanceHeadline3}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 cu.lt.joe.calculator:textAppearanceHeadline4}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 cu.lt.joe.calculator:textAppearanceHeadline5}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 cu.lt.joe.calculator:textAppearanceHeadline6}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline cu.lt.joe.calculator:textAppearanceOverline}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 cu.lt.joe.calculator:textAppearanceSubtitle1}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 cu.lt.joe.calculator:textAppearanceSubtitle2}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle cu.lt.joe.calculator:textInputStyle}</code></td><td></td></tr>
            </table>
            @see #MaterialComponentsTheme_bottomSheetDialogTheme
            @see #MaterialComponentsTheme_bottomSheetStyle
@@ -12828,53 +12831,53 @@ containing a value of this type.
             0x7f010170, 0x7f010171, 0x7f010178, 0x7f010186
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:bottomSheetDialogTheme
+          @attr name cu.lt.joe.calculator:bottomSheetDialogTheme
         */
         public static final int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:bottomSheetStyle
+          @attr name cu.lt.joe.calculator:bottomSheetStyle
         */
         public static final int MaterialComponentsTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipGroupStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipGroupStyle}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:chipGroupStyle
+          @attr name cu.lt.joe.calculator:chipGroupStyle
         */
         public static final int MaterialComponentsTheme_chipGroupStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipStandaloneStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipStandaloneStyle}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:chipStandaloneStyle
+          @attr name cu.lt.joe.calculator:chipStandaloneStyle
         */
         public static final int MaterialComponentsTheme_chipStandaloneStyle = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#chipStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#chipStyle}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:chipStyle
+          @attr name cu.lt.joe.calculator:chipStyle
         */
         public static final int MaterialComponentsTheme_chipStyle = 4;
         /**
@@ -12892,7 +12895,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorAccent
+          @attr name cu.lt.joe.calculator:colorAccent
         */
         public static final int MaterialComponentsTheme_colorAccent = 29;
         /**
@@ -12909,7 +12912,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorBackgroundFloating
+          @attr name cu.lt.joe.calculator:colorBackgroundFloating
         */
         public static final int MaterialComponentsTheme_colorBackgroundFloating = 30;
         /**
@@ -12927,7 +12930,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorPrimary
+          @attr name cu.lt.joe.calculator:colorPrimary
         */
         public static final int MaterialComponentsTheme_colorPrimary = 27;
         /**
@@ -12945,11 +12948,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorPrimaryDark
+          @attr name cu.lt.joe.calculator:colorPrimaryDark
         */
         public static final int MaterialComponentsTheme_colorPrimaryDark = 28;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#colorSecondary}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#colorSecondary}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
@@ -12960,7 +12963,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:colorSecondary
+          @attr name cu.lt.joe.calculator:colorSecondary
         */
         public static final int MaterialComponentsTheme_colorSecondary = 5;
         /**
@@ -12972,11 +12975,11 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:editTextStyle
+          @attr name cu.lt.joe.calculator:editTextStyle
         */
         public static final int MaterialComponentsTheme_editTextStyle = 31;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#floatingActionButtonStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#floatingActionButtonStyle}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
@@ -12994,41 +12997,41 @@ in (inches), mm (millimeters).
 <p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
-          @attr name cu.lt.ult.jrja.rpn.calc:floatingActionButtonStyle
+          @attr name cu.lt.joe.calculator:floatingActionButtonStyle
         */
         public static final int MaterialComponentsTheme_floatingActionButtonStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#materialButtonStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#materialButtonStyle}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:materialButtonStyle
+          @attr name cu.lt.joe.calculator:materialButtonStyle
         */
         public static final int MaterialComponentsTheme_materialButtonStyle = 7;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#materialCardViewStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#materialCardViewStyle}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:materialCardViewStyle
+          @attr name cu.lt.joe.calculator:materialCardViewStyle
         */
         public static final int MaterialComponentsTheme_materialCardViewStyle = 8;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#navigationViewStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#navigationViewStyle}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:navigationViewStyle
+          @attr name cu.lt.joe.calculator:navigationViewStyle
         */
         public static final int MaterialComponentsTheme_navigationViewStyle = 9;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#scrimBackground}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#scrimBackground}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
@@ -13036,167 +13039,167 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:scrimBackground
+          @attr name cu.lt.joe.calculator:scrimBackground
         */
         public static final int MaterialComponentsTheme_scrimBackground = 10;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#snackbarButtonStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#snackbarButtonStyle}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:snackbarButtonStyle
+          @attr name cu.lt.joe.calculator:snackbarButtonStyle
         */
         public static final int MaterialComponentsTheme_snackbarButtonStyle = 26;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabStyle}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:tabStyle
+          @attr name cu.lt.joe.calculator:tabStyle
         */
         public static final int MaterialComponentsTheme_tabStyle = 11;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceBody1}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceBody1}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceBody1
+          @attr name cu.lt.joe.calculator:textAppearanceBody1
         */
         public static final int MaterialComponentsTheme_textAppearanceBody1 = 12;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceBody2}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceBody2}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceBody2
+          @attr name cu.lt.joe.calculator:textAppearanceBody2
         */
         public static final int MaterialComponentsTheme_textAppearanceBody2 = 13;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceButton}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceButton}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceButton
+          @attr name cu.lt.joe.calculator:textAppearanceButton
         */
         public static final int MaterialComponentsTheme_textAppearanceButton = 14;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceCaption}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceCaption}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceCaption
+          @attr name cu.lt.joe.calculator:textAppearanceCaption
         */
         public static final int MaterialComponentsTheme_textAppearanceCaption = 15;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceHeadline1}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceHeadline1}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceHeadline1
+          @attr name cu.lt.joe.calculator:textAppearanceHeadline1
         */
         public static final int MaterialComponentsTheme_textAppearanceHeadline1 = 16;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceHeadline2}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceHeadline2}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceHeadline2
+          @attr name cu.lt.joe.calculator:textAppearanceHeadline2
         */
         public static final int MaterialComponentsTheme_textAppearanceHeadline2 = 17;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceHeadline3}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceHeadline3}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceHeadline3
+          @attr name cu.lt.joe.calculator:textAppearanceHeadline3
         */
         public static final int MaterialComponentsTheme_textAppearanceHeadline3 = 18;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceHeadline4}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceHeadline4}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceHeadline4
+          @attr name cu.lt.joe.calculator:textAppearanceHeadline4
         */
         public static final int MaterialComponentsTheme_textAppearanceHeadline4 = 19;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceHeadline5}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceHeadline5}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceHeadline5
+          @attr name cu.lt.joe.calculator:textAppearanceHeadline5
         */
         public static final int MaterialComponentsTheme_textAppearanceHeadline5 = 20;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceHeadline6}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceHeadline6}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceHeadline6
+          @attr name cu.lt.joe.calculator:textAppearanceHeadline6
         */
         public static final int MaterialComponentsTheme_textAppearanceHeadline6 = 21;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceOverline}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceOverline}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceOverline
+          @attr name cu.lt.joe.calculator:textAppearanceOverline
         */
         public static final int MaterialComponentsTheme_textAppearanceOverline = 22;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceSubtitle1}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceSubtitle1}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceSubtitle1
+          @attr name cu.lt.joe.calculator:textAppearanceSubtitle1
         */
         public static final int MaterialComponentsTheme_textAppearanceSubtitle1 = 23;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textAppearanceSubtitle2}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textAppearanceSubtitle2}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textAppearanceSubtitle2
+          @attr name cu.lt.joe.calculator:textAppearanceSubtitle2
         */
         public static final int MaterialComponentsTheme_textAppearanceSubtitle2 = 24;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#textInputStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#textInputStyle}
           attribute's value can be found in the {@link #MaterialComponentsTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:textInputStyle
+          @attr name cu.lt.joe.calculator:textInputStyle
         */
         public static final int MaterialComponentsTheme_textInputStyle = 25;
         /** Attributes that can be used with a MenuGroup.
@@ -13285,12 +13288,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout cu.lt.ult.jrja.rpn.calc:actionLayout}</code></td><td> An optional layout to be used as an action view.</td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass cu.lt.ult.jrja.rpn.calc:actionProviderClass}</code></td><td> The name of an optional ActionProvider class to instantiate an action view
+           <tr><td><code>{@link #MenuItem_actionLayout cu.lt.joe.calculator:actionLayout}</code></td><td> An optional layout to be used as an action view.</td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass cu.lt.joe.calculator:actionProviderClass}</code></td><td> The name of an optional ActionProvider class to instantiate an action view
              and perform operations such as default action for that menu item.</td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass cu.lt.ult.jrja.rpn.calc:actionViewClass}</code></td><td> The name of an optional View class to instantiate and use as an
+           <tr><td><code>{@link #MenuItem_actionViewClass cu.lt.joe.calculator:actionViewClass}</code></td><td> The name of an optional View class to instantiate and use as an
              action view.</td></tr>
-           <tr><td><code>{@link #MenuItem_alphabeticModifiers cu.lt.ult.jrja.rpn.calc:alphabeticModifiers}</code></td><td> The alphabetic modifier key.</td></tr>
+           <tr><td><code>{@link #MenuItem_alphabeticModifiers cu.lt.joe.calculator:alphabeticModifiers}</code></td><td> The alphabetic modifier key.</td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td> The alphabetic shortcut key.</td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td> Whether the item is capable of displaying a check mark.</td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td> Whether the item is checked.</td></tr>
@@ -13305,12 +13308,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td> The title associated with the item.</td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td> The condensed title associated with the item.</td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td> Whether the item is shown/visible.</td></tr>
-           <tr><td><code>{@link #MenuItem_contentDescription cu.lt.ult.jrja.rpn.calc:contentDescription}</code></td><td> The content description associated with the item.</td></tr>
-           <tr><td><code>{@link #MenuItem_iconTint cu.lt.ult.jrja.rpn.calc:iconTint}</code></td><td> Tint to apply to the icon.</td></tr>
-           <tr><td><code>{@link #MenuItem_iconTintMode cu.lt.ult.jrja.rpn.calc:iconTintMode}</code></td><td> Blending mode used to apply the icon tint.</td></tr>
-           <tr><td><code>{@link #MenuItem_numericModifiers cu.lt.ult.jrja.rpn.calc:numericModifiers}</code></td><td> The numeric modifier key.</td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction cu.lt.ult.jrja.rpn.calc:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
-           <tr><td><code>{@link #MenuItem_tooltipText cu.lt.ult.jrja.rpn.calc:tooltipText}</code></td><td> The tooltip text associated with the item.</td></tr>
+           <tr><td><code>{@link #MenuItem_contentDescription cu.lt.joe.calculator:contentDescription}</code></td><td> The content description associated with the item.</td></tr>
+           <tr><td><code>{@link #MenuItem_iconTint cu.lt.joe.calculator:iconTint}</code></td><td> Tint to apply to the icon.</td></tr>
+           <tr><td><code>{@link #MenuItem_iconTintMode cu.lt.joe.calculator:iconTintMode}</code></td><td> Blending mode used to apply the icon tint.</td></tr>
+           <tr><td><code>{@link #MenuItem_numericModifiers cu.lt.joe.calculator:numericModifiers}</code></td><td> The numeric modifier key.</td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction cu.lt.joe.calculator:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
+           <tr><td><code>{@link #MenuItem_tooltipText cu.lt.joe.calculator:tooltipText}</code></td><td> The tooltip text associated with the item.</td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -13355,7 +13358,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionLayout
+          @attr name cu.lt.joe.calculator:actionLayout
         */
         public static final int MenuItem_actionLayout = 17;
         /**
@@ -13374,7 +13377,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionProviderClass
+          @attr name cu.lt.joe.calculator:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 19;
         /**
@@ -13392,7 +13395,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:actionViewClass
+          @attr name cu.lt.joe.calculator:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 18;
         /**
@@ -13416,7 +13419,7 @@ containing a value of this type.
 <tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:alphabeticModifiers
+          @attr name cu.lt.joe.calculator:alphabeticModifiers
         */
         public static final int MenuItem_alphabeticModifiers = 14;
         /**
@@ -13557,7 +13560,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentDescription
+          @attr name cu.lt.joe.calculator:contentDescription
         */
         public static final int MenuItem_contentDescription = 20;
         /**
@@ -13581,7 +13584,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:iconTint
+          @attr name cu.lt.joe.calculator:iconTint
         */
         public static final int MenuItem_iconTint = 13;
         /**
@@ -13609,7 +13612,7 @@ containing a value of this type.
                  result to valid color values. Saturate(S + D) </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:iconTintMode
+          @attr name cu.lt.joe.calculator:iconTintMode
         */
         public static final int MenuItem_iconTintMode = 22;
         /**
@@ -13633,7 +13636,7 @@ containing a value of this type.
 <tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:numericModifiers
+          @attr name cu.lt.joe.calculator:numericModifiers
         */
         public static final int MenuItem_numericModifiers = 15;
         /**
@@ -13664,7 +13667,7 @@ containing a value of this type.
                  larger segment of its container. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:showAsAction
+          @attr name cu.lt.joe.calculator:showAsAction
         */
         public static final int MenuItem_showAsAction = 16;
         /**
@@ -13680,7 +13683,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:tooltipText
+          @attr name cu.lt.joe.calculator:tooltipText
         */
         public static final int MenuItem_tooltipText = 21;
         /** Attributes that can be used with a MenuView.
@@ -13696,8 +13699,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td> Default appearance of menu item text.</td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td> Default vertical divider between menu items.</td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td> Default animations for the menu.</td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing cu.lt.ult.jrja.rpn.calc:preserveIconSpacing}</code></td><td> Whether space should be reserved in layout when an icon is missing.</td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow cu.lt.ult.jrja.rpn.calc:subMenuArrow}</code></td><td> Drawable for the arrow icon indicating a particular item is a submenu.</td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing cu.lt.joe.calculator:preserveIconSpacing}</code></td><td> Whether space should be reserved in layout when an icon is missing.</td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow cu.lt.joe.calculator:subMenuArrow}</code></td><td> Drawable for the arrow icon indicating a particular item is a submenu.</td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -13790,7 +13793,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:preserveIconSpacing
+          @attr name cu.lt.joe.calculator:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
@@ -13802,7 +13805,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:subMenuArrow
+          @attr name cu.lt.joe.calculator:subMenuArrow
         */
         public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a NavigationView.
@@ -13814,15 +13817,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation cu.lt.ult.jrja.rpn.calc:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout cu.lt.ult.jrja.rpn.calc:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground cu.lt.ult.jrja.rpn.calc:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemHorizontalPadding cu.lt.ult.jrja.rpn.calc:itemHorizontalPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconPadding cu.lt.ult.jrja.rpn.calc:itemIconPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint cu.lt.ult.jrja.rpn.calc:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance cu.lt.ult.jrja.rpn.calc:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor cu.lt.ult.jrja.rpn.calc:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu cu.lt.ult.jrja.rpn.calc:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation cu.lt.joe.calculator:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout cu.lt.joe.calculator:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground cu.lt.joe.calculator:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemHorizontalPadding cu.lt.joe.calculator:itemHorizontalPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconPadding cu.lt.joe.calculator:itemIconPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint cu.lt.joe.calculator:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance cu.lt.joe.calculator:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor cu.lt.joe.calculator:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu cu.lt.joe.calculator:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -13875,31 +13878,31 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:elevation
+          @attr name cu.lt.joe.calculator:elevation
         */
         public static final int NavigationView_elevation = 11;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:headerLayout
+          @attr name cu.lt.joe.calculator:headerLayout
         */
         public static final int NavigationView_headerLayout = 8;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:itemBackground
+          @attr name cu.lt.joe.calculator:itemBackground
         */
         public static final int NavigationView_itemBackground = 6;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemHorizontalPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemHorizontalPadding}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -13911,11 +13914,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:itemHorizontalPadding
+          @attr name cu.lt.joe.calculator:itemHorizontalPadding
         */
         public static final int NavigationView_itemHorizontalPadding = 9;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemIconPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemIconPadding}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -13927,11 +13930,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:itemIconPadding
+          @attr name cu.lt.joe.calculator:itemIconPadding
         */
         public static final int NavigationView_itemIconPadding = 10;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -13942,21 +13945,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:itemIconTint
+          @attr name cu.lt.joe.calculator:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 4;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:itemTextAppearance
+          @attr name cu.lt.joe.calculator:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -13967,17 +13970,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:itemTextColor
+          @attr name cu.lt.joe.calculator:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 5;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#menu}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:menu
+          @attr name cu.lt.joe.calculator:menu
         */
         public static final int NavigationView_menu = 3;
         /** Attributes that can be used with a PopupWindow.
@@ -13988,7 +13991,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor cu.lt.ult.jrja.rpn.calc:overlapAnchor}</code></td><td> Whether the popup window should overlap its anchor view.</td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor cu.lt.joe.calculator:overlapAnchor}</code></td><td> Whether the popup window should overlap its anchor view.</td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
@@ -14022,7 +14025,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:overlapAnchor
+          @attr name cu.lt.joe.calculator:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -14031,7 +14034,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor cu.lt.ult.jrja.rpn.calc:state_above_anchor}</code></td><td> State identifier indicating the popup will be above the anchor.</td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor cu.lt.joe.calculator:state_above_anchor}</code></td><td> State identifier indicating the popup will be above the anchor.</td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -14051,7 +14054,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:state_above_anchor
+          @attr name cu.lt.joe.calculator:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecycleListView.
@@ -14060,8 +14063,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons cu.lt.ult.jrja.rpn.calc:paddingBottomNoButtons}</code></td><td> Bottom padding to use when no buttons are present.</td></tr>
-           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle cu.lt.ult.jrja.rpn.calc:paddingTopNoTitle}</code></td><td> Top padding to use when no title is present.</td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons cu.lt.joe.calculator:paddingBottomNoButtons}</code></td><td> Bottom padding to use when no buttons are present.</td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle cu.lt.joe.calculator:paddingTopNoTitle}</code></td><td> Top padding to use when no title is present.</td></tr>
            </table>
            @see #RecycleListView_paddingBottomNoButtons
            @see #RecycleListView_paddingTopNoTitle
@@ -14084,7 +14087,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:paddingBottomNoButtons
+          @attr name cu.lt.joe.calculator:paddingBottomNoButtons
         */
         public static final int RecycleListView_paddingBottomNoButtons = 0;
         /**
@@ -14102,7 +14105,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:paddingTopNoTitle
+          @attr name cu.lt.joe.calculator:paddingTopNoTitle
         */
         public static final int RecycleListView_paddingTopNoTitle = 1;
         /** Attributes that can be used with a RecyclerView.
@@ -14113,15 +14116,15 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollEnabled cu.lt.ult.jrja.rpn.calc:fastScrollEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable cu.lt.ult.jrja.rpn.calc:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable cu.lt.ult.jrja.rpn.calc:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable cu.lt.ult.jrja.rpn.calc:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable cu.lt.ult.jrja.rpn.calc:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager cu.lt.ult.jrja.rpn.calc:layoutManager}</code></td><td> Class name of the Layout Manager to be used.</td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout cu.lt.ult.jrja.rpn.calc:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount cu.lt.ult.jrja.rpn.calc:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd cu.lt.ult.jrja.rpn.calc:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollEnabled cu.lt.joe.calculator:fastScrollEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable cu.lt.joe.calculator:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable cu.lt.joe.calculator:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable cu.lt.joe.calculator:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable cu.lt.joe.calculator:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager cu.lt.joe.calculator:layoutManager}</code></td><td> Class name of the Layout Manager to be used.</td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout cu.lt.joe.calculator:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount cu.lt.joe.calculator:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd cu.lt.joe.calculator:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_descendantFocusability
            @see #RecyclerView_android_orientation
@@ -14153,7 +14156,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#fastScrollEnabled}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#fastScrollEnabled}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -14163,47 +14166,47 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:fastScrollEnabled
+          @attr name cu.lt.joe.calculator:fastScrollEnabled
         */
         public static final int RecyclerView_fastScrollEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#fastScrollHorizontalThumbDrawable}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#fastScrollHorizontalThumbDrawable}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:fastScrollHorizontalThumbDrawable
+          @attr name cu.lt.joe.calculator:fastScrollHorizontalThumbDrawable
         */
         public static final int RecyclerView_fastScrollHorizontalThumbDrawable = 9;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#fastScrollHorizontalTrackDrawable}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#fastScrollHorizontalTrackDrawable}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:fastScrollHorizontalTrackDrawable
+          @attr name cu.lt.joe.calculator:fastScrollHorizontalTrackDrawable
         */
         public static final int RecyclerView_fastScrollHorizontalTrackDrawable = 10;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#fastScrollVerticalThumbDrawable}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#fastScrollVerticalThumbDrawable}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:fastScrollVerticalThumbDrawable
+          @attr name cu.lt.joe.calculator:fastScrollVerticalThumbDrawable
         */
         public static final int RecyclerView_fastScrollVerticalThumbDrawable = 7;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#fastScrollVerticalTrackDrawable}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#fastScrollVerticalTrackDrawable}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:fastScrollVerticalTrackDrawable
+          @attr name cu.lt.joe.calculator:fastScrollVerticalTrackDrawable
         */
         public static final int RecyclerView_fastScrollVerticalTrackDrawable = 8;
         /**
@@ -14227,11 +14230,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:layoutManager
+          @attr name cu.lt.joe.calculator:layoutManager
         */
         public static final int RecyclerView_layoutManager = 2;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -14241,11 +14244,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:reverseLayout
+          @attr name cu.lt.joe.calculator:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 4;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -14255,11 +14258,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:spanCount
+          @attr name cu.lt.joe.calculator:spanCount
         */
         public static final int RecyclerView_spanCount = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -14269,7 +14272,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:stackFromEnd
+          @attr name cu.lt.joe.calculator:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 5;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -14278,7 +14281,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground cu.lt.ult.jrja.rpn.calc:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground cu.lt.joe.calculator:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -14286,7 +14289,7 @@ containing a value of this type.
             0x7f010096
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -14294,7 +14297,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:insetForeground
+          @attr name cu.lt.joe.calculator:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Layout.
@@ -14303,7 +14306,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop cu.lt.ult.jrja.rpn.calc:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop cu.lt.joe.calculator:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Layout_behavior_overlapTop
          */
@@ -14311,7 +14314,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010097
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
 
 
@@ -14323,7 +14326,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:behavior_overlapTop
+          @attr name cu.lt.joe.calculator:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -14336,20 +14339,20 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td> The IME options to set on the query text field.</td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td> The input type to set on the query text field.</td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td> An optional maximum width of the SearchView.</td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon cu.lt.ult.jrja.rpn.calc:closeIcon}</code></td><td> Close button icon </td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon cu.lt.ult.jrja.rpn.calc:commitIcon}</code></td><td> Commit icon shown in the query suggestion row </td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint cu.lt.ult.jrja.rpn.calc:defaultQueryHint}</code></td><td> Default query hint used when {@code queryHint} is undefined and
+           <tr><td><code>{@link #SearchView_closeIcon cu.lt.joe.calculator:closeIcon}</code></td><td> Close button icon </td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon cu.lt.joe.calculator:commitIcon}</code></td><td> Commit icon shown in the query suggestion row </td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint cu.lt.joe.calculator:defaultQueryHint}</code></td><td> Default query hint used when {@code queryHint} is undefined and
              the search view's {@code SearchableInfo} does not provide a hint.</td></tr>
-           <tr><td><code>{@link #SearchView_goIcon cu.lt.ult.jrja.rpn.calc:goIcon}</code></td><td> Go button icon </td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault cu.lt.ult.jrja.rpn.calc:iconifiedByDefault}</code></td><td> The default state of the SearchView.</td></tr>
-           <tr><td><code>{@link #SearchView_layout cu.lt.ult.jrja.rpn.calc:layout}</code></td><td> The layout to use for the search view.</td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground cu.lt.ult.jrja.rpn.calc:queryBackground}</code></td><td> Background for the section containing the search query </td></tr>
-           <tr><td><code>{@link #SearchView_queryHint cu.lt.ult.jrja.rpn.calc:queryHint}</code></td><td> An optional user-defined query hint string to be displayed in the empty query field.</td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon cu.lt.ult.jrja.rpn.calc:searchHintIcon}</code></td><td> Search icon displayed as a text field hint </td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon cu.lt.ult.jrja.rpn.calc:searchIcon}</code></td><td> Search icon </td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground cu.lt.ult.jrja.rpn.calc:submitBackground}</code></td><td> Background for the section containing the action (e.</td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout cu.lt.ult.jrja.rpn.calc:suggestionRowLayout}</code></td><td> Layout for query suggestion rows </td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon cu.lt.ult.jrja.rpn.calc:voiceIcon}</code></td><td> Voice button icon </td></tr>
+           <tr><td><code>{@link #SearchView_goIcon cu.lt.joe.calculator:goIcon}</code></td><td> Go button icon </td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault cu.lt.joe.calculator:iconifiedByDefault}</code></td><td> The default state of the SearchView.</td></tr>
+           <tr><td><code>{@link #SearchView_layout cu.lt.joe.calculator:layout}</code></td><td> The layout to use for the search view.</td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground cu.lt.joe.calculator:queryBackground}</code></td><td> Background for the section containing the search query </td></tr>
+           <tr><td><code>{@link #SearchView_queryHint cu.lt.joe.calculator:queryHint}</code></td><td> An optional user-defined query hint string to be displayed in the empty query field.</td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon cu.lt.joe.calculator:searchHintIcon}</code></td><td> Search icon displayed as a text field hint </td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon cu.lt.joe.calculator:searchIcon}</code></td><td> Search icon </td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground cu.lt.joe.calculator:submitBackground}</code></td><td> Background for the section containing the action (e.</td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout cu.lt.joe.calculator:suggestionRowLayout}</code></td><td> Layout for query suggestion rows </td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon cu.lt.joe.calculator:voiceIcon}</code></td><td> Voice button icon </td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -14420,7 +14423,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:closeIcon
+          @attr name cu.lt.joe.calculator:closeIcon
         */
         public static final int SearchView_closeIcon = 4;
         /**
@@ -14432,7 +14435,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:commitIcon
+          @attr name cu.lt.joe.calculator:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
@@ -14449,7 +14452,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:defaultQueryHint
+          @attr name cu.lt.joe.calculator:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 8;
         /**
@@ -14461,7 +14464,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:goIcon
+          @attr name cu.lt.joe.calculator:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
@@ -14478,7 +14481,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:iconifiedByDefault
+          @attr name cu.lt.joe.calculator:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 6;
         /**
@@ -14490,7 +14493,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:layout
+          @attr name cu.lt.joe.calculator:layout
         */
         public static final int SearchView_layout = 5;
         /**
@@ -14502,7 +14505,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:queryBackground
+          @attr name cu.lt.joe.calculator:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
@@ -14518,7 +14521,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:queryHint
+          @attr name cu.lt.joe.calculator:queryHint
         */
         public static final int SearchView_queryHint = 7;
         /**
@@ -14530,7 +14533,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:searchHintIcon
+          @attr name cu.lt.joe.calculator:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
@@ -14542,7 +14545,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:searchIcon
+          @attr name cu.lt.joe.calculator:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
@@ -14554,7 +14557,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:submitBackground
+          @attr name cu.lt.joe.calculator:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
@@ -14566,7 +14569,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:suggestionRowLayout
+          @attr name cu.lt.joe.calculator:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
@@ -14578,7 +14581,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:voiceIcon
+          @attr name cu.lt.joe.calculator:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a Snackbar.
@@ -14587,8 +14590,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Snackbar_snackbarButtonStyle cu.lt.ult.jrja.rpn.calc:snackbarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Snackbar_snackbarStyle cu.lt.ult.jrja.rpn.calc:snackbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Snackbar_snackbarButtonStyle cu.lt.joe.calculator:snackbarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Snackbar_snackbarStyle cu.lt.joe.calculator:snackbarStyle}</code></td><td></td></tr>
            </table>
            @see #Snackbar_snackbarButtonStyle
            @see #Snackbar_snackbarStyle
@@ -14597,23 +14600,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010098, 0x7f010099
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#snackbarButtonStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#snackbarButtonStyle}
           attribute's value can be found in the {@link #Snackbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:snackbarButtonStyle
+          @attr name cu.lt.joe.calculator:snackbarButtonStyle
         */
         public static final int Snackbar_snackbarButtonStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#snackbarStyle}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#snackbarStyle}
           attribute's value can be found in the {@link #Snackbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:snackbarStyle
+          @attr name cu.lt.joe.calculator:snackbarStyle
         */
         public static final int Snackbar_snackbarStyle = 0;
         /** Attributes that can be used with a SnackbarLayout.
@@ -14623,8 +14626,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation cu.lt.ult.jrja.rpn.calc:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth cu.lt.ult.jrja.rpn.calc:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation cu.lt.joe.calculator:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth cu.lt.joe.calculator:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -14654,11 +14657,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:elevation
+          @attr name cu.lt.joe.calculator:elevation
         */
         public static final int SnackbarLayout_elevation = 2;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -14670,7 +14673,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:maxActionInlineWidth
+          @attr name cu.lt.joe.calculator:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 1;
         /** Attributes that can be used with a Spinner.
@@ -14683,7 +14686,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td> Reference to an array resource that will populate the Spinner.</td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td> Background drawable to use for the dropdown in spinnerMode="dropdown".</td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme cu.lt.ult.jrja.rpn.calc:popupTheme}</code></td><td> Theme to use for the drop-down or dialog popup window.</td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme cu.lt.joe.calculator:popupTheme}</code></td><td> Theme to use for the drop-down or dialog popup window.</td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -14740,7 +14743,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:popupTheme
+          @attr name cu.lt.joe.calculator:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /**  Indicates if the drawable needs to be mirrored when its layout direction is
@@ -14870,17 +14873,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td> Text to use when the switch is in the unchecked/"off" state.</td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td> Text to use when the switch is in the checked/"on" state.</td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td> Drawable to use as the "thumb" that switches back and forth.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText cu.lt.ult.jrja.rpn.calc:showText}</code></td><td> Whether to draw on/off text.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack cu.lt.ult.jrja.rpn.calc:splitTrack}</code></td><td> Whether to split the track and leave a gap for the thumb drawable.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth cu.lt.ult.jrja.rpn.calc:switchMinWidth}</code></td><td> Minimum width for the switch component </td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding cu.lt.ult.jrja.rpn.calc:switchPadding}</code></td><td> Minimum space between the switch and caption text </td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance cu.lt.ult.jrja.rpn.calc:switchTextAppearance}</code></td><td> TextAppearance style for text displayed on the switch thumb.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding cu.lt.ult.jrja.rpn.calc:thumbTextPadding}</code></td><td> Amount of padding on either side of text within the switch thumb.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint cu.lt.ult.jrja.rpn.calc:thumbTint}</code></td><td> Tint to apply to the thumb drawable.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode cu.lt.ult.jrja.rpn.calc:thumbTintMode}</code></td><td> Blending mode used to apply the thumb tint.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_track cu.lt.ult.jrja.rpn.calc:track}</code></td><td> Drawable to use as the "track" that the switch thumb slides within.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint cu.lt.ult.jrja.rpn.calc:trackTint}</code></td><td> Tint to apply to the track.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode cu.lt.ult.jrja.rpn.calc:trackTintMode}</code></td><td> Blending mode used to apply the track tint.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText cu.lt.joe.calculator:showText}</code></td><td> Whether to draw on/off text.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack cu.lt.joe.calculator:splitTrack}</code></td><td> Whether to split the track and leave a gap for the thumb drawable.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth cu.lt.joe.calculator:switchMinWidth}</code></td><td> Minimum width for the switch component </td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding cu.lt.joe.calculator:switchPadding}</code></td><td> Minimum space between the switch and caption text </td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance cu.lt.joe.calculator:switchTextAppearance}</code></td><td> TextAppearance style for text displayed on the switch thumb.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding cu.lt.joe.calculator:thumbTextPadding}</code></td><td> Amount of padding on either side of text within the switch thumb.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint cu.lt.joe.calculator:thumbTint}</code></td><td> Tint to apply to the thumb drawable.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode cu.lt.joe.calculator:thumbTintMode}</code></td><td> Blending mode used to apply the thumb tint.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_track cu.lt.joe.calculator:track}</code></td><td> Drawable to use as the "track" that the switch thumb slides within.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint cu.lt.joe.calculator:trackTint}</code></td><td> Tint to apply to the track.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode cu.lt.joe.calculator:trackTintMode}</code></td><td> Blending mode used to apply the track tint.</td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -14943,7 +14946,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:showText
+          @attr name cu.lt.joe.calculator:showText
         */
         public static final int SwitchCompat_showText = 13;
         /**
@@ -14959,7 +14962,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:splitTrack
+          @attr name cu.lt.joe.calculator:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
@@ -14977,7 +14980,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:switchMinWidth
+          @attr name cu.lt.joe.calculator:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
@@ -14995,7 +14998,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:switchPadding
+          @attr name cu.lt.joe.calculator:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
@@ -15007,7 +15010,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:switchTextAppearance
+          @attr name cu.lt.joe.calculator:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
@@ -15025,7 +15028,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:thumbTextPadding
+          @attr name cu.lt.joe.calculator:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
@@ -15042,7 +15045,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:thumbTint
+          @attr name cu.lt.joe.calculator:thumbTint
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
@@ -15070,7 +15073,7 @@ containing a value of this type.
                  result to valid color values. Saturate(S + D) </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:thumbTintMode
+          @attr name cu.lt.joe.calculator:thumbTintMode
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
@@ -15082,7 +15085,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:track
+          @attr name cu.lt.joe.calculator:track
         */
         public static final int SwitchCompat_track = 5;
         /**
@@ -15099,7 +15102,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:trackTint
+          @attr name cu.lt.joe.calculator:trackTint
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
@@ -15127,7 +15130,7 @@ containing a value of this type.
                  result to valid color values. Saturate(S + D) </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:trackTintMode
+          @attr name cu.lt.joe.calculator:trackTintMode
         */
         public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TabItem.
@@ -15171,31 +15174,31 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground cu.lt.ult.jrja.rpn.calc:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart cu.lt.ult.jrja.rpn.calc:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity cu.lt.ult.jrja.rpn.calc:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIconTint cu.lt.ult.jrja.rpn.calc:tabIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIconTintMode cu.lt.ult.jrja.rpn.calc:tabIconTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicator cu.lt.ult.jrja.rpn.calc:tabIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration cu.lt.ult.jrja.rpn.calc:tabIndicatorAnimationDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor cu.lt.ult.jrja.rpn.calc:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth cu.lt.ult.jrja.rpn.calc:tabIndicatorFullWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorGravity cu.lt.ult.jrja.rpn.calc:tabIndicatorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight cu.lt.ult.jrja.rpn.calc:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabInlineLabel cu.lt.ult.jrja.rpn.calc:tabInlineLabel}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth cu.lt.ult.jrja.rpn.calc:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth cu.lt.ult.jrja.rpn.calc:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode cu.lt.ult.jrja.rpn.calc:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding cu.lt.ult.jrja.rpn.calc:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom cu.lt.ult.jrja.rpn.calc:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd cu.lt.ult.jrja.rpn.calc:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart cu.lt.ult.jrja.rpn.calc:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop cu.lt.ult.jrja.rpn.calc:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabRippleColor cu.lt.ult.jrja.rpn.calc:tabRippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor cu.lt.ult.jrja.rpn.calc:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance cu.lt.ult.jrja.rpn.calc:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor cu.lt.ult.jrja.rpn.calc:tabTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabUnboundedRipple cu.lt.ult.jrja.rpn.calc:tabUnboundedRipple}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground cu.lt.joe.calculator:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart cu.lt.joe.calculator:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity cu.lt.joe.calculator:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIconTint cu.lt.joe.calculator:tabIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIconTintMode cu.lt.joe.calculator:tabIconTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicator cu.lt.joe.calculator:tabIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration cu.lt.joe.calculator:tabIndicatorAnimationDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor cu.lt.joe.calculator:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth cu.lt.joe.calculator:tabIndicatorFullWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorGravity cu.lt.joe.calculator:tabIndicatorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight cu.lt.joe.calculator:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabInlineLabel cu.lt.joe.calculator:tabInlineLabel}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth cu.lt.joe.calculator:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth cu.lt.joe.calculator:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode cu.lt.joe.calculator:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding cu.lt.joe.calculator:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom cu.lt.joe.calculator:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd cu.lt.joe.calculator:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart cu.lt.joe.calculator:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop cu.lt.joe.calculator:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabRippleColor cu.lt.joe.calculator:tabRippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor cu.lt.joe.calculator:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance cu.lt.joe.calculator:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor cu.lt.joe.calculator:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabUnboundedRipple cu.lt.joe.calculator:tabUnboundedRipple}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -15233,17 +15236,17 @@ containing a value of this type.
             0x7f0100b3
         };
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:tabBackground
+          @attr name cu.lt.joe.calculator:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15255,11 +15258,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabContentStart
+          @attr name cu.lt.joe.calculator:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15272,11 +15275,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:tabGravity
+          @attr name cu.lt.joe.calculator:tabGravity
         */
         public static final int TabLayout_tabGravity = 9;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabIconTint}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabIconTint}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15287,11 +15290,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabIconTint
+          @attr name cu.lt.joe.calculator:tabIconTint
         */
         public static final int TabLayout_tabIconTint = 21;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabIconTintMode}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabIconTintMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15308,21 +15311,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:tabIconTintMode
+          @attr name cu.lt.joe.calculator:tabIconTintMode
         */
         public static final int TabLayout_tabIconTintMode = 22;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabIndicator}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabIndicator}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:tabIndicator
+          @attr name cu.lt.joe.calculator:tabIndicator
         */
         public static final int TabLayout_tabIndicator = 4;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabIndicatorAnimationDuration}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabIndicatorAnimationDuration}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15332,11 +15335,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabIndicatorAnimationDuration
+          @attr name cu.lt.joe.calculator:tabIndicatorAnimationDuration
         */
         public static final int TabLayout_tabIndicatorAnimationDuration = 6;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15347,11 +15350,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabIndicatorColor
+          @attr name cu.lt.joe.calculator:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabIndicatorFullWidth}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabIndicatorFullWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15361,11 +15364,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabIndicatorFullWidth
+          @attr name cu.lt.joe.calculator:tabIndicatorFullWidth
         */
         public static final int TabLayout_tabIndicatorFullWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabIndicatorGravity}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabIndicatorGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15380,11 +15383,11 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>2</td><td></td></tr>
 <tr><td><code>stretch</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:tabIndicatorGravity
+          @attr name cu.lt.joe.calculator:tabIndicatorGravity
         */
         public static final int TabLayout_tabIndicatorGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15396,11 +15399,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabIndicatorHeight
+          @attr name cu.lt.joe.calculator:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabInlineLabel}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabInlineLabel}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15410,11 +15413,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabInlineLabel
+          @attr name cu.lt.joe.calculator:tabInlineLabel
         */
         public static final int TabLayout_tabInlineLabel = 10;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15426,11 +15429,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabMaxWidth
+          @attr name cu.lt.joe.calculator:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 12;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15442,11 +15445,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabMinWidth
+          @attr name cu.lt.joe.calculator:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 11;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15459,11 +15462,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:tabMode
+          @attr name cu.lt.joe.calculator:tabMode
         */
         public static final int TabLayout_tabMode = 8;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15475,11 +15478,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabPadding
+          @attr name cu.lt.joe.calculator:tabPadding
         */
         public static final int TabLayout_tabPadding = 20;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15491,11 +15494,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabPaddingBottom
+          @attr name cu.lt.joe.calculator:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 19;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15507,11 +15510,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabPaddingEnd
+          @attr name cu.lt.joe.calculator:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 18;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15523,11 +15526,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabPaddingStart
+          @attr name cu.lt.joe.calculator:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 16;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15539,11 +15542,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabPaddingTop
+          @attr name cu.lt.joe.calculator:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 17;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabRippleColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabRippleColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15554,11 +15557,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabRippleColor
+          @attr name cu.lt.joe.calculator:tabRippleColor
         */
         public static final int TabLayout_tabRippleColor = 23;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15569,21 +15572,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabSelectedTextColor
+          @attr name cu.lt.joe.calculator:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 15;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:tabTextAppearance
+          @attr name cu.lt.joe.calculator:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15594,11 +15597,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabTextColor
+          @attr name cu.lt.joe.calculator:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 14;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#tabUnboundedRipple}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#tabUnboundedRipple}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -15608,7 +15611,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:tabUnboundedRipple
+          @attr name cu.lt.joe.calculator:tabUnboundedRipple
         */
         public static final int TabLayout_tabUnboundedRipple = 24;
         /** Attributes that can be used with a TextAppearance.
@@ -15628,8 +15631,8 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_fontFamily cu.lt.ult.jrja.rpn.calc:fontFamily}</code></td><td> The attribute for the font family.</td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps cu.lt.ult.jrja.rpn.calc:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
+           <tr><td><code>{@link #TextAppearance_fontFamily cu.lt.joe.calculator:fontFamily}</code></td><td> The attribute for the font family.</td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps cu.lt.joe.calculator:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
            </table>
            @see #TextAppearance_android_fontFamily
            @see #TextAppearance_android_shadowColor
@@ -15730,7 +15733,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:fontFamily
+          @attr name cu.lt.joe.calculator:fontFamily
         */
         public static final int TextAppearance_fontFamily = 12;
         /**
@@ -15743,7 +15746,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:textAllCaps
+          @attr name cu.lt.joe.calculator:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 11;
         /** Attributes that can be used with a TextInputLayout.
@@ -15754,32 +15757,32 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_boxBackgroundColor cu.lt.ult.jrja.rpn.calc:boxBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_boxBackgroundMode cu.lt.ult.jrja.rpn.calc:boxBackgroundMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop cu.lt.ult.jrja.rpn.calc:boxCollapsedPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd cu.lt.ult.jrja.rpn.calc:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart cu.lt.ult.jrja.rpn.calc:boxCornerRadiusBottomStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd cu.lt.ult.jrja.rpn.calc:boxCornerRadiusTopEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart cu.lt.ult.jrja.rpn.calc:boxCornerRadiusTopStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_boxStrokeColor cu.lt.ult.jrja.rpn.calc:boxStrokeColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_boxStrokeWidth cu.lt.ult.jrja.rpn.calc:boxStrokeWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled cu.lt.ult.jrja.rpn.calc:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength cu.lt.ult.jrja.rpn.calc:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance cu.lt.ult.jrja.rpn.calc:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance cu.lt.ult.jrja.rpn.calc:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled cu.lt.ult.jrja.rpn.calc:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance cu.lt.ult.jrja.rpn.calc:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_helperText cu.lt.ult.jrja.rpn.calc:helperText}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_helperTextEnabled cu.lt.ult.jrja.rpn.calc:helperTextEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance cu.lt.ult.jrja.rpn.calc:helperTextTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled cu.lt.ult.jrja.rpn.calc:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled cu.lt.ult.jrja.rpn.calc:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance cu.lt.ult.jrja.rpn.calc:hintTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription cu.lt.ult.jrja.rpn.calc:passwordToggleContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable cu.lt.ult.jrja.rpn.calc:passwordToggleDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled cu.lt.ult.jrja.rpn.calc:passwordToggleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTint cu.lt.ult.jrja.rpn.calc:passwordToggleTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode cu.lt.ult.jrja.rpn.calc:passwordToggleTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_boxBackgroundColor cu.lt.joe.calculator:boxBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_boxBackgroundMode cu.lt.joe.calculator:boxBackgroundMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop cu.lt.joe.calculator:boxCollapsedPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd cu.lt.joe.calculator:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart cu.lt.joe.calculator:boxCornerRadiusBottomStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd cu.lt.joe.calculator:boxCornerRadiusTopEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart cu.lt.joe.calculator:boxCornerRadiusTopStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_boxStrokeColor cu.lt.joe.calculator:boxStrokeColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_boxStrokeWidth cu.lt.joe.calculator:boxStrokeWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled cu.lt.joe.calculator:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength cu.lt.joe.calculator:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance cu.lt.joe.calculator:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance cu.lt.joe.calculator:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled cu.lt.joe.calculator:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance cu.lt.joe.calculator:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_helperText cu.lt.joe.calculator:helperText}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_helperTextEnabled cu.lt.joe.calculator:helperTextEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance cu.lt.joe.calculator:helperTextTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled cu.lt.joe.calculator:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled cu.lt.joe.calculator:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance cu.lt.joe.calculator:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription cu.lt.joe.calculator:passwordToggleContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable cu.lt.joe.calculator:passwordToggleDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled cu.lt.joe.calculator:passwordToggleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTint cu.lt.joe.calculator:passwordToggleTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode cu.lt.joe.calculator:passwordToggleTintMode}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -15832,7 +15835,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#boxBackgroundColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#boxBackgroundColor}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15843,11 +15846,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:boxBackgroundColor
+          @attr name cu.lt.joe.calculator:boxBackgroundColor
         */
         public static final int TextInputLayout_boxBackgroundColor = 26;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#boxBackgroundMode}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#boxBackgroundMode}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15861,11 +15864,11 @@ containing a value of this type.
 <tr><td><code>filled</code></td><td>1</td><td></td></tr>
 <tr><td><code>outline</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:boxBackgroundMode
+          @attr name cu.lt.joe.calculator:boxBackgroundMode
         */
         public static final int TextInputLayout_boxBackgroundMode = 19;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#boxCollapsedPaddingTop}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#boxCollapsedPaddingTop}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15877,11 +15880,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:boxCollapsedPaddingTop
+          @attr name cu.lt.joe.calculator:boxCollapsedPaddingTop
         */
         public static final int TextInputLayout_boxCollapsedPaddingTop = 20;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#boxCornerRadiusBottomEnd}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#boxCornerRadiusBottomEnd}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15893,11 +15896,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:boxCornerRadiusBottomEnd
+          @attr name cu.lt.joe.calculator:boxCornerRadiusBottomEnd
         */
         public static final int TextInputLayout_boxCornerRadiusBottomEnd = 24;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#boxCornerRadiusBottomStart}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#boxCornerRadiusBottomStart}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15909,11 +15912,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:boxCornerRadiusBottomStart
+          @attr name cu.lt.joe.calculator:boxCornerRadiusBottomStart
         */
         public static final int TextInputLayout_boxCornerRadiusBottomStart = 23;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#boxCornerRadiusTopEnd}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#boxCornerRadiusTopEnd}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15925,11 +15928,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:boxCornerRadiusTopEnd
+          @attr name cu.lt.joe.calculator:boxCornerRadiusTopEnd
         */
         public static final int TextInputLayout_boxCornerRadiusTopEnd = 22;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#boxCornerRadiusTopStart}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#boxCornerRadiusTopStart}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15941,11 +15944,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:boxCornerRadiusTopStart
+          @attr name cu.lt.joe.calculator:boxCornerRadiusTopStart
         */
         public static final int TextInputLayout_boxCornerRadiusTopStart = 21;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#boxStrokeColor}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#boxStrokeColor}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15956,11 +15959,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:boxStrokeColor
+          @attr name cu.lt.joe.calculator:boxStrokeColor
         */
         public static final int TextInputLayout_boxStrokeColor = 25;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#boxStrokeWidth}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#boxStrokeWidth}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15972,11 +15975,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:boxStrokeWidth
+          @attr name cu.lt.joe.calculator:boxStrokeWidth
         */
         public static final int TextInputLayout_boxStrokeWidth = 27;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -15986,11 +15989,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:counterEnabled
+          @attr name cu.lt.joe.calculator:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16000,31 +16003,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:counterMaxLength
+          @attr name cu.lt.joe.calculator:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 11;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:counterOverflowTextAppearance
+          @attr name cu.lt.joe.calculator:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:counterTextAppearance
+          @attr name cu.lt.joe.calculator:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16034,21 +16037,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:errorEnabled
+          @attr name cu.lt.joe.calculator:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 8;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:errorTextAppearance
+          @attr name cu.lt.joe.calculator:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#helperText}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#helperText}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16058,11 +16061,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:helperText
+          @attr name cu.lt.joe.calculator:helperText
         */
         public static final int TextInputLayout_helperText = 5;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#helperTextEnabled}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#helperTextEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16072,21 +16075,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:helperTextEnabled
+          @attr name cu.lt.joe.calculator:helperTextEnabled
         */
         public static final int TextInputLayout_helperTextEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#helperTextTextAppearance}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#helperTextTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:helperTextTextAppearance
+          @attr name cu.lt.joe.calculator:helperTextTextAppearance
         */
         public static final int TextInputLayout_helperTextTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16096,11 +16099,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:hintAnimationEnabled
+          @attr name cu.lt.joe.calculator:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16110,21 +16113,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:hintEnabled
+          @attr name cu.lt.joe.calculator:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 2;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:hintTextAppearance
+          @attr name cu.lt.joe.calculator:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 4;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#passwordToggleContentDescription}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#passwordToggleContentDescription}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16134,21 +16137,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:passwordToggleContentDescription
+          @attr name cu.lt.joe.calculator:passwordToggleContentDescription
         */
         public static final int TextInputLayout_passwordToggleContentDescription = 16;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#passwordToggleDrawable}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#passwordToggleDrawable}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:passwordToggleDrawable
+          @attr name cu.lt.joe.calculator:passwordToggleDrawable
         */
         public static final int TextInputLayout_passwordToggleDrawable = 15;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#passwordToggleEnabled}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#passwordToggleEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16158,11 +16161,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:passwordToggleEnabled
+          @attr name cu.lt.joe.calculator:passwordToggleEnabled
         */
         public static final int TextInputLayout_passwordToggleEnabled = 14;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#passwordToggleTint}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#passwordToggleTint}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16173,11 +16176,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:passwordToggleTint
+          @attr name cu.lt.joe.calculator:passwordToggleTint
         */
         public static final int TextInputLayout_passwordToggleTint = 17;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#passwordToggleTintMode}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#passwordToggleTintMode}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -16193,7 +16196,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:passwordToggleTintMode
+          @attr name cu.lt.joe.calculator:passwordToggleTintMode
         */
         public static final int TextInputLayout_passwordToggleTintMode = 18;
         /** Attributes that can be used with a ThemeEnforcement.
@@ -16203,8 +16206,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ThemeEnforcement_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme cu.lt.ult.jrja.rpn.calc:enforceMaterialTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance cu.lt.ult.jrja.rpn.calc:enforceTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme cu.lt.joe.calculator:enforceMaterialTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance cu.lt.joe.calculator:enforceTextAppearance}</code></td><td></td></tr>
            </table>
            @see #ThemeEnforcement_android_textAppearance
            @see #ThemeEnforcement_enforceMaterialTheme
@@ -16220,7 +16223,7 @@ containing a value of this type.
         */
         public static final int ThemeEnforcement_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#enforceMaterialTheme}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#enforceMaterialTheme}
           attribute's value can be found in the {@link #ThemeEnforcement} array.
 
 
@@ -16230,11 +16233,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:enforceMaterialTheme
+          @attr name cu.lt.joe.calculator:enforceMaterialTheme
         */
         public static final int ThemeEnforcement_enforceMaterialTheme = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#enforceTextAppearance}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#enforceTextAppearance}
           attribute's value can be found in the {@link #ThemeEnforcement} array.
 
 
@@ -16244,7 +16247,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:enforceTextAppearance
+          @attr name cu.lt.joe.calculator:enforceTextAppearance
         */
         public static final int ThemeEnforcement_enforceTextAppearance = 2;
         /** Attributes that can be used with a Toolbar.
@@ -16255,41 +16258,41 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity cu.lt.ult.jrja.rpn.calc:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription cu.lt.ult.jrja.rpn.calc:collapseContentDescription}</code></td><td> Text to set as the content description for the collapse button.</td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon cu.lt.ult.jrja.rpn.calc:collapseIcon}</code></td><td> Icon drawable to use for the collapse button.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd cu.lt.ult.jrja.rpn.calc:contentInsetEnd}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions cu.lt.ult.jrja.rpn.calc:contentInsetEndWithActions}</code></td><td> Minimum inset for content views within a bar when actions from a menu
+           <tr><td><code>{@link #Toolbar_buttonGravity cu.lt.joe.calculator:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription cu.lt.joe.calculator:collapseContentDescription}</code></td><td> Text to set as the content description for the collapse button.</td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon cu.lt.joe.calculator:collapseIcon}</code></td><td> Icon drawable to use for the collapse button.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd cu.lt.joe.calculator:contentInsetEnd}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions cu.lt.joe.calculator:contentInsetEndWithActions}</code></td><td> Minimum inset for content views within a bar when actions from a menu
              are present.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft cu.lt.ult.jrja.rpn.calc:contentInsetLeft}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight cu.lt.ult.jrja.rpn.calc:contentInsetRight}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart cu.lt.ult.jrja.rpn.calc:contentInsetStart}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation cu.lt.ult.jrja.rpn.calc:contentInsetStartWithNavigation}</code></td><td> Minimum inset for content views within a bar when a navigation button
+           <tr><td><code>{@link #Toolbar_contentInsetLeft cu.lt.joe.calculator:contentInsetLeft}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight cu.lt.joe.calculator:contentInsetRight}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart cu.lt.joe.calculator:contentInsetStart}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation cu.lt.joe.calculator:contentInsetStartWithNavigation}</code></td><td> Minimum inset for content views within a bar when a navigation button
              is present, such as the Up button.</td></tr>
-           <tr><td><code>{@link #Toolbar_logo cu.lt.ult.jrja.rpn.calc:logo}</code></td><td> Drawable to set as the logo that appears at the starting side of
+           <tr><td><code>{@link #Toolbar_logo cu.lt.joe.calculator:logo}</code></td><td> Drawable to set as the logo that appears at the starting side of
              the Toolbar, just after the navigation button.</td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription cu.lt.ult.jrja.rpn.calc:logoDescription}</code></td><td> A content description string to describe the appearance of the
+           <tr><td><code>{@link #Toolbar_logoDescription cu.lt.joe.calculator:logoDescription}</code></td><td> A content description string to describe the appearance of the
              associated logo image.</td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight cu.lt.ult.jrja.rpn.calc:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription cu.lt.ult.jrja.rpn.calc:navigationContentDescription}</code></td><td> Text to set as the content description for the navigation button
+           <tr><td><code>{@link #Toolbar_maxButtonHeight cu.lt.joe.calculator:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription cu.lt.joe.calculator:navigationContentDescription}</code></td><td> Text to set as the content description for the navigation button
              located at the start of the toolbar.</td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon cu.lt.ult.jrja.rpn.calc:navigationIcon}</code></td><td> Icon drawable to use for the navigation button located at
+           <tr><td><code>{@link #Toolbar_navigationIcon cu.lt.joe.calculator:navigationIcon}</code></td><td> Icon drawable to use for the navigation button located at
              the start of the toolbar.</td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme cu.lt.ult.jrja.rpn.calc:popupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
+           <tr><td><code>{@link #Toolbar_popupTheme cu.lt.joe.calculator:popupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
              shown by widgets in the toolbar.</td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle cu.lt.ult.jrja.rpn.calc:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance cu.lt.ult.jrja.rpn.calc:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor cu.lt.ult.jrja.rpn.calc:subtitleTextColor}</code></td><td> A color to apply to the subtitle string.</td></tr>
-           <tr><td><code>{@link #Toolbar_title cu.lt.ult.jrja.rpn.calc:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin cu.lt.ult.jrja.rpn.calc:titleMargin}</code></td><td>  Specifies extra space on the left, start, right and end sides
+           <tr><td><code>{@link #Toolbar_subtitle cu.lt.joe.calculator:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance cu.lt.joe.calculator:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor cu.lt.joe.calculator:subtitleTextColor}</code></td><td> A color to apply to the subtitle string.</td></tr>
+           <tr><td><code>{@link #Toolbar_title cu.lt.joe.calculator:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin cu.lt.joe.calculator:titleMargin}</code></td><td>  Specifies extra space on the left, start, right and end sides
               of the toolbar's title.</td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom cu.lt.ult.jrja.rpn.calc:titleMarginBottom}</code></td><td>  Specifies extra space on the bottom side of the toolbar's title.</td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd cu.lt.ult.jrja.rpn.calc:titleMarginEnd}</code></td><td>  Specifies extra space on the end side of the toolbar's title.</td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart cu.lt.ult.jrja.rpn.calc:titleMarginStart}</code></td><td>  Specifies extra space on the start side of the toolbar's title.</td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop cu.lt.ult.jrja.rpn.calc:titleMarginTop}</code></td><td>  Specifies extra space on the top side of the toolbar's title.</td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins cu.lt.ult.jrja.rpn.calc:titleMargins}</code></td><td> {@deprecated Use titleMargin} </td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance cu.lt.ult.jrja.rpn.calc:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor cu.lt.ult.jrja.rpn.calc:titleTextColor}</code></td><td> A color to apply to the title string.</td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom cu.lt.joe.calculator:titleMarginBottom}</code></td><td>  Specifies extra space on the bottom side of the toolbar's title.</td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd cu.lt.joe.calculator:titleMarginEnd}</code></td><td>  Specifies extra space on the end side of the toolbar's title.</td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart cu.lt.joe.calculator:titleMarginStart}</code></td><td>  Specifies extra space on the start side of the toolbar's title.</td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop cu.lt.joe.calculator:titleMarginTop}</code></td><td>  Specifies extra space on the top side of the toolbar's title.</td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins cu.lt.joe.calculator:titleMargins}</code></td><td> {@deprecated Use titleMargin} </td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance cu.lt.joe.calculator:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor cu.lt.joe.calculator:titleTextColor}</code></td><td> A color to apply to the title string.</td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -16344,7 +16347,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -16357,7 +16360,7 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>0x30</td><td> Push object to the top of its container, not changing its size. </td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td> Push object to the bottom of its container, not changing its size. </td></tr>
 </table>
-          @attr name cu.lt.ult.jrja.rpn.calc:buttonGravity
+          @attr name cu.lt.joe.calculator:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
@@ -16373,7 +16376,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:collapseContentDescription
+          @attr name cu.lt.joe.calculator:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
@@ -16385,7 +16388,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:collapseIcon
+          @attr name cu.lt.joe.calculator:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
@@ -16404,7 +16407,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentInsetEnd
+          @attr name cu.lt.joe.calculator:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
@@ -16423,7 +16426,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentInsetEndWithActions
+          @attr name cu.lt.joe.calculator:contentInsetEndWithActions
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
@@ -16442,7 +16445,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentInsetLeft
+          @attr name cu.lt.joe.calculator:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
@@ -16461,7 +16464,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentInsetRight
+          @attr name cu.lt.joe.calculator:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
@@ -16480,7 +16483,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentInsetStart
+          @attr name cu.lt.joe.calculator:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
@@ -16499,7 +16502,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:contentInsetStartWithNavigation
+          @attr name cu.lt.joe.calculator:contentInsetStartWithNavigation
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
@@ -16512,7 +16515,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:logo
+          @attr name cu.lt.joe.calculator:logo
         */
         public static final int Toolbar_logo = 4;
         /**
@@ -16529,11 +16532,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:logoDescription
+          @attr name cu.lt.joe.calculator:logoDescription
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -16545,7 +16548,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:maxButtonHeight
+          @attr name cu.lt.joe.calculator:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
@@ -16562,7 +16565,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:navigationContentDescription
+          @attr name cu.lt.joe.calculator:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
@@ -16575,7 +16578,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:navigationIcon
+          @attr name cu.lt.joe.calculator:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
@@ -16588,7 +16591,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:popupTheme
+          @attr name cu.lt.joe.calculator:popupTheme
         */
         public static final int Toolbar_popupTheme = 11;
         /**
@@ -16604,17 +16607,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:subtitle
+          @attr name cu.lt.joe.calculator:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:subtitleTextAppearance
+          @attr name cu.lt.joe.calculator:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
@@ -16631,11 +16634,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:subtitleTextColor
+          @attr name cu.lt.joe.calculator:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#title}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -16645,7 +16648,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cu.lt.ult.jrja.rpn.calc:title
+          @attr name cu.lt.joe.calculator:title
         */
         public static final int Toolbar_title = 2;
         /**
@@ -16664,7 +16667,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:titleMargin
+          @attr name cu.lt.joe.calculator:titleMargin
         */
         public static final int Toolbar_titleMargin = 14;
         /**
@@ -16684,7 +16687,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:titleMarginBottom
+          @attr name cu.lt.joe.calculator:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
@@ -16704,7 +16707,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:titleMarginEnd
+          @attr name cu.lt.joe.calculator:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
@@ -16724,7 +16727,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:titleMarginStart
+          @attr name cu.lt.joe.calculator:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
@@ -16744,7 +16747,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:titleMarginTop
+          @attr name cu.lt.joe.calculator:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
@@ -16762,18 +16765,18 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:titleMargins
+          @attr name cu.lt.joe.calculator:titleMargins
         */
         @Deprecated
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link cu.lt.ult.jrja.rpn.calc.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link cu.lt.joe.calculator.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cu.lt.ult.jrja.rpn.calc:titleTextAppearance
+          @attr name cu.lt.joe.calculator:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
@@ -16790,7 +16793,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:titleTextColor
+          @attr name cu.lt.joe.calculator:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
@@ -16801,9 +16804,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td> Boolean that controls whether a view can take focus.</td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td> Specifies a theme override for a view.</td></tr>
-           <tr><td><code>{@link #View_paddingEnd cu.lt.ult.jrja.rpn.calc:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-           <tr><td><code>{@link #View_paddingStart cu.lt.ult.jrja.rpn.calc:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
-           <tr><td><code>{@link #View_theme cu.lt.ult.jrja.rpn.calc:theme}</code></td><td> Deprecated.</td></tr>
+           <tr><td><code>{@link #View_paddingEnd cu.lt.joe.calculator:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_paddingStart cu.lt.joe.calculator:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_theme cu.lt.joe.calculator:theme}</code></td><td> Deprecated.</td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -16855,7 +16858,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:paddingEnd
+          @attr name cu.lt.joe.calculator:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
@@ -16873,7 +16876,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:paddingStart
+          @attr name cu.lt.joe.calculator:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
@@ -16885,7 +16888,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:theme
+          @attr name cu.lt.joe.calculator:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -16895,8 +16898,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint cu.lt.ult.jrja.rpn.calc:backgroundTint}</code></td><td> Tint to apply to the background.</td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode cu.lt.ult.jrja.rpn.calc:backgroundTintMode}</code></td><td> Blending mode used to apply the background tint.</td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint cu.lt.joe.calculator:backgroundTint}</code></td><td> Tint to apply to the background.</td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode cu.lt.joe.calculator:backgroundTintMode}</code></td><td> Blending mode used to apply the background tint.</td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -16925,7 +16928,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:backgroundTint
+          @attr name cu.lt.joe.calculator:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
@@ -16953,7 +16956,7 @@ containing a value of this type.
                  result to valid color values. Saturate(S + D) </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name cu.lt.ult.jrja.rpn.calc:backgroundTintMode
+          @attr name cu.lt.joe.calculator:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.

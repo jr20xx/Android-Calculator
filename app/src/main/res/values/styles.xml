@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
-		<item name="colorAccent">#CCCCCC</item>
-		<item name="colorPrimary">#111111</item>
-		<item name="colorPrimaryDark">#1F1F1F</item>
-        <!--item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowTranslucentNavigation">true</item-->
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:windowBackground">@drawable/window_background</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+        <item name="snackbarStyle">@style/SnackbarStyle</item>
 	</style>
+    
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetDialogStyle</item>
+    </style>
+
+    <style name="BottomSheetDialogStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    
+    <style name="SnackbarStyle" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:shadowColor">@android:color/transparent</item>
+    </style>
 </resources>
