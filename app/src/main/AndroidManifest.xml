@@ -16,7 +16,6 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
 			android:resizeableActivity="true"
-			android:launchMode="singleInstance"
 			android:windowSoftInputMode="stateAlwaysHidden"
 			android:supportsPictureInPicture="true">
             <intent-filter>

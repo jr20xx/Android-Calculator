@@ -52,14 +52,11 @@
 						android:layout_height="wrap_content"
 						android:layout_width="wrap_content"
 						android:text="@string/send"
+                        android:textColor="#0036D4"
 						android:gravity="center"
-						android:paddingLeft="30dp"
-						android:paddingRight="30dp"
-						android:background="@drawable/send_colors"
 						android:elevation="21dp"
 						android:id="@+id/SEND"
-						android:paddingTop="5dp"
-						android:paddingBottom="5dp"/>
+						android:padding="5dp"/>
 
 				</LinearLayout>
 

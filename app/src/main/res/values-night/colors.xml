@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#CCCCCC</color>
+    <color name="colorPrimary">#111111</color>
+    <color name="colorPrimaryDark">#1F1F1F</color>
+    <color name="textColor">#FFFFFFFF</color>
+    <color name="windowBackgroundColor">#1F1F1F</color>
+    <color name="screenBackgroundColor">#434343</color>
+    <color name="operatorsBackgroundColor">#181818</color>
+    <color name="operatorsClickedBackgroundColor">#393939</color>
+    <color name="bottomsheetBackgroundColor">#FF202020</color>
+    <color name="numberBackgroundColor">#060606</color>
+    <color name="numberClickedBackgroundColor">#353535</color>
+</resources>

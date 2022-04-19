@@ -44,23 +44,16 @@
 				android:layout_height="wrap_content"
 				android:layout_width="wrap_content"
 				android:text="@string/cancel_text"
-				android:paddingLeft="18dp"
-				android:paddingRight="18dp"
 				android:id="@+id/I_dont_want"
-				android:layout_marginRight="10dp"
 				style="?android:attr/buttonBarButtonStyle"/>
 
 			<Button
-				android:textColor="@color/textColor"
 				style="?android:attr/buttonBarButtonStyle"
 				android:layout_height="wrap_content"
 				android:layout_width="wrap_content"
 				android:text="@string/ok_text"
-				android:paddingLeft="30dp"
-				android:paddingRight="30dp"
-				android:id="@+id/I_do_want"
-				android:layout_marginRight="10dp"
-				android:background="@drawable/ok_exit"/>
+                android:textColor="#FFDC0000"
+				android:id="@+id/I_do_want"/>
 
 		</LinearLayout>
 

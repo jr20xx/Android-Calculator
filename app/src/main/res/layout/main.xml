@@ -16,7 +16,7 @@
 		android:layout_height="match_parent"/>
 
 	<RelativeLayout
-        android:background="#404040"
+        android:background="@color/bottomsheetBackgroundColor"
         android:padding="20dp"
 		android:layout_width="wrap_content"
 		android:layout_height="match_parent"

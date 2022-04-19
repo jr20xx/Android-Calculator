@@ -39,20 +39,30 @@ import cu.lt.joe.calculator.utils.SY;
 import cu.lt.joe.calculator.R;
 import java.io.PrintWriter;
 import java.io.StringWriter;
+import androidx.appcompat.app.AppCompatDelegate;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
+import android.widget.ImageButton;
+import androidx.vectordrawable.graphics.drawable.VectorDrawableCompat;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, View.OnLongClickListener
 {
-    private boolean solved;
     private EditText screen;
+    private boolean solved;
     private HistoryDatabaseHandler operations_records_handler;
     private ListView history_lv;
     private DrawerLayout history_drawer;
+    private SharedPreferences sharp;
+    private SharedPreferences.Editor editor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        sharp = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
+        editor = sharp.edit();
+        AppCompatDelegate.setDefaultNightMode(sharp.getBoolean("UI_MODE_DARK", false) ? AppCompatDelegate.MODE_NIGHT_NO : AppCompatDelegate.MODE_NIGHT_YES);
         setContentView(R.layout.main);
         history_drawer = findViewById(R.id.history_drawer);
         history_lv = findViewById(R.id.history_lv);
@@ -60,12 +70,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         screen = findViewById(R.id.screen);
         screen.setShowSoftInputOnFocus(false);
         screen.setCursorVisible(false);
+        screen.setText(getIntent().getStringExtra("screen_content"));
+        solved = getIntent().getBooleanExtra("solved", false);
         operations_records_handler = new HistoryDatabaseHandler(this, new HistoryDatabaseHandler.OnDataTransactionListener()
             {
                 @Override
                 public void onDataChanged()
                 {
                     history_lv.setAdapter(new OperationsHistoryAdapter(MainActivity.this, operations_records_handler.getOperationsHistory()));
+                    solved = true;
                 }
             });
         history_lv.setAdapter(new OperationsHistoryAdapter(MainActivity.this, operations_records_handler.getOperationsHistory()));
@@ -101,20 +114,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 public void onTextChanged(CharSequence p1, int p2, int p3, int p4)
                 {
                     String texto = screen.getText().toString();
-                    if (solved && !texto.isEmpty())
-                    {
-                        solved = false;
-                        if ((texto.charAt(texto.length() - 1) + "").equals("(") || (texto.charAt(texto.length() - 1) + "").equals("."))
-                        {
-                            screen.setText(texto);
-                        }
-                        else if (!isOperator(texto.charAt(texto.length() - 1) + ""))
-                        {
-                            texto = texto.substring(texto.length() - 1);
-                            screen.setText(texto);
-                        }
-                    }
-                    else if (texto.contains(")("))
+                    if (texto.contains(")("))
                     {
                         screen.setText(texto.replace(")(", ")×("));
                     }
@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return true;
                 }
             });
-        findViewById(R.id.delete).getLayoutParams().width = findViewById(R.id.divide).getLayoutParams().width;
+        ((androidx.appcompat.widget.AppCompatImageButton)findViewById(R.id.toggle_dayNight_mode)).setImageResource(sharp.getBoolean("UI_MODE_DARK", false) ? R.drawable.ic_enable_dark_mode : R.drawable.ic_enable_light_mode);
         findViewById(R.id.delete).setOnLongClickListener(this);
         screen.setOnLongClickListener(this);
     }
@@ -185,13 +185,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.nine:
                 {
                     String number = ((Button)p1).getText().toString();
-                    if (!text.isEmpty() && text.charAt(text.length() - 1) == ')')
+                    if (!text.isEmpty())
                     {
-                        screen.setText(text + "×" + number);
+                        char lastChar = text.charAt(text.length() - 1);
+                        if (solved)
+                        {
+                            solved = false;
+                            if (lastChar == '(' || lastChar == '.')
+                                screen.setText(text + number);
+                            else
+                                screen.setText(number);
+                        }
+                        else if (lastChar == ')')
+                        {
+                            screen.setText(text + "×" + number);
+                        }
+                        else
+                        {
+                            screen.setText(text + number);
+                        }
                     }
                     else
                     {
-                        screen.setText(text + number);
+                        screen.setText(number);
                     }
                     screen.setSelection(screen.getText().length());
                     break;
@@ -203,6 +219,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.modDiv:
                 {
                     String operator = ((Button)p1).getText().toString();
+                    solved = false;
                     if (!text.isEmpty() && !isOperator(text.charAt(text.length() - 1) + ""))
                     {
                         screen.setText(text + operator);
@@ -243,7 +260,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     {
                         text = text.substring(0, text.length() - 1);
                         screen.setText(text);
-                        screen.setSelection(screen.getText().length());
+                        screen.setSelection(text.length());
                     }
                     break;
                 }
@@ -283,7 +300,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                 screen.setText(stack.peak() + "");
                                 screen.setSelection(0);
                                 operations_records_handler.saveOperation(text, stack.pop());
-                                solved = true;
                             }
                         }
                         catch (NotNumericResultException e)
@@ -349,6 +365,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.clearHistory_button:
                 {
                     operations_records_handler.clearRecords();
+                    break;
+                }
+            case R.id.toggle_dayNight_mode:
+                {
+                    editor.putBoolean("UI_MODE_DARK", !(sharp.getBoolean("UI_MODE_DARK", false))).commit();
+                    startActivity(new Intent(getApplicationContext(), MainActivity.class).setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP).putExtra("solved", solved).putExtra("screen_content", screen.getText().toString()));
+                    overridePendingTransition(R.anim.blink, R.anim.abc_fade_out);
                     break;
                 }
         }
@@ -482,7 +505,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 {
                     exit.dismiss();
                     finishAffinity();
-                    overridePendingTransition(R.anim.bounce, R.anim.fade_out);
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                     android.os.Process.killProcess(android.os.Process.myPid());
                     startActivity(new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_HOME));
                 }

@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-
 	<item android:state_pressed="true">
 		<shape android:shape="rectangle">
-			<solid android:color="#393939"/>
+			<solid android:color="@color/operatorsClickedBackgroundColor"/>
 			<stroke android:width="1dp"
-				android:color="#393939"/>
+				android:color="@color/operatorsClickedBackgroundColor"/>
 		</shape>
 	</item>
-
 	<item android:state_pressed="false">
 		<shape android:shape="rectangle">
-			<solid android:color="#181818"/>
+			<solid android:color="@color/operatorsBackgroundColor"/>
 		</shape>
 	</item>
-
 </selector>
