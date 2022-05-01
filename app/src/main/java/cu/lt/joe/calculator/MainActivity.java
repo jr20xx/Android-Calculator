@@ -104,34 +104,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 {}
             });
 
-        screen.addTextChangedListener(new TextWatcher()
-            {
-                @Override
-                public void beforeTextChanged(CharSequence p1, int p2, int p3, int p4)
-                {}
-
-                @Override
-                public void onTextChanged(CharSequence p1, int p2, int p3, int p4)
-                {
-                    String texto = screen.getText().toString();
-                    if (texto.contains(")("))
-                    {
-                        screen.setText(texto.replace(")(", ")×("));
-                    }
-                    else if (texto.contains("(+") || texto.contains("(×") || texto.contains("(÷") || texto.contains("(%"))
-                    {
-                        screen.setText(texto.replace("(+", "(").replace("(×", "(").replace("(÷", "(").replace("(%", "("));
-                    }
-                    else if (texto.contains("()"))
-                    {
-                        screen.setText(texto.replace("()", "(1)"));
-                    }
-                }
-                @Override
-                public void afterTextChanged(Editable p1)
-                {}
-            });
-
         screen.setOnKeyListener(new View.OnKeyListener()
             {
                 @Override
@@ -171,6 +143,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View p1)
     {
         String text = screen.getText().toString();
+        char lastChar = !text.isEmpty() ? text.charAt(text.length() - 1) : ' ';
         switch (p1.getId())
         {
             case R.id.zero:
@@ -187,7 +160,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     String number = ((Button)p1).getText().toString();
                     if (!text.isEmpty())
                     {
-                        char lastChar = text.charAt(text.length() - 1);
                         if (solved)
                         {
                             solved = false;
@@ -220,15 +192,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 {
                     String operator = ((Button)p1).getText().toString();
                     solved = false;
-                    if (!text.isEmpty() && !isOperator(text.charAt(text.length() - 1) + ""))
+                    if (!text.isEmpty())
                     {
-                        screen.setText(text + operator);
-                        screen.setSelection(screen.getText().length());
-                    }
-                    else if (!text.isEmpty() && isOperator(text.charAt(text.length() - 1) + ""))
-                    {
-                        text = text.substring(0, text.length() - 1);
-                        screen.setText(text + operator);
+                        if (isNumber(lastChar + ""))
+                            text += operator;
+                        else if (lastChar == '.')
+                        {
+                            text += "0" + operator;
+                        }
+                        else if (lastChar == '(' && operator.equals("-"))
+                        {
+                            text += operator;
+                        }
+                        else if (text.endsWith("(-"))
+                        {
+                            text = operator.equals("+") ? text.substring(0, text.length() - 1) : text;
+                        }
+                        else if (isOperator(lastChar + ""))
+                            text = text.substring(0, text.length() - 1) + operator;
+                        screen.setText(text);
                         screen.setSelection(screen.getText().length());
                     }
                     break;
@@ -266,7 +248,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
             case R.id.openParentheses:
                 {
-                    if (!text.isEmpty() && isNumber(text.charAt(text.length() - 1) + ""))
+                    if (!text.isEmpty() && (isNumber(lastChar + "") || lastChar == ')'))
                     {
                         screen.setText(text + "×(");
                         screen.setSelection(screen.getText().length());
@@ -282,7 +264,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 {
                     if (!text.isEmpty() && text.contains("("))
                     {
-                        screen.setText(text + ")");
+                        screen.setText(text += lastChar == '(' ? "1)" : ")");
                         screen.setSelection(text.length());
                     }
                     break;
