@@ -26,7 +26,7 @@ public class RPN
 
                 if (number2 == null || number2.equalsIgnoreCase("nan") || number1 == null || number1.equalsIgnoreCase("nan"))
                     throw new NotNumericResultException();
-                else if (number2.equalsIgnoreCase("infinity") || number1.equalsIgnoreCase("infinity"))
+                else if (number2.equalsIgnoreCase("infinity") || number1.equalsIgnoreCase("infinity")  || number2.equalsIgnoreCase("-infinity") || number1.equalsIgnoreCase("-infinity"))
                     throw new InfinityResultException();
                 else
                     solution.push(makeOperation(number2, poped, number1));
@@ -39,7 +39,7 @@ public class RPN
         String result = solution.pop();
         if (result == null || result.equalsIgnoreCase("nan"))
             throw new NotNumericResultException();
-        else if (result.equalsIgnoreCase("infinity"))
+        else if (result.equalsIgnoreCase("infinity") || result.equalsIgnoreCase("-infinity"))
             throw new InfinityResultException();
         else
             stack.push(result);
