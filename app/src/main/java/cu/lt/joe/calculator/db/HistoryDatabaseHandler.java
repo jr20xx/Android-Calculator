@@ -17,7 +17,7 @@ public class HistoryDatabaseHandler extends SQLiteOpenHelper
     private final static String OPERATION_KEY = "OPERATION";
     private final static String RESULT_KEY = "RESULT";
     private OnDataTransactionListener data_listener;
-    
+
     public HistoryDatabaseHandler(Context context, OnDataTransactionListener data_listener)
     {
         super(context, DB_NAME, null, DB_VERSION);
@@ -58,17 +58,15 @@ public class HistoryDatabaseHandler extends SQLiteOpenHelper
         ArrayList<HistoryItem> records = new ArrayList<>();
         SQLiteDatabase db = this.getReadableDatabase();
 
-        String[] columns=new String[] {ID_KEY,OPERATION_KEY,RESULT_KEY}; 
-        Cursor cursor = db.query(HISTORY_TABLE, columns, null, null, null, null, null);
+        Cursor cursor = db.rawQuery("SELECT * FROM " + HISTORY_TABLE + " ORDER BY " + ID_KEY + " DESC", null);
         int id = cursor.getColumnIndex(ID_KEY);
         int oid = cursor.getColumnIndex(OPERATION_KEY);
         int rid = cursor.getColumnIndex(RESULT_KEY);
 
         for (cursor.moveToFirst(); !cursor.isAfterLast(); cursor.moveToNext())
-        {
             records.add(new HistoryItem(cursor.getLong(id), cursor.getString(oid), cursor.getString(rid)));
-        }
-
+        
+        cursor.close();
         db.close();
         return records;
     }
@@ -78,7 +76,7 @@ public class HistoryDatabaseHandler extends SQLiteOpenHelper
         this.getWritableDatabase().execSQL("DELETE FROM " + HISTORY_TABLE + ";");
         data_listener.onDataChanged();
     }
-    
+
     public interface OnDataTransactionListener
     {
         public void onDataChanged();
